@@ -1,0 +1,454 @@
+{
+  "timestamp": "2026-02-12T21:37:38.399043+00:00",
+  "platform": "windows",
+  "hardware": {
+    "os": "Windows-2025Server-10.0.26100-SP0",
+    "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+  },
+  "summary": {
+    "total": 25,
+    "passed": 24,
+    "failed": 0
+  },
+  "workflows": [
+    {
+      "name": "alpha_wrap",
+      "status": "pass",
+      "duration_seconds": 34.88,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.71,
+          "avg": 4.46
+        },
+        "total_ram_gb": 16.0,
+        "samples": 35
+      }
+    },
+    {
+      "name": "batch_remesh",
+      "status": "pass",
+      "duration_seconds": 34.08,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.69,
+          "avg": 4.49
+        },
+        "total_ram_gb": 16.0,
+        "samples": 35
+      }
+    },
+    {
+      "name": "boolean_ops",
+      "status": "pass",
+      "duration_seconds": 25.57,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.51,
+          "avg": 4.38
+        },
+        "total_ram_gb": 16.0,
+        "samples": 26
+      }
+    },
+    {
+      "name": "depth_map_to_mesh",
+      "status": "pass",
+      "duration_seconds": 28.04,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.81,
+          "avg": 4.59
+        },
+        "total_ram_gb": 16.0,
+        "samples": 28
+      }
+    },
+    {
+      "name": "fill_holes",
+      "status": "pass",
+      "duration_seconds": 22.34,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.75,
+          "avg": 4.39
+        },
+        "total_ram_gb": 16.0,
+        "samples": 23
+      }
+    },
+    {
+      "name": "fix_normals",
+      "status": "pass",
+      "duration_seconds": 24.89,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.72,
+          "avg": 4.36
+        },
+        "total_ram_gb": 16.0,
+        "samples": 25
+      }
+    },
+    {
+      "name": "fix_self_intersection",
+      "status": "pass",
+      "duration_seconds": 26.45,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.67,
+          "avg": 4.57
+        },
+        "total_ram_gb": 16.0,
+        "samples": 27
+      }
+    },
+    {
+      "name": "mesh_info",
+      "status": "pass",
+      "duration_seconds": 20.82,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.58,
+          "avg": 4.37
+        },
+        "total_ram_gb": 16.0,
+        "samples": 21
+      }
+    },
+    {
+      "name": "mesh_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 32.97,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.6,
+          "avg": 4.37
+        },
+        "total_ram_gb": 16.0,
+        "samples": 33
+      }
+    },
+    {
+      "name": "normals",
+      "status": "pass",
+      "duration_seconds": 23.54,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.42,
+          "avg": 4.3
+        },
+        "total_ram_gb": 16.0,
+        "samples": 24
+      }
+    },
+    {
+      "name": "point_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 26.36,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.35,
+          "avg": 4.26
+        },
+        "total_ram_gb": 16.0,
+        "samples": 27
+      }
+    },
+    {
+      "name": "preview_mesh_threejs",
+      "status": "pass",
+      "duration_seconds": 24.22,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.47,
+          "avg": 4.34
+        },
+        "total_ram_gb": 16.0,
+        "samples": 25
+      }
+    },
+    {
+      "name": "refine_mesh",
+      "status": "pass",
+      "duration_seconds": 25.12,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.48,
+          "avg": 4.38
+        },
+        "total_ram_gb": 16.0,
+        "samples": 25
+      }
+    },
+    {
+      "name": "remesh_intersections",
+      "status": "pass",
+      "duration_seconds": 31.79,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.49,
+          "avg": 4.35
+        },
+        "total_ram_gb": 16.0,
+        "samples": 32
+      }
+    },
+    {
+      "name": "remeshing",
+      "status": "pass",
+      "duration_seconds": 166.77,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.81,
+          "avg": 4.5
+        },
+        "total_ram_gb": 16.0,
+        "samples": 167
+      }
+    },
+    {
+      "name": "remeshing_blender",
+      "status": "pass",
+      "duration_seconds": 30.02,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.47,
+          "avg": 4.33
+        },
+        "total_ram_gb": 16.0,
+        "samples": 30
+      }
+    },
+    {
+      "name": "remeshing_CGAL",
+      "status": "pass",
+      "duration_seconds": 33.23,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.51,
+          "avg": 4.37
+        },
+        "total_ram_gb": 16.0,
+        "samples": 33
+      }
+    },
+    {
+      "name": "remeshing_gpu",
+      "status": "skipped",
+      "duration_seconds": 0,
+      "error": "Not configured for CPU runner",
+      "hardware": null
+    },
+    {
+      "name": "side_by_side_viewer",
+      "status": "pass",
+      "duration_seconds": 22.73,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.37,
+          "avg": 4.24
+        },
+        "total_ram_gb": 16.0,
+        "samples": 23
+      }
+    },
+    {
+      "name": "skeleton_extraction",
+      "status": "pass",
+      "duration_seconds": 36.63,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.44,
+          "avg": 4.36
+        },
+        "total_ram_gb": 16.0,
+        "samples": 37
+      }
+    },
+    {
+      "name": "surface_reconstruction",
+      "status": "pass",
+      "duration_seconds": 27.38,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.48,
+          "avg": 4.36
+        },
+        "total_ram_gb": 16.0,
+        "samples": 28
+      }
+    },
+    {
+      "name": "test_loading",
+      "status": "pass",
+      "duration_seconds": 24.33,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.53,
+          "avg": 4.34
+        },
+        "total_ram_gb": 16.0,
+        "samples": 25
+      }
+    },
+    {
+      "name": "transform",
+      "status": "pass",
+      "duration_seconds": 23.45,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.41,
+          "avg": 4.33
+        },
+        "total_ram_gb": 16.0,
+        "samples": 24
+      }
+    },
+    {
+      "name": "uv_wrapping",
+      "status": "pass",
+      "duration_seconds": 53.18,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.51,
+          "avg": 4.4
+        },
+        "total_ram_gb": 16.0,
+        "samples": 52
+      }
+    },
+    {
+      "name": "view_texture",
+      "status": "pass",
+      "duration_seconds": 24.32,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "Intel64 Family 6 Model 106 Stepping 6, GenuineIntel"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.46,
+          "avg": 4.34
+        },
+        "total_ram_gb": 16.0,
+        "samples": 25
+      }
+    }
+  ]
+}

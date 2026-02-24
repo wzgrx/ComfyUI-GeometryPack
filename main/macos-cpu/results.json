@@ -1,0 +1,454 @@
+{
+  "timestamp": "2026-02-12T21:38:22.035711+00:00",
+  "platform": "macos",
+  "hardware": {
+    "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+    "cpu": "arm"
+  },
+  "summary": {
+    "total": 25,
+    "passed": 24,
+    "failed": 0
+  },
+  "workflows": [
+    {
+      "name": "alpha_wrap",
+      "status": "pass",
+      "duration_seconds": 56.13,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.77,
+          "avg": 3.68
+        },
+        "total_ram_gb": 7.0,
+        "samples": 54
+      }
+    },
+    {
+      "name": "batch_remesh",
+      "status": "pass",
+      "duration_seconds": 65.0,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.73,
+          "avg": 3.65
+        },
+        "total_ram_gb": 7.0,
+        "samples": 60
+      }
+    },
+    {
+      "name": "boolean_ops",
+      "status": "pass",
+      "duration_seconds": 42.83,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.71,
+          "avg": 3.68
+        },
+        "total_ram_gb": 7.0,
+        "samples": 40
+      }
+    },
+    {
+      "name": "depth_map_to_mesh",
+      "status": "pass",
+      "duration_seconds": 67.46,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.71,
+          "avg": 3.63
+        },
+        "total_ram_gb": 7.0,
+        "samples": 63
+      }
+    },
+    {
+      "name": "fill_holes",
+      "status": "pass",
+      "duration_seconds": 46.01,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.66,
+          "avg": 3.62
+        },
+        "total_ram_gb": 7.0,
+        "samples": 43
+      }
+    },
+    {
+      "name": "fix_normals",
+      "status": "pass",
+      "duration_seconds": 42.54,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.64,
+          "avg": 3.58
+        },
+        "total_ram_gb": 7.0,
+        "samples": 40
+      }
+    },
+    {
+      "name": "fix_self_intersection",
+      "status": "pass",
+      "duration_seconds": 43.08,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.62,
+          "avg": 3.46
+        },
+        "total_ram_gb": 7.0,
+        "samples": 40
+      }
+    },
+    {
+      "name": "mesh_info",
+      "status": "pass",
+      "duration_seconds": 32.88,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.42
+        },
+        "total_ram_gb": 7.0,
+        "samples": 31
+      }
+    },
+    {
+      "name": "mesh_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 55.58,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.63,
+          "avg": 3.43
+        },
+        "total_ram_gb": 7.0,
+        "samples": 52
+      }
+    },
+    {
+      "name": "normals",
+      "status": "pass",
+      "duration_seconds": 31.86,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.56
+        },
+        "total_ram_gb": 7.0,
+        "samples": 30
+      }
+    },
+    {
+      "name": "point_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 37.82,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.6,
+          "avg": 3.57
+        },
+        "total_ram_gb": 7.0,
+        "samples": 36
+      }
+    },
+    {
+      "name": "preview_mesh_threejs",
+      "status": "pass",
+      "duration_seconds": 28.6,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.55
+        },
+        "total_ram_gb": 7.0,
+        "samples": 27
+      }
+    },
+    {
+      "name": "refine_mesh",
+      "status": "pass",
+      "duration_seconds": 32.48,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.56
+        },
+        "total_ram_gb": 7.0,
+        "samples": 30
+      }
+    },
+    {
+      "name": "remesh_intersections",
+      "status": "pass",
+      "duration_seconds": 36.99,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.63,
+          "avg": 3.59
+        },
+        "total_ram_gb": 7.0,
+        "samples": 35
+      }
+    },
+    {
+      "name": "remeshing",
+      "status": "pass",
+      "duration_seconds": 41.92,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.64,
+          "avg": 3.46
+        },
+        "total_ram_gb": 7.0,
+        "samples": 40
+      }
+    },
+    {
+      "name": "remeshing_CGAL",
+      "status": "pass",
+      "duration_seconds": 41.84,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.57,
+          "avg": 3.48
+        },
+        "total_ram_gb": 7.0,
+        "samples": 39
+      }
+    },
+    {
+      "name": "remeshing_blender",
+      "status": "pass",
+      "duration_seconds": 38.65,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.62,
+          "avg": 3.56
+        },
+        "total_ram_gb": 7.0,
+        "samples": 37
+      }
+    },
+    {
+      "name": "remeshing_gpu",
+      "status": "skipped",
+      "duration_seconds": 0,
+      "error": "Not configured for CPU runner",
+      "hardware": null
+    },
+    {
+      "name": "side_by_side_viewer",
+      "status": "pass",
+      "duration_seconds": 29.95,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.57,
+          "avg": 3.53
+        },
+        "total_ram_gb": 7.0,
+        "samples": 29
+      }
+    },
+    {
+      "name": "skeleton_extraction",
+      "status": "pass",
+      "duration_seconds": 49.74,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.62,
+          "avg": 3.57
+        },
+        "total_ram_gb": 7.0,
+        "samples": 46
+      }
+    },
+    {
+      "name": "surface_reconstruction",
+      "status": "pass",
+      "duration_seconds": 34.65,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.57
+        },
+        "total_ram_gb": 7.0,
+        "samples": 33
+      }
+    },
+    {
+      "name": "test_loading",
+      "status": "pass",
+      "duration_seconds": 34.7,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.62,
+          "avg": 3.55
+        },
+        "total_ram_gb": 7.0,
+        "samples": 33
+      }
+    },
+    {
+      "name": "transform",
+      "status": "pass",
+      "duration_seconds": 27.84,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.57,
+          "avg": 3.54
+        },
+        "total_ram_gb": 7.0,
+        "samples": 26
+      }
+    },
+    {
+      "name": "uv_wrapping",
+      "status": "pass",
+      "duration_seconds": 39.53,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.57
+        },
+        "total_ram_gb": 7.0,
+        "samples": 37
+      }
+    },
+    {
+      "name": "view_texture",
+      "status": "pass",
+      "duration_seconds": 25.37,
+      "error": null,
+      "hardware": {
+        "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+        "cpu": "arm"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.61,
+          "avg": 3.53
+        },
+        "total_ram_gb": 7.0,
+        "samples": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[00:00] Crash dump logging enabled: D:\a\ComfyUI-GeometryPack\ComfyUI-GeometryPack\comfy-test-logs\GeometryPack-2124\windows_portable-cpu\crash_dump.log
+[00:00] 
+[00:00] [1/3] REGISTRATION
+[00:00] ----------------------------------------
+[00:00] [DEBUG] server=None, server_url=http://127.0.0.1:8188, api=None
+[00:00] 
+Connecting to existing server at http://127.0.0.1:8188...
+[00:00] Connecting to existing server at http://127.0.0.1:8188...
+[00:00] Connected to server! (attempt 1, 0.0s)
+[00:00] Checking for import errors in server logs...
+[00:00] No import errors detected
+[00:00] Found 671 registered nodes
+[00:00] [REGISTRATION] PASSED
+[00:00] 
+[00:00] [2/3] INSTANTIATION
+[00:00] ----------------------------------------
+[00:00] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x000001A6FAE25010>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x000001A6FAE25160>
+[00:00] Testing node constructors...
+[00:05] All 63 node(s) instantiated successfully!
+[00:05] [INSTANTIATION] PASSED
+[00:05] 
+[00:05] [3/3] EXECUTION
+[00:05] ----------------------------------------
+[00:05] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x000001A6FAE25010>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x000001A6FAE25160>
+[00:05] CPU runner - will execute 24 workflow(s)
+[00:05] Running 25 workflow(s) (all with videos)...
+[00:07] Execution path: browser (Playwright)
+[11:03]   [18/25] SKIPPED (not in cpu list) remeshing_gpu.json
+[14:20] Results saved to D:\a\ComfyUI-GeometryPack\ComfyUI-GeometryPack\comfy-test-logs\GeometryPack-2124\windows_portable-cpu\results.json
+[14:20] Model report: 8 files, 18.7 MB -> D:\a\ComfyUI-GeometryPack\ComfyUI-GeometryPack\comfy-test-logs\GeometryPack-2124\windows_portable-cpu\models.json
+[14:20] Saved: D:\a\ComfyUI-GeometryPack\ComfyUI-GeometryPack\comfy-test-logs\GeometryPack-2124\windows_portable-cpu\index.html
+[14:20] [EXECUTION] PASSED
+[14:20] 
+windows_portable: PASSED

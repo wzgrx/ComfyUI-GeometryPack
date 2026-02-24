@@ -1,0 +1,30 @@
+{
+  "frames": [
+    {
+      "file": "frame_000.jpg",
+      "time": 0.0,
+      "log": "Capturing execution frames: mesh_info.json\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-warning] WARNING: Multiple instances of Three.js being imported.\n  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration."
+    },
+    {
+      "file": "frame_001.jpg",
+      "time": 3.72,
+      "log": "Capturing execution frames: mesh_info.json\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-warning] WARNING: Multiple instances of Three.js being imported.\n  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.\n  Validating workflow...\n  Queuing workflow for execution..."
+    },
+    {
+      "file": "frame_002.jpg",
+      "time": 5.32,
+      "log": "Capturing execution frames: mesh_info.json\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-warning] WARNING: Multiple instances of Three.js being imported.\n  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.\n  Validating workflow...\n  Queuing workflow for execution..."
+    },
+    {
+      "file": "frame_003.jpg",
+      "time": 6.44,
+      "log": "Capturing execution frames: mesh_info.json\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)\n  [Console-warning] WARNING: Multiple instances of Three.js being imported.\n  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.\n  Validating workflow...\n  Queuing workflow for execution..."
+    },
+    {
+      "file": "frame_004.jpg",
+      "time": 15.369192838668823,
+      "log": "Final screenshot"
+    }
+  ],
+  "total_time": 6.56
+}

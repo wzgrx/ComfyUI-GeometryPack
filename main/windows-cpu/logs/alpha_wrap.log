@@ -1,0 +1,34 @@
+Capturing execution frames: alpha_wrap.json
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-warning] WARNING: Multiple instances of Three.js being imported.
+  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+  Validating workflow...
+  Queuing workflow for execution...
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-error] No input!
+  [Console-warning] [.WebGL-0x38e4006b0600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+  [Console-warning] [.WebGL-0x38e402cfa200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+  [Console-warning] [.WebGL-0x38e4006ace00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+  [Console-warning] [.WebGL-0x38e4006b0600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+  [Console-error] No input!
+  [Console-error] No input!
+  Captured 6 frames over 20.54s
+  6 unique frames saved
+  Waiting 5000ms for previews to render...
+  Saved high-quality screenshot: alpha_wrap_executed.png
+    Captured 7 video frames

@@ -1,0 +1,454 @@
+{
+  "timestamp": "2026-02-12T21:31:17.906075+00:00",
+  "platform": "linux",
+  "hardware": {
+    "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+    "cpu": "AMD EPYC 7763 64-Core Processor"
+  },
+  "summary": {
+    "total": 25,
+    "passed": 24,
+    "failed": 0
+  },
+  "workflows": [
+    {
+      "name": "alpha_wrap",
+      "status": "pass",
+      "duration_seconds": 28.24,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.42,
+          "avg": 2.2
+        },
+        "total_ram_gb": 15.6,
+        "samples": 29
+      }
+    },
+    {
+      "name": "batch_remesh",
+      "status": "pass",
+      "duration_seconds": 31.04,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.54,
+          "avg": 2.32
+        },
+        "total_ram_gb": 15.6,
+        "samples": 32
+      }
+    },
+    {
+      "name": "boolean_ops",
+      "status": "pass",
+      "duration_seconds": 20.12,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.36,
+          "avg": 2.26
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "depth_map_to_mesh",
+      "status": "pass",
+      "duration_seconds": 23.63,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.79,
+          "avg": 2.52
+        },
+        "total_ram_gb": 15.6,
+        "samples": 24
+      }
+    },
+    {
+      "name": "fill_holes",
+      "status": "pass",
+      "duration_seconds": 19.83,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.75,
+          "avg": 2.38
+        },
+        "total_ram_gb": 15.6,
+        "samples": 20
+      }
+    },
+    {
+      "name": "fix_normals",
+      "status": "pass",
+      "duration_seconds": 20.32,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.33,
+          "avg": 2.24
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "fix_self_intersection",
+      "status": "pass",
+      "duration_seconds": 20.82,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.3,
+          "avg": 2.25
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "mesh_info",
+      "status": "pass",
+      "duration_seconds": 18.12,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.24,
+          "avg": 2.2
+        },
+        "total_ram_gb": 15.6,
+        "samples": 19
+      }
+    },
+    {
+      "name": "mesh_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 30.04,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.45,
+          "avg": 2.26
+        },
+        "total_ram_gb": 15.6,
+        "samples": 31
+      }
+    },
+    {
+      "name": "normals",
+      "status": "pass",
+      "duration_seconds": 20.32,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.39,
+          "avg": 2.29
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "point_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 21.02,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.35,
+          "avg": 2.27
+        },
+        "total_ram_gb": 15.6,
+        "samples": 22
+      }
+    },
+    {
+      "name": "preview_mesh_threejs",
+      "status": "pass",
+      "duration_seconds": 19.63,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.35,
+          "avg": 2.26
+        },
+        "total_ram_gb": 15.6,
+        "samples": 20
+      }
+    },
+    {
+      "name": "refine_mesh",
+      "status": "pass",
+      "duration_seconds": 21.02,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.41,
+          "avg": 2.32
+        },
+        "total_ram_gb": 15.6,
+        "samples": 22
+      }
+    },
+    {
+      "name": "remesh_intersections",
+      "status": "pass",
+      "duration_seconds": 20.73,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.41,
+          "avg": 2.24
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "remeshing",
+      "status": "pass",
+      "duration_seconds": 26.23,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.73,
+          "avg": 2.36
+        },
+        "total_ram_gb": 15.6,
+        "samples": 27
+      }
+    },
+    {
+      "name": "remeshing_CGAL",
+      "status": "pass",
+      "duration_seconds": 25.73,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.46,
+          "avg": 2.35
+        },
+        "total_ram_gb": 15.6,
+        "samples": 26
+      }
+    },
+    {
+      "name": "remeshing_blender",
+      "status": "pass",
+      "duration_seconds": 23.33,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.46,
+          "avg": 2.36
+        },
+        "total_ram_gb": 15.6,
+        "samples": 24
+      }
+    },
+    {
+      "name": "remeshing_gpu",
+      "status": "skipped",
+      "duration_seconds": 0,
+      "error": "Not configured for CPU runner",
+      "hardware": null
+    },
+    {
+      "name": "side_by_side_viewer",
+      "status": "pass",
+      "duration_seconds": 19.02,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.36,
+          "avg": 2.28
+        },
+        "total_ram_gb": 15.6,
+        "samples": 20
+      }
+    },
+    {
+      "name": "skeleton_extraction",
+      "status": "pass",
+      "duration_seconds": 22.13,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.42,
+          "avg": 2.28
+        },
+        "total_ram_gb": 15.6,
+        "samples": 23
+      }
+    },
+    {
+      "name": "surface_reconstruction",
+      "status": "pass",
+      "duration_seconds": 21.63,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.48,
+          "avg": 2.34
+        },
+        "total_ram_gb": 15.6,
+        "samples": 22
+      }
+    },
+    {
+      "name": "test_loading",
+      "status": "pass",
+      "duration_seconds": 20.42,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.4,
+          "avg": 2.29
+        },
+        "total_ram_gb": 15.6,
+        "samples": 21
+      }
+    },
+    {
+      "name": "transform",
+      "status": "pass",
+      "duration_seconds": 18.02,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.34,
+          "avg": 2.27
+        },
+        "total_ram_gb": 15.6,
+        "samples": 19
+      }
+    },
+    {
+      "name": "uv_wrapping",
+      "status": "pass",
+      "duration_seconds": 26.74,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.38,
+          "avg": 2.31
+        },
+        "total_ram_gb": 15.6,
+        "samples": 27
+      }
+    },
+    {
+      "name": "view_texture",
+      "status": "pass",
+      "duration_seconds": 18.32,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
+        "cpu": "AMD EPYC 7763 64-Core Processor"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.42,
+          "avg": 2.31
+        },
+        "total_ram_gb": 15.6,
+        "samples": 19
+      }
+    }
+  ]
+}

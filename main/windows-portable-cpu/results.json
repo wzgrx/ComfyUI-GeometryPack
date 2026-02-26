@@ -1,10 +1,12 @@
 {
-  "timestamp": "2026-02-12T21:38:28.267137+00:00",
+  "timestamp": "2026-02-24T09:11:48.446530+00:00",
   "platform": "windows_portable",
   "hardware": {
     "os": "Windows-2025Server-10.0.26100-SP0",
     "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
   },
+  "commit_hash": "d1268dcbdfed8f99816e98cb915f08733a1e9541",
+  "success": true,
   "summary": {
     "total": 25,
     "passed": 24,
@@ -14,7 +16,223 @@
     {
       "name": "alpha_wrap",
       "status": "pass",
-      "duration_seconds": 37.2,
+      "duration_seconds": 23.39,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 6.11,
+          "avg": 5.5
+        },
+        "total_ram_gb": 16.0,
+        "samples": 24
+      }
+    },
+    {
+      "name": "batch_remesh",
+      "status": "pass",
+      "duration_seconds": 20.71,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 6.05,
+          "avg": 5.76
+        },
+        "total_ram_gb": 16.0,
+        "samples": 21
+      }
+    },
+    {
+      "name": "boolean_ops",
+      "status": "pass",
+      "duration_seconds": 9.52,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.88,
+          "avg": 5.66
+        },
+        "total_ram_gb": 16.0,
+        "samples": 10
+      }
+    },
+    {
+      "name": "depth_map_to_mesh",
+      "status": "pass",
+      "duration_seconds": 17.45,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 6.66,
+          "avg": 6.05
+        },
+        "total_ram_gb": 16.0,
+        "samples": 18
+      }
+    },
+    {
+      "name": "fill_holes",
+      "status": "pass",
+      "duration_seconds": 12.51,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 6.52,
+          "avg": 5.89
+        },
+        "total_ram_gb": 16.0,
+        "samples": 13
+      }
+    },
+    {
+      "name": "fix_normals",
+      "status": "pass",
+      "duration_seconds": 12.43,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.58,
+          "avg": 5.43
+        },
+        "total_ram_gb": 16.0,
+        "samples": 13
+      }
+    },
+    {
+      "name": "fix_self_intersection",
+      "status": "pass",
+      "duration_seconds": 11.02,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.48,
+          "avg": 5.35
+        },
+        "total_ram_gb": 16.0,
+        "samples": 11
+      }
+    },
+    {
+      "name": "mesh_info",
+      "status": "pass",
+      "duration_seconds": 9.15,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.43,
+          "avg": 5.26
+        },
+        "total_ram_gb": 16.0,
+        "samples": 10
+      }
+    },
+    {
+      "name": "mesh_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 28.37,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.33,
+          "avg": 5.12
+        },
+        "total_ram_gb": 16.0,
+        "samples": 29
+      }
+    },
+    {
+      "name": "normals",
+      "status": "pass",
+      "duration_seconds": 11.28,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.4,
+          "avg": 5.24
+        },
+        "total_ram_gb": 16.0,
+        "samples": 12
+      }
+    },
+    {
+      "name": "point_mesh_distance",
+      "status": "pass",
+      "duration_seconds": 10.76,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.37,
+          "avg": 5.14
+        },
+        "total_ram_gb": 16.0,
+        "samples": 11
+      }
+    },
+    {
+      "name": "preview_mesh_threejs",
+      "status": "pass",
+      "duration_seconds": 9.77,
+      "error": null,
+      "hardware": {
+        "os": "Windows-2025Server-10.0.26100-SP0",
+        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
+      },
+      "resources": {
+        "ram": {
+          "peak": 5.11,
+          "avg": 5.05
+        },
+        "total_ram_gb": 16.0,
+        "samples": 10
+      }
+    },
+    {
+      "name": "refine_mesh",
+      "status": "pass",
+      "duration_seconds": 12.75,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -26,229 +244,13 @@
           "avg": 5.1
         },
         "total_ram_gb": 16.0,
-        "samples": 38
-      }
-    },
-    {
-      "name": "batch_remesh",
-      "status": "pass",
-      "duration_seconds": 42.64,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.48,
-          "avg": 5.24
-        },
-        "total_ram_gb": 16.0,
-        "samples": 43
-      }
-    },
-    {
-      "name": "boolean_ops",
-      "status": "pass",
-      "duration_seconds": 25.24,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.29,
-          "avg": 5.17
-        },
-        "total_ram_gb": 16.0,
-        "samples": 26
-      }
-    },
-    {
-      "name": "depth_map_to_mesh",
-      "status": "pass",
-      "duration_seconds": 26.54,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.72,
-          "avg": 5.41
-        },
-        "total_ram_gb": 16.0,
-        "samples": 27
-      }
-    },
-    {
-      "name": "fill_holes",
-      "status": "pass",
-      "duration_seconds": 21.59,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.59,
-          "avg": 5.26
-        },
-        "total_ram_gb": 16.0,
-        "samples": 22
-      }
-    },
-    {
-      "name": "fix_normals",
-      "status": "pass",
-      "duration_seconds": 28.47,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.19,
-          "avg": 4.98
-        },
-        "total_ram_gb": 16.0,
-        "samples": 29
-      }
-    },
-    {
-      "name": "fix_self_intersection",
-      "status": "pass",
-      "duration_seconds": 38.79,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 5.41,
-          "avg": 5.02
-        },
-        "total_ram_gb": 16.0,
-        "samples": 39
-      }
-    },
-    {
-      "name": "mesh_info",
-      "status": "pass",
-      "duration_seconds": 24.55,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.95,
-          "avg": 4.66
-        },
-        "total_ram_gb": 16.0,
-        "samples": 25
-      }
-    },
-    {
-      "name": "mesh_mesh_distance",
-      "status": "pass",
-      "duration_seconds": 37.87,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.81,
-          "avg": 4.66
-        },
-        "total_ram_gb": 16.0,
-        "samples": 38
-      }
-    },
-    {
-      "name": "normals",
-      "status": "pass",
-      "duration_seconds": 23.92,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.75,
-          "avg": 4.63
-        },
-        "total_ram_gb": 16.0,
-        "samples": 24
-      }
-    },
-    {
-      "name": "point_mesh_distance",
-      "status": "pass",
-      "duration_seconds": 31.74,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.73,
-          "avg": 4.63
-        },
-        "total_ram_gb": 16.0,
-        "samples": 32
-      }
-    },
-    {
-      "name": "preview_mesh_threejs",
-      "status": "pass",
-      "duration_seconds": 25.9,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.74,
-          "avg": 4.64
-        },
-        "total_ram_gb": 16.0,
-        "samples": 26
-      }
-    },
-    {
-      "name": "refine_mesh",
-      "status": "pass",
-      "duration_seconds": 27.65,
-      "error": null,
-      "hardware": {
-        "os": "Windows-2025Server-10.0.26100-SP0",
-        "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD"
-      },
-      "resources": {
-        "ram": {
-          "peak": 4.76,
-          "avg": 4.66
-        },
-        "total_ram_gb": 16.0,
-        "samples": 28
+        "samples": 13
       }
     },
     {
       "name": "remesh_intersections",
       "status": "pass",
-      "duration_seconds": 27.29,
+      "duration_seconds": 12.38,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -256,17 +258,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.7,
-          "avg": 4.64
+          "peak": 5.28,
+          "avg": 4.98
         },
         "total_ram_gb": 16.0,
-        "samples": 28
+        "samples": 13
       }
     },
     {
       "name": "remeshing",
       "status": "pass",
-      "duration_seconds": 168.58,
+      "duration_seconds": 160.16,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -274,17 +276,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.86,
-          "avg": 4.54
+          "peak": 5.67,
+          "avg": 5.16
         },
         "total_ram_gb": 16.0,
-        "samples": 169
+        "samples": 160
       }
     },
     {
       "name": "remeshing_blender",
       "status": "pass",
-      "duration_seconds": 30.22,
+      "duration_seconds": 16.08,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -292,17 +294,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.52,
-          "avg": 4.4
+          "peak": 5.65,
+          "avg": 5.14
         },
         "total_ram_gb": 16.0,
-        "samples": 31
+        "samples": 16
       }
     },
     {
       "name": "remeshing_CGAL",
       "status": "pass",
-      "duration_seconds": 32.5,
+      "duration_seconds": 18.91,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -310,11 +312,11 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.51,
-          "avg": 4.39
+          "peak": 5.55,
+          "avg": 5.3
         },
         "total_ram_gb": 16.0,
-        "samples": 33
+        "samples": 19
       }
     },
     {
@@ -327,7 +329,7 @@
     {
       "name": "side_by_side_viewer",
       "status": "pass",
-      "duration_seconds": 23.05,
+      "duration_seconds": 9.68,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -335,17 +337,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.42,
-          "avg": 4.28
+          "peak": 5.41,
+          "avg": 5.25
         },
         "total_ram_gb": 16.0,
-        "samples": 23
+        "samples": 10
       }
     },
     {
       "name": "skeleton_extraction",
       "status": "pass",
-      "duration_seconds": 35.43,
+      "duration_seconds": 19.31,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -353,17 +355,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.39,
-          "avg": 4.31
+          "peak": 5.33,
+          "avg": 5.18
         },
         "total_ram_gb": 16.0,
-        "samples": 36
+        "samples": 20
       }
     },
     {
       "name": "surface_reconstruction",
       "status": "pass",
-      "duration_seconds": 26.49,
+      "duration_seconds": 11.59,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -371,17 +373,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.45,
-          "avg": 4.3
+          "peak": 5.5,
+          "avg": 5.28
         },
         "total_ram_gb": 16.0,
-        "samples": 27
+        "samples": 12
       }
     },
     {
       "name": "test_loading",
       "status": "pass",
-      "duration_seconds": 22.83,
+      "duration_seconds": 15.05,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -389,17 +391,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.47,
-          "avg": 4.33
+          "peak": 5.29,
+          "avg": 5.09
         },
         "total_ram_gb": 16.0,
-        "samples": 23
+        "samples": 15
       }
     },
     {
       "name": "transform",
       "status": "pass",
-      "duration_seconds": 21.35,
+      "duration_seconds": 9.7,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -407,17 +409,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.46,
-          "avg": 4.28
+          "peak": 5.17,
+          "avg": 5.05
         },
         "total_ram_gb": 16.0,
-        "samples": 22
+        "samples": 10
       }
     },
     {
       "name": "uv_wrapping",
       "status": "pass",
-      "duration_seconds": 41.4,
+      "duration_seconds": 17.4,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -425,17 +427,17 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.66,
-          "avg": 4.53
+          "peak": 5.09,
+          "avg": 5.01
         },
         "total_ram_gb": 16.0,
-        "samples": 42
+        "samples": 18
       }
     },
     {
       "name": "view_texture",
       "status": "pass",
-      "duration_seconds": 22.85,
+      "duration_seconds": 9.18,
       "error": null,
       "hardware": {
         "os": "Windows-2025Server-10.0.26100-SP0",
@@ -443,11 +445,11 @@
       },
       "resources": {
         "ram": {
-          "peak": 4.6,
-          "avg": 4.49
+          "peak": 5.15,
+          "avg": 4.99
         },
         "total_ram_gb": 16.0,
-        "samples": 23
+        "samples": 10
       }
     }
   ]

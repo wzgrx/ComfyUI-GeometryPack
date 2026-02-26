@@ -1,56 +1,475 @@
-[00:00] Crash dump logging enabled: /home/administrator/github-runners/PozzettiAndrea-ComfyUI-GeometryPack/_work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-1549/linux-gpu/crash_dump.log
+[00:00] Crash dump logging enabled: /home/shadeform/logs/GeometryPack-2127/dev/linux-gpu/crash_dump.log
 [00:00] 
-[00:00] [1/3] REGISTRATION
+[00:00] [1/5] SYNTAX
 [00:00] ----------------------------------------
-[00:00] [DEBUG] server=None, server_url=http://127.0.0.1:8188, api=None
+[00:00] [DEBUG] server=None, server_url=None, api=None
+[00:00] Found pyproject.toml (modern format)
+[00:00] Found requirements.txt (legacy format)
+[00:00] Unicode check: OK (all characters cp1252-safe)
+[00:00] Forbidden patterns check: OK
+[00:00] [SYNTAX] PASSED
 [00:00] 
-Connecting to existing server at http://127.0.0.1:8188...
-[00:00] Connecting to existing server at http://127.0.0.1:8188...
-[00:00] Connected to server! (attempt 1, 0.0s)
-[00:00] Checking for import errors in server logs...
-[00:00] No import errors detected
-[00:01] Found 677 registered nodes
-[00:01] [REGISTRATION] PASSED
-[00:01] 
-[00:01] [2/3] INSTANTIATION
-[00:01] ----------------------------------------
-[00:01] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x717c4a6e8ec0>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x717c4a6e9010>
-[00:01] Testing node constructors...
-[00:14] All 63 node(s) instantiated successfully!
-[00:14] [INSTANTIATION] PASSED
-[00:15] 
-[00:15] [3/3] EXECUTION
-[00:15] ----------------------------------------
-[00:15] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x717c4a6e8ec0>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x717c4a6e9010>
-[00:15] GPU runner - will execute 1 workflow(s)
-[00:15] Running 25 workflow(s) (all with videos)...
-[00:23] Execution path: browser (Playwright)
-[00:24]   [1/25] SKIPPED (not in gpu list) alpha_wrap.json
-[00:25]   [2/25] SKIPPED (not in gpu list) batch_remesh.json
-[00:25]   [3/25] SKIPPED (not in gpu list) boolean_ops.json
-[00:26]   [4/25] SKIPPED (not in gpu list) depth_map_to_mesh.json
-[00:26]   [5/25] SKIPPED (not in gpu list) fill_holes.json
-[00:27]   [6/25] SKIPPED (not in gpu list) fix_normals.json
-[00:27]   [7/25] SKIPPED (not in gpu list) fix_self_intersection.json
-[00:27]   [8/25] SKIPPED (not in gpu list) mesh_info.json
-[00:28]   [9/25] SKIPPED (not in gpu list) mesh_mesh_distance.json
-[00:28]   [10/25] SKIPPED (not in gpu list) normals.json
-[00:29]   [11/25] SKIPPED (not in gpu list) point_mesh_distance.json
-[00:29]   [12/25] SKIPPED (not in gpu list) preview_mesh_threejs.json
-[00:30]   [13/25] SKIPPED (not in gpu list) refine_mesh.json
-[00:30]   [14/25] SKIPPED (not in gpu list) remesh_intersections.json
-[00:31]   [15/25] SKIPPED (not in gpu list) remeshing.json
-[00:31]   [16/25] SKIPPED (not in gpu list) remeshing_CGAL.json
-[00:32]   [17/25] SKIPPED (not in gpu list) remeshing_blender.json
-[05:32]   [19/25] SKIPPED (not in gpu list) side_by_side_viewer.json
-[05:32]   [20/25] SKIPPED (not in gpu list) skeleton_extraction.json
-[05:33]   [21/25] SKIPPED (not in gpu list) surface_reconstruction.json
-[05:33]   [22/25] SKIPPED (not in gpu list) test_loading.json
-[05:33]   [23/25] SKIPPED (not in gpu list) transform.json
-[05:33]   [24/25] SKIPPED (not in gpu list) uv_wrapping.json
-[05:34]   [25/25] SKIPPED (not in gpu list) view_texture.json
-[05:36] Results saved to /home/administrator/github-runners/PozzettiAndrea-ComfyUI-GeometryPack/_work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-1549/linux-gpu/results.json
-[05:36] Saved: /home/administrator/github-runners/PozzettiAndrea-ComfyUI-GeometryPack/_work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-1549/linux-gpu/index.html
-[05:36] [EXECUTION] PASSED
-[05:36] 
+[00:00] [2/5] INSTALL
+[00:00] ----------------------------------------
+[00:00] [DEBUG] server=None, server_url=None, api=None
+[00:00] Setting up ComfyUI...
+[00:00] Creating virtual environment...
+[00:00] Running: uv venv /home/shadeform/workspaces/GeometryPack-2127/.venv --python 3.10
+[00:00] Cloning ComfyUI (latest)...
+[00:00] Running: git clone --depth 1 https://github.com/comfyanonymous/ComfyUI.git /home/shadeform/workspaces/GeometryPack-2127/ComfyUI
+[00:01] Installing ComfyUI requirements...
+[00:01] Running: uv pip install --python /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python --index-url https://download.pytorch.org/whl/cu128 --extra-index-url https://pypi.org/simple -r /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/requirements.txt
+[00:02] Installing local comfy-env (editable)...
+[00:02] Running: uv pip install -e /home/shadeform/utils/comfy-env --python /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python
+[00:03] Installing local comfy-test (editable)...
+[00:03] Running: uv pip install -e /home/shadeform/utils/comfy-test --python /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python
+[00:03] Installing local comfy-3d-viewers (editable)...
+[00:03] Running: uv pip install -e /home/shadeform/utils/comfy-3d-viewers --python /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python
+[00:04] Installing custom node...
+[00:04] Copying ComfyUI-GeometryPack to custom_nodes/...
+[00:04] Installing node requirements...
+[00:04] Running: uv pip install --python /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python --index-url https://download.pytorch.org/whl/cu128 --extra-index-url https://pypi.org/simple -r /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/requirements.txt
+[00:04] Running install.py...
+[00:04] Running: /home/shadeform/workspaces/GeometryPack-2127/.venv/bin/python /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/install.py
+[00:05]   [apt] Installing: libgl1-mesa-glx, libgl1, libopengl0, libglu1-mesa
+[00:05]   [apt] Requested packages: ['libgl1-mesa-glx', 'libgl1', 'libopengl0', 'libglu1-mesa']
+[00:05]   [apt] All packages already installed
+[00:05]   
+[00:05]   [env] Setting 2 env var(s)
+[00:06]     KMP_DUPLICATE_LIB_OK=TRUE
+[00:06]     OMP_NUM_THREADS=1
+[00:06]     [env] Wrote /home/shadeform/.comfy-env-profile
+[00:06]   
+[00:06]   Installing 1 node dependencies...
+[00:06]     Cloning ComfyUI-Env-Manager...
+[00:06]     Installing requirements for ComfyUI-Env-Manager...
+[00:06]   
+[00:06]   [requirements] Re-installing main package requirements...
+[00:06]     Installing requirements for ComfyUI-GeometryPack...
+[00:06]   
+[00:06]   [isolated] nodes/gpu
+[00:06]   
+[00:06]   Installing via pixi:
+[00:06]     CUDA: cumesh, torch, torchvision
+[00:06]     PyPI: 7
+[00:06]   [comfy-env] build_dir=/home/shadeform/.ce/_env_98c9ac
+[00:06]   [comfy-env] env_path=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac
+[00:06]   [comfy-env] Found existing env for _env_98c9ac, skipping install (/home/shadeform/.ce/_env_98c9ac/env)
+[00:06]   Env: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac -> /home/shadeform/.ce/_env_98c9ac/env
+[00:06]   
+[00:06]   [isolated] nodes/blender
+[00:06]   
+[00:06]   Installing via pixi:
+[00:06]     PyPI: 2
+[00:06]   [comfy-env] build_dir=/home/shadeform/.ce/_env_726b32
+[00:06]   [comfy-env] env_path=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_726b32
+[00:06]   [comfy-env] Found existing env for _env_726b32, skipping install (/home/shadeform/.ce/_env_726b32/env)
+[00:06]   Env: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_726b32 -> /home/shadeform/.ce/_env_726b32/env
+[00:06]   
+[00:06]   [isolated] nodes/main
+[00:06]   
+[00:06]   Installing via pixi:
+[00:06]     Conda: 1
+[00:06]     PyPI: 19
+[00:06]   [comfy-env] build_dir=/home/shadeform/.ce/_env_12709f
+[00:06]   [comfy-env] env_path=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f
+[00:06]   [comfy-env] Found existing env for _env_12709f, skipping install (/home/shadeform/.ce/_env_12709f/env)
+[00:06]   Env: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f -> /home/shadeform/.ce/_env_12709f/env
+[00:06]   
+[00:06]   Installation complete!
+[00:06] Installing 1 node dependency(ies)...
+[00:06]   ComfyUI-Env-Manager from PozzettiAndrea/ComfyUI-Env-Manager
+[00:06]   ComfyUI-Env-Manager already exists, skipping...
+[00:06] Installing validation endpoint...
+[00:06]   Cloning PozzettiAndrea/ComfyUI-validate-endpoint...
+[00:06] Running: git clone --depth 1 https://github.com/PozzettiAndrea/ComfyUI-validate-endpoint.git /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-validate-endpoint
+[00:06] COMFY_TEST_GPU env var = '1'
+[00:06] GPU mode: using real CUDA (no mocking)
+[00:06] [INSTALL] PASSED
+[00:06] 
+[00:06] [3/5] REGISTRATION
+[00:06] ----------------------------------------
+[00:06] [DEBUG] server=None, server_url=None, api=None
+[00:06] 
+Starting ComfyUI server...
+[00:06] Starting ComfyUI server on port 41883...
+[00:06] Starting ComfyUI server on port 41883...
+[00:06] Waiting for server to be ready (timeout: 300s)...
+[00:09]   [ComfyUI] [comfy-env] ComfyUI-GeometryPack: root config found but env not built yet
+[00:09]   [ComfyUI] [comfy-env] 3 isolation env(s):
+[00:09]   [ComfyUI] [comfy-env]   _env_98c9ac -> /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac
+[00:09]   [ComfyUI] [comfy-env]   _env_726b32 -> /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_726b32
+[00:09]   [ComfyUI] [comfy-env]   _env_12709f -> /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f
+[00:09]   [ComfyUI] [comfy-env] Library paths (main process):
+[00:09]   [ComfyUI] [comfy-env]   PATH=/home/shadeform/.local/bin:/home/shadeform/.nvm/versions/node/v24.13.1/bin:/home/shadeform/.local/bin:/home/shadeform/.local/bin:/home/shadeform/.venv/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+[00:09]   [ComfyUI] [comfy-env] prestartup complete
+[00:09]   [ComfyUI] 
+[00:09]   [ComfyUI] Prestartup times for custom nodes:
+[00:09]   [ComfyUI]    0.4 seconds: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack
+[00:09]   [ComfyUI] 
+[00:21]   [ComfyUI] WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+[00:21]   [ComfyUI] Found comfy_kitchen backend cuda: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+[00:21]   [ComfyUI] Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[00:21]   [ComfyUI] Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+[00:21]   [ComfyUI] Checkpoint files will always be loaded safely.
+[00:22]   [ComfyUI] Total VRAM 48539 MB, total RAM 24077 MB
+[00:22]   [ComfyUI] pytorch version: 2.10.0+cu128
+[00:22]   [ComfyUI] Set vram state to: NORMAL_VRAM
+[00:22]   [ComfyUI] Device: cuda:0 NVIDIA RTX A6000 : cudaMallocAsync
+[00:22]   [ComfyUI] Using async weight offloading with 2 streams
+[00:22]   [ComfyUI] Enabled pinned memory 22872.0
+[00:22]   [ComfyUI] working around nvidia conv3d memory bug.
+[00:23]   [ComfyUI] Using pytorch attention
+[00:31]   [ComfyUI] Python version: 3.10.12 (main, Jan 26 2026, 14:55:28) [GCC 11.4.0]
+[00:31]   [ComfyUI] ComfyUI version: 0.14.1
+[00:31]   [ComfyUI] ****** User settings have been changed to be stored on the server instead of browser storage. ******
+[00:31]   [ComfyUI] ****** For multi-user setups add the --multi-user CLI argument to enable multiple user profiles. ******
+[00:31]   [ComfyUI] ComfyUI frontend version: 1.39.14
+[00:31]   [ComfyUI] [Prompt Server] web root: /home/shadeform/workspaces/GeometryPack-2127/.venv/lib/python3.10/site-packages/comfyui_frontend_package/static
+[00:35]   [ComfyUI] loading...
+[00:35]   [ComfyUI] calling register_nodes
+[00:35]   [ComfyUI] [comfy-env] Version: 0.1.98
+[00:36]   [ComfyUI] [comfy-env] register_nodes: pkg_dir=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack, caller=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack
+[00:36]   [ComfyUI] [comfy-env] Found 3 isolation env(s)
+[00:36]   [ComfyUI] [comfy-env] Importing nodes (root)...
+[00:36]   [ComfyUI] [comfy-env] Imported nodes root: 0 nodes
+[00:36]   [ComfyUI] [comfy-env] Metadata scan: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python /tmp/comfy_meta_uml9q_iv.py /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack nodes.gpu
+[00:36]   [ComfyUI] [comfy-env] Scan env PATH for nodes.gpu:
+[00:36]   [ComfyUI] [comfy-env]   [0] /home/shadeform/.local/bin
+[00:36]   [ComfyUI] [comfy-env]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[00:36]   [ComfyUI] [comfy-env]   [2] /home/shadeform/.local/bin
+[00:36]   [ComfyUI] [comfy-env]   [3] /home/shadeform/.local/bin
+[00:36]   [ComfyUI] [comfy-env]   [4] /home/shadeform/.venv/bin
+[00:36]   [ComfyUI] [comfy-env]   [5] /usr/local/bin
+[00:36]   [ComfyUI] [comfy-env]   [6] /usr/bin
+[00:36]   [ComfyUI] [comfy-env]   [7] /bin
+[00:36]   [ComfyUI] [comfy-env]   [8] /snap/bin
+[00:36]   [ComfyUI] [comfy-env] Cache hit for nodes.blender: 5 nodes
+[00:36]   [ComfyUI] [comfy-env] Registered 5 isolation nodes from blender
+[00:36]   [ComfyUI] [comfy-env] Cache hit for nodes.main: 57 nodes
+[00:36]   [ComfyUI] [comfy-env] Registered 57 isolation nodes from main
+[00:41]   [ComfyUI] [comfy-env] Metadata scan stderr for nodes.gpu:
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] python: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] PATH:
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [0] /home/shadeform/.local/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [2] /home/shadeform/.local/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [3] /home/shadeform/.local/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [4] /home/shadeform/.venv/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [5] /usr/local/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [6] /usr/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [7] /bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   [8] /snap/bin
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/lib: 107 shared libs
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libatomic.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libbz2.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libcrypt.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libcrypto.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libexpat.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libffi.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libform.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libformw.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libgcc_s.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libgomp.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libhistory.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicudata.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicui18n.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicuio.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicutest.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicutu.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libicuuc.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libitm.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   liblzma.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libmenu.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libmenuw.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libncurses.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libncursesw.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libnsl.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libpanel.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libpanelw.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libpython3.12.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libpython3.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libquadmath.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libreadline.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libsqlite3.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libssl.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libstdc++.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libtcl8.6.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libtinfo.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libtinfow.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libtk8.6.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libuuid.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libz.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan]   libzstd.so
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] LD/DYLD_LIBRARY_PATH: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/lib/x86_64-linux-gnu
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] importing nodes.gpu from /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack
+[00:41]   [ComfyUI] [comfy-env]   [meta-scan] import OK
+[00:41]   [ComfyUI] [comfy-env] Scanned nodes.gpu: 1 nodes (5.3s)
+[00:41]   [ComfyUI] [comfy-env] Registered 1 isolation nodes from gpu
+[00:41]   [ComfyUI] [comfy-env] Registered 63 total nodes
+[00:41]   [ComfyUI] ComfyUI-Env-Manager v0.1.0 routes registered
+[00:41]   [ComfyUI] 
+[00:41]   [ComfyUI] Import times for custom nodes:
+[00:41]   [ComfyUI]    0.0 seconds: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/websocket_image_save.py
+[00:41]   [ComfyUI]    0.0 seconds: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-validate-endpoint
+[00:41]   [ComfyUI]    0.0 seconds: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-Env-Manager
+[00:41]   [ComfyUI]    5.6 seconds: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack
+[00:41]   [ComfyUI] 
+[00:41]   [ComfyUI] Context impl SQLiteImpl.
+[00:41]   [ComfyUI] Will assume non-transactional DDL.
+[00:41]   [ComfyUI] Context impl SQLiteImpl.
+[00:41]   [ComfyUI] Will assume non-transactional DDL.
+[00:41]   [ComfyUI] Running upgrade  -> 0001_assets, Initial assets schema
+[00:41]   [ComfyUI] Revision ID: 0001_assets
+[00:41]   [ComfyUI] Revises: None
+[00:41]   [ComfyUI] Create Date: 2025-12-10 00:00:00
+[00:41]   [ComfyUI] Database upgraded from None to 0001_assets
+[00:41]   [ComfyUI] Assets scan(roots=['models']) completed in 0.103s (created=11, skipped_existing=0, orphans_pruned=0, total_seen=11)
+[00:41]   [ComfyUI] Starting server
+[00:41]   [ComfyUI] 
+[00:41]   [ComfyUI] To see the GUI go to: http://127.0.0.1:41883
+[00:42] Server responding, waiting for nodes to load...
+[01:02] Server is ready!
+[01:02] Checking for import errors in server logs...
+[01:02] No import errors detected
+[01:02] Found 699 registered nodes
+[01:02] [REGISTRATION] PASSED
+[01:02] 
+[01:02] [4/5] INSTANTIATION
+[01:02] ----------------------------------------
+[01:02] [DEBUG] server=<comfy_test.comfyui.server.ComfyUIServer object at 0x7bc7c7c55160>, server_url=None, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x7bc7c7c175f0>
+[01:02] Testing node constructors...
+[01:03] All 63 node(s) instantiated successfully!
+[01:03] [INSTANTIATION] PASSED
+[01:03] 
+[01:03] [5/5] EXECUTION
+[01:03] ----------------------------------------
+[01:03] [DEBUG] server=<comfy_test.comfyui.server.ComfyUIServer object at 0x7bc7c7c55160>, server_url=None, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x7bc7c7c175f0>
+[01:03] GPU runner - will execute 1 workflow(s)
+[01:03] Running 25 workflow(s) (all with videos)...
+[01:03] Starting headless browser...
+[01:05]   GPU + Vulkan detected — using ANGLE/Vulkan rendering
+[01:05]   [1/25] SKIPPED (not in gpu list) alpha_wrap.json
+[01:06]   [2/25] SKIPPED (not in gpu list) batch_remesh.json
+[01:06]   [3/25] SKIPPED (not in gpu list) boolean_ops.json
+[01:06]   [4/25] SKIPPED (not in gpu list) depth_map_to_mesh.json
+[01:07]   [5/25] SKIPPED (not in gpu list) fill_holes.json
+[01:07]   [6/25] SKIPPED (not in gpu list) fix_normals.json
+[01:07]   [7/25] SKIPPED (not in gpu list) fix_self_intersection.json
+[01:07]   [8/25] SKIPPED (not in gpu list) mesh_info.json
+[01:08]   [9/25] SKIPPED (not in gpu list) mesh_mesh_distance.json
+[01:08]   [10/25] SKIPPED (not in gpu list) normals.json
+[01:08]   [11/25] SKIPPED (not in gpu list) point_mesh_distance.json
+[01:08]   [12/25] SKIPPED (not in gpu list) preview_mesh_threejs.json
+[01:08]   [13/25] SKIPPED (not in gpu list) refine_mesh.json
+[01:08]   [14/25] SKIPPED (not in gpu list) remesh_intersections.json
+[01:09]   [15/25] SKIPPED (not in gpu list) remeshing.json
+[01:09]   [16/25] SKIPPED (not in gpu list) remeshing_CGAL.json
+[01:09]   [17/25] SKIPPED (not in gpu list) remeshing_blender.json
+[01:09] Capturing execution frames: remeshing_gpu.json
+[01:10]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:10]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:11]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:12]   [ComfyUI] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[01:12]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:12]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:13]   [ComfyUI] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/buttonGroup.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[01:13]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:13]   [ComfyUI] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[01:13]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:17]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:17]   Validating workflow...
+[01:17]   [ComfyUI] === /validate endpoint called ===
+[01:17]   [ComfyUI] Received JSON with keys: ['prompt']
+[01:17]   Queuing workflow for execution...
+[01:17]   [ComfyUI] Prompt has 3 nodes
+[01:17]   [ComfyUI]   Node 1: GeomPackLoadMesh
+[01:17]   [ComfyUI]     Inputs: {"file_path": "3d/Stanford_Bunny.stl"}
+[01:17]   [ComfyUI]   Node 25: GeomPackPreviewMeshDual
+[01:17]   [ComfyUI]     Inputs: {"layout": "side_by_side", "mode": "fields", "opacity_1": 1, "opacity_2": 1, "preview_dual": "{\"show_edges\":false,\"camera_state\":\"\",\"selected_field\":\"\"}", "mesh_1": ["1", 0], "mesh_2": ["27"
+[01:17]   [ComfyUI]   Node 27: GeomPackRemeshGPU
+[01:17]   [ComfyUI] [comfy-env] Removed stale socket: /dev/shm/comfy_worker_3f09a3fa8b4d.sock
+[01:17]   [ComfyUI]     Inputs: {"target_face_count": 500000, "remesh_band": 1, "report_panel": "false", "trimesh": ["1", 0]}
+[01:17]   [ComfyUI] [comfy-env] SubprocessWorker: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f/bin/python
+[01:17]   [ComfyUI] Generated prompt_id: bd2cf9d9-1b2d-4a91-afcd-5d23e032fba4
+[01:17]   [ComfyUI] [comfy-env] env_vars: {'KMP_DUPLICATE_LIB_OK': 'TRUE', 'OMP_NUM_THREADS': '1', 'COMFYUI_BASE': '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI'}
+[01:17]   [ComfyUI] Calling execution.validate_prompt()...
+[01:17]   [ComfyUI] [ComfyUI-GeometryPack] python: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f/bin/python
+[01:17]   [ComfyUI] Validation result: valid=True
+[01:17]   [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/shadeform/workspaces/GeometryPack-2127/ComfyUI', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f/lib/python3.1/site-packages', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+[01:17]   [ComfyUI] === Validation PASSED ===
+[01:17]   [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f/bin/python
+[01:17]   [ComfyUI] got prompt
+[01:17]   [ComfyUI] [SubprocessWorker] launching cmd=['/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_12709f/bin/python', '/tmp/comfyui_pvenv_d3_315f5/persistent_worker.py', 'unix:///dev/shm/comfy_worker_3d693bb75c15.sock']...
+[01:17]   [ComfyUI] [SubprocessWorker] call_method: nodes.main.io.load_mesh.LoadMesh.load_mesh
+[01:17]   [ComfyUI] [SubprocessWorker] PATH has 9 entries:
+[01:17]   [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+[01:17]   [ComfyUI] [SubprocessWorker]   [0] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [2] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [3] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [4] /home/shadeform/.venv/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [6] /usr/bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [7] /bin
+[01:17]   [ComfyUI] [SubprocessWorker]   [8] /snap/bin
+[01:17]   [ComfyUI] [worker] PATH has 9 entries:
+[01:17]   [ComfyUI] [worker]   [0] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [worker]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[01:17]   [ComfyUI] [worker]   [2] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [worker]   [3] /home/shadeform/.local/bin
+[01:17]   [ComfyUI] [worker]   [4] /home/shadeform/.venv/bin
+[01:17]   [ComfyUI] [worker]   [5] /usr/local/bin
+[01:17]   [ComfyUI] [worker]   [6] /usr/bin
+[01:17]   [ComfyUI] [worker]   [7] /bin
+[01:17]   [ComfyUI] [worker]   [8] /snap/bin
+[01:18]   [ComfyUI] [SubprocessWorker] worker started/confirmed
+[01:18]   [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+[01:18]   [ComfyUI] [SubprocessWorker] created 0 shm blocks
+[01:18]   [ComfyUI] [SubprocessWorker] sending request via socket...
+[01:20]   Frame 2 saved (frame_001.jpg, t=2.4s)
+[01:20]   [capture-periodic] freeze=4ms shot=123ms unfreeze=4ms saved=True
+[01:20]   [ComfyUI] [SubprocessWorker] got response: ok
+[01:22]   [ComfyUI] [SubprocessWorker] call_method: nodes.gpu.remeshing_gpu.remesh.RemeshGPUNode.remesh
+[01:22]   [ComfyUI] [comfy-env] SubprocessWorker: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python
+[01:22]   [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+[01:22]   [ComfyUI] [comfy-env] env_vars: {'KMP_DUPLICATE_LIB_OK': 'TRUE', 'COMFYUI_BASE': '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI'}
+[01:22]   [ComfyUI] [ComfyUI-GeometryPack] python: /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python
+[01:22]   [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/shadeform/workspaces/GeometryPack-2127/ComfyUI', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/lib/python3.1/site-packages', '/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+[01:22]   [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python
+[01:22]   [ComfyUI] [SubprocessWorker] launching cmd=['/home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/bin/python', '/tmp/comfyui_pvenv_f4mhxbdw/persistent_worker.py', 'unix:///dev/shm/comfy_worker_e79af228ca72.sock']...
+[01:22]   [ComfyUI] [SubprocessWorker] PATH has 9 entries:
+[01:22]   [ComfyUI] [SubprocessWorker]   [0] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [2] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [3] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [4] /home/shadeform/.venv/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [6] /usr/bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [7] /bin
+[01:22]   [ComfyUI] [SubprocessWorker]   [8] /snap/bin
+[01:22]   [ComfyUI] [worker] PATH has 9 entries:
+[01:22]   [ComfyUI] [worker]   [0] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [worker]   [1] /home/shadeform/.nvm/versions/node/v24.13.1/bin
+[01:22]   [ComfyUI] [worker]   [2] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [worker]   [3] /home/shadeform/.local/bin
+[01:22]   [ComfyUI] [worker]   [4] /home/shadeform/.venv/bin
+[01:22]   [ComfyUI] [worker]   [5] /usr/local/bin
+[01:22]   [ComfyUI] [worker]   [6] /usr/bin
+[01:22]   [ComfyUI] [worker]   [7] /bin
+[01:22]   [ComfyUI] [worker]   [8] /snap/bin
+[01:23]   [capture-loop] iter=50 t=5.9s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=4
+[01:24]   Frame 3 saved (frame_002.jpg, t=6.8s)
+[01:24]   [capture-periodic] freeze=3ms shot=390ms unfreeze=5ms saved=True
+[01:27]   [ComfyUI] [SubprocessWorker] worker started/confirmed
+[01:27]   [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+[01:27]   [ComfyUI] [SubprocessWorker] created 1 shm blocks
+[01:27]   [ComfyUI] [SubprocessWorker] sending request via socket...
+[01:28]   [ComfyUI] [worker:ComfyUI-GeometryPack] ERROR: Failed to import comfy_kitchen, Error: No module named 'comfy_kitchen', fp8 and fp4 support will not be available.
+[01:29]   [ComfyUI] 
+[01:29]   [ComfyUI] Building Sparse Grid:   0%|                                                                                                            | 0/5 [00:00<?, ?it/s]
+[01:29]   [ComfyUI] Building Sparse Grid: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 50.07it/s]
+[01:29]   [ComfyUI] [worker:ComfyUI-GeometryPack] Running Dual Contouring...
+[01:29]   [capture-loop] iter=100 t=12.0s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=4
+[01:29]   [ComfyUI] /home/shadeform/workspaces/GeometryPack-2127/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_98c9ac/lib/python3.1/site-packages/cumesh/remeshing.py:220: UserWarning: Using torch.cross without specifying the dim arg is deprecated.
+[01:29]   [ComfyUI] Please either pass the dim explicitly or simply use torch.linalg.cross.
+[01:29]   [ComfyUI] The default value of dim will change to agree with that of linalg.cross in a future release. (Triggered internally at /pytorch/aten/src/ATen/native/Cross.cpp:63.)
+[01:29]   [ComfyUI]   normals0 = torch.cross(mesh_vertices[atempt_triangles_0[:, 1]] - mesh_vertices[atempt_triangles_0[:, 0]], mesh_vertices[atempt_triangles_0[:, 2]] - mesh_vertices[atempt_triangles_0[:, 0]])
+[01:29]   [ComfyUI] 
+[01:29]   [ComfyUI] Simplifying:   0%|                                                                                                               | 0/3292864 [00:00<?, ?it/s]
+[01:29]   [ComfyUI] Simplifying [thres=1.00e-08]:   0%|                                                                                              | 0/3292864 [00:00<?, ?it/s]
+[01:29]   [ComfyUI] Simplifying [thres=1.00e-07]:   0%|                                                                                  | 24/3292864 [00:00<1:58:10, 464.37it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-06]:   0%|                                                                                  | 196/3292864 [00:00<24:14, 2263.70it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-06]:   0%|                                                                                | 1532/3292864 [00:00<04:27, 12292.32it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-05]:   0%|                                                                                | 1532/3292864 [00:00<04:27, 12292.32it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-04]:   0%|▎                                                                              | 13254/3292864 [00:00<04:26, 12292.32it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-04]:   2%|█▉                                                                             | 82020/3292864 [00:00<04:21, 12292.32it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-04]:   4%|███                                                                          | 133232/3292864 [00:00<00:04, 702279.90it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-04]:   4%|███                                                                          | 133232/3292864 [00:00<00:04, 702279.90it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-04]:   5%|████                                                                         | 175552/3292864 [00:00<00:04, 702279.90it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:   6%|████▉                                                                        | 211596/3292864 [00:00<00:04, 702279.90it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  14%|███████████                                                                  | 473460/3292864 [00:00<00:04, 702279.90it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  22%|████████████████▌                                                           | 718578/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  22%|████████████████▌                                                           | 718578/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  29%|█████████████████████▊                                                      | 946184/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  35%|██████████████████████████▎                                                | 1157046/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  41%|██████████████████████████████▊                                            | 1351174/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  46%|██████████████████████████████████▊                                        | 1530416/3292864 [00:00<00:00, 2760079.38it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  51%|██████████████████████████████████████▌                                    | 1695696/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  51%|██████████████████████████████████████▌                                    | 1695696/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  56%|██████████████████████████████████████████                                 | 1848796/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  60%|█████████████████████████████████████████████▎                             | 1990798/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  64%|████████████████████████████████████████████████▎                          | 2122744/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  68%|███████████████████████████████████████████████████▏                       | 2245182/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  72%|█████████████████████████████████████████████████████▋                     | 2359004/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  75%|████████████████████████████████████████████████████████                   | 2463516/3292864 [00:00<00:00, 5167111.93it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  78%|██████████████████████████████████████████████████████████▎                | 2559770/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  78%|██████████████████████████████████████████████████████████▎                | 2559770/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  80%|████████████████████████████████████████████████████████████▎              | 2647466/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  83%|██████████████████████████████████████████████████████████████             | 2727008/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  85%|███████████████████████████████████████████████████████████████▋           | 2797822/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  87%|█████████████████████████████████████████████████████████████████▏         | 2860526/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  89%|██████████████████████████████████████████████████████████████████▍        | 2914482/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  90%|███████████████████████████████████████████████████████████████████▍       | 2961166/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  91%|████████████████████████████████████████████████████████████████████▎      | 3000916/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  92%|█████████████████████████████████████████████████████████████████████▏     | 3035040/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  93%|█████████████████████████████████████████████████████████████████████▊     | 3063824/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  94%|██████████████████████████████████████████████████████████████████████▎    | 3088534/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  94%|██████████████████████████████████████████████████████████████████████▊    | 3109718/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  95%|███████████████████████████████████████████████████████████████████████▏   | 3128008/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  95%|███████████████████████████████████████████████████████████████████████▌   | 3143952/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  96%|███████████████████████████████████████████████████████████████████████▉   | 3158138/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  96%|████████████████████████████████████████████████████████████████████████▏  | 3170400/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  97%|████████████████████████████████████████████████████████████████████████▍  | 3181312/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  97%|████████████████████████████████████████████████████████████████████████▋  | 3190950/3292864 [00:00<00:00, 6240562.16it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  97%|████████████████████████████████████████████████████████████████████████▉  | 3199650/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  97%|████████████████████████████████████████████████████████████████████████▉  | 3199650/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  97%|█████████████████████████████████████████████████████████████████████████  | 3207424/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  98%|█████████████████████████████████████████████████████████████████████████▏ | 3214370/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-03]:  98%|█████████████████████████████████████████████████████████████████████████▎ | 3220688/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-02]:  98%|█████████████████████████████████████████████████████████████████████████▍ | 3226304/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-02]:  99%|██████████████████████████████████████████████████████████████████████████▌| 3273358/3292864 [00:00<00:00, 5445575.05it/s]
+[01:30]   [ComfyUI] Simplifying [thres=1.00e-02]: 100%|███████████████████████████████████████████████████████████████████████████| 3292864/3292864 [00:00<00:00, 4443246.74it/s]
+[01:30]   [ComfyUI] [SubprocessWorker] got response: ok
+[01:30]   [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_dual.PreviewMeshDualNode.preview_dual
+[01:30]   [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+[01:30]   [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+[01:30]   [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+[01:30]   [ComfyUI] [SubprocessWorker] worker started/confirmed
+[01:30]   [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+[01:30]   Node executed (1 total), capturing...
+[01:30]   [ComfyUI] [SubprocessWorker] created 2 shm blocks
+[01:30]   [ComfyUI] [SubprocessWorker] sending request via socket...
+[01:31]   Frame 4 saved (frame_003.jpg, t=13.5s)
+[01:31]   [capture-node] freeze=3ms shot=125ms unfreeze=3ms saved=True
+[01:32]   [ComfyUI] [SubprocessWorker] got response: ok
+[01:32]   [ComfyUI] Prompt executed in 14.30 seconds
+[01:32]   Node executed (2 total), capturing...
+[01:32]   [Console-error] No input!
+[01:32]   [Console-error] No input!
+[01:34]   Frame 5 saved (frame_004.jpg, t=15.3s)
+[01:34]   [capture-node] freeze=21ms shot=1203ms unfreeze=0ms saved=True
+[01:34]   Execution complete (t=15.3s)
+[01:34]   Captured 5 unique frames over 16.61s
+[01:34]   [debug] iframes: 1
+[01:34]   [debug]   iframe[0]: src=http://127.0.0.1:41883/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=177188, canvas=894x1248, rafFrozen=True
+[01:34]   [timing] trigger_3d_previews: 0.0s
+[01:37]   Saved high-quality screenshot: remeshing_gpu_executed.png
+[01:37]   [timing] final_screenshot: 1.3s
+[01:37]   [19/25] SKIPPED (not in gpu list) side_by_side_viewer.json
+[01:37]   [20/25] SKIPPED (not in gpu list) skeleton_extraction.json
+[01:38]   [21/25] SKIPPED (not in gpu list) surface_reconstruction.json
+[01:38]   [22/25] SKIPPED (not in gpu list) test_loading.json
+[01:38]   [23/25] SKIPPED (not in gpu list) transform.json
+[01:38]   [24/25] SKIPPED (not in gpu list) uv_wrapping.json
+[01:38]   [25/25] SKIPPED (not in gpu list) view_texture.json
+[01:39] Results saved to /home/shadeform/logs/GeometryPack-2127/dev/linux-gpu/results.json
+[01:39] Saved: /home/shadeform/logs/GeometryPack-2127/dev/linux-gpu/index.html
+[01:39] [EXECUTION] PASSED
+[01:39] 
 linux: PASSED
+[01:39] Stopping ComfyUI server...

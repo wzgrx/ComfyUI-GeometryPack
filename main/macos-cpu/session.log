@@ -1,4 +1,4 @@
-[00:00] Crash dump logging enabled: /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-2121/macos-cpu/crash_dump.log
+[00:00] Crash dump logging enabled: /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-0900/macos-cpu/crash_dump.log
 [00:00] 
 [00:00] [1/3] REGISTRATION
 [00:00] ----------------------------------------
@@ -14,20 +14,784 @@ Connecting to existing server at http://127.0.0.1:8188...
 [00:00] 
 [00:00] [2/3] INSTANTIATION
 [00:00] ----------------------------------------
-[00:00] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x102868980>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x102868ad0>
+[00:00] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x103b14830>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x103b14980>
 [00:00] Testing node constructors...
-[00:05] All 63 node(s) instantiated successfully!
-[00:05] [INSTANTIATION] PASSED
-[00:05] 
-[00:05] [3/3] EXECUTION
-[00:05] ----------------------------------------
-[00:05] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x102868980>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x102868ad0>
-[00:05] CPU runner - will execute 24 workflow(s)
-[00:05] Running 25 workflow(s) (all with videos)...
-[00:07] Execution path: browser (Playwright)
-[12:42]   [18/25] SKIPPED (not in cpu list) remeshing_gpu.json
-[16:48] Results saved to /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-2121/macos-cpu/results.json
-[16:48] Saved: /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-2121/macos-cpu/index.html
-[16:48] [EXECUTION] PASSED
-[16:48] 
+[00:01] All 63 node(s) instantiated successfully!
+[00:01] [INSTANTIATION] PASSED
+[00:01] 
+[00:01] [3/3] EXECUTION
+[00:01] ----------------------------------------
+[00:01] [DEBUG] server=<comfy_test.comfyui.server.ExternalComfyUIServer object at 0x103b14830>, server_url=http://127.0.0.1:8188, api=<comfy_test.comfyui.api.ComfyUIAPI object at 0x103b14980>
+[00:01] CPU runner - will execute 24 workflow(s)
+[00:01] Running 25 workflow(s) (all with videos)...
+[00:02] Starting headless browser...
+[00:02]   No GPU, no Mesa — using SwiftShader software rendering
+[00:04] Capturing execution frames: alpha_wrap.json
+[00:04]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:04]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:05]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:05]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:05]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:05]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:05]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[00:06]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[00:06]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[00:06]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[00:06]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[00:11]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[00:11]   Validating workflow...
+[00:11]   Queuing workflow for execution...
+[00:13]   Frame 2 saved (frame_001.jpg, t=2.2s)
+[00:13]   [capture-periodic] freeze=4ms shot=85ms unfreeze=3ms saved=True
+[00:15]   Frame 3 saved (frame_002.jpg, t=4.3s)
+[00:15]   [capture-periodic] freeze=3ms shot=266ms unfreeze=3ms saved=True
+[00:17]   [capture-loop] iter=50 t=6.2s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=5
+[00:17]   Frame 4 saved (frame_003.jpg, t=6.7s)
+[00:17]   [capture-periodic] freeze=2ms shot=87ms unfreeze=3ms saved=True
+[00:19]   Node executed (1 total), capturing...
+[00:19]   [Console-error] No input!
+[00:19]   [Console-error] No input!
+[00:19]   [Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[00:19]   [Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[00:19]   [Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[00:19]   [Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:20]   [Console-error] No input!
+[00:22]   Frame 5 saved (frame_004.jpg, t=8.7s)
+[00:22]   [capture-node] freeze=410ms shot=1417ms unfreeze=830ms saved=True
+[00:23]   Node executed (4 total), capturing...
+[00:23]   Frame 6 saved (frame_005.jpg, t=12.6s)
+[00:23]   [capture-node] freeze=2ms shot=98ms unfreeze=0ms saved=True
+[00:23]   Execution complete (t=12.6s)
+[00:23]   Captured 6 unique frames over 12.71s
+[00:23]   [debug] iframes: 2
+[00:23]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[00:23]   [debug]   iframe[1]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_multi.html?v=177192, canvas=592x1116, rafFrozen=True
+[00:23]   [timing] trigger_3d_previews: 0.0s
+[00:26]   Saved high-quality screenshot: alpha_wrap_executed.png
+[00:26]   [timing] final_screenshot: 0.8s
+[00:26] Capturing execution frames: batch_remesh.json
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:27]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[00:27]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[00:27]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[00:28]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[00:28]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[00:29]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:29]   [Console-error] No input!
+[00:32]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[00:32]   Validating workflow...
+[00:32]   Queuing workflow for execution...
+[00:34]   Frame 2 saved (frame_001.jpg, t=2.3s)
+[00:34]   [capture-periodic] freeze=4ms shot=135ms unfreeze=6ms saved=True
+[00:35]   [Console-error] No input!
+[00:35]   Node executed (2 total), capturing...
+[00:36]   Frame 3 saved (frame_002.jpg, t=3.1s)
+[00:36]   [capture-node] freeze=303ms shot=158ms unfreeze=4ms saved=True
+[00:36]   Node executed (3 total), capturing...
+[00:36]   Frame 4 saved (frame_003.jpg, t=3.8s)
+[00:36]   [capture-node] freeze=6ms shot=126ms unfreeze=0ms saved=True
+[00:36]   Execution complete (t=3.8s)
+[00:36]   Captured 4 unique frames over 4.01s
+[00:36]   [debug] iframes: 1
+[00:36]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_vtk.html?v=17719236, canvas=752x552, rafFrozen=True
+[00:36]   [timing] trigger_3d_previews: 0.0s
+[00:39]   Saved high-quality screenshot: batch_remesh_executed.png
+[00:39]   [timing] final_screenshot: 0.9s
+[00:39] Capturing execution frames: boolean_ops.json
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:41]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[00:41]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[00:41]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[00:41]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[00:41]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[00:42]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:42]   [Console-error] No input!
+[00:43]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:43]   [Console-error] No input!
+[00:45]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[00:45]   Validating workflow...
+[00:45]   Queuing workflow for execution...
+[00:46]   [Console-error] No input!
+[00:46]   Node executed (3 total), capturing...
+[00:46]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:46]   [Console-error] No input!
+[00:46]   [Console-error] No input!
+[00:46]   [Console-error] No input!
+[00:47]   Frame 2 saved (frame_001.jpg, t=0.8s)
+[00:47]   [capture-node] freeze=118ms shot=1034ms unfreeze=0ms saved=True
+[00:47]   Execution complete (t=0.8s)
+[00:47]   Captured 2 unique frames over 2.04s
+[00:47]   [debug] iframes: 2
+[00:47]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[00:47]   [debug]   iframe[1]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_vtk.html?v=17719236, canvas=588x517, rafFrozen=True
+[00:47]   [timing] trigger_3d_previews: 0.0s
+[00:50]   Saved high-quality screenshot: boolean_ops_executed.png
+[00:50]   [timing] final_screenshot: 1.0s
+[00:51] Capturing execution frames: depth_map_to_mesh.json
+[00:51]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:51]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:52]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:52]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:52]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:52]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[00:52]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[00:52]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[00:52]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[00:52]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[00:52]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[00:53]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:53]   [Console-error] No input!
+[00:54]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[00:54]   [Console-error] No input!
+[00:57]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[00:57]   Validating workflow...
+[00:57]   Queuing workflow for execution...
+[00:59]   Frame 2 saved (frame_001.jpg, t=2.2s)
+[00:59]   [capture-periodic] freeze=3ms shot=232ms unfreeze=4ms saved=True
+[00:59]   Node executed (1 total), capturing...
+[01:00]   Frame 3 saved (frame_002.jpg, t=3.1s)
+[01:00]   [capture-node] freeze=8ms shot=206ms unfreeze=28ms saved=True
+[01:01]   [Console-error] No input!
+[01:01]   Node executed (2 total), capturing...
+[01:01]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[01:01]   [Console-error] No input!
+[01:06]   Frame 4 saved (frame_003.jpg, t=4.4s)
+[01:06]   [capture-node] freeze=24ms shot=4831ms unfreeze=0ms saved=True
+[01:06]   Execution complete (t=4.4s)
+[01:06]   Captured 4 unique frames over 9.28s
+[01:06]   [debug] iframes: 1
+[01:06]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_vtk.html?v=17719237, canvas=588x517, rafFrozen=True
+[01:06]   [timing] trigger_3d_previews: 0.0s
+[01:08]   Saved high-quality screenshot: depth_map_to_mesh_executed.png
+[01:08]   [timing] final_screenshot: 0.7s
+[01:09] Capturing execution frames: fill_holes.json
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:09]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:10]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:10]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:10]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:10]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:10]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[01:10]   [Console-error] No input!
+[01:14]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:14]   Validating workflow...
+[01:14]   Queuing workflow for execution...
+[01:16]   Frame 2 saved (frame_001.jpg, t=2.2s)
+[01:16]   [capture-periodic] freeze=3ms shot=140ms unfreeze=4ms saved=True
+[01:16]   Node executed (2 total), capturing...
+[01:17]   [Console-error] No input!
+[01:17]   [Console-error] No input!
+[01:17]   Frame 3 saved (frame_002.jpg, t=3.1s)
+[01:17]   [capture-node] freeze=78ms shot=564ms unfreeze=0ms saved=True
+[01:17]   Execution complete (t=3.1s)
+[01:17]   Captured 3 unique frames over 3.75s
+[01:17]   [debug] iframes: 1
+[01:17]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[01:17]   [timing] trigger_3d_previews: 0.0s
+[01:20]   Saved high-quality screenshot: fill_holes_executed.png
+[01:20]   [timing] final_screenshot: 0.8s
+[01:20] Capturing execution frames: fix_normals.json
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:21]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:21]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:21]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:22]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:22]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:25]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:25]   Validating workflow...
+[01:25]   Queuing workflow for execution...
+[01:26]   Node executed (2 total), capturing...
+[01:26]   [Console-error] No input!
+[01:26]   [Console-error] No input!
+[01:26]   Frame 2 saved (frame_001.jpg, t=0.5s)
+[01:26]   [capture-node] freeze=37ms shot=432ms unfreeze=0ms saved=True
+[01:26]   Execution complete (t=0.5s)
+[01:26]   Captured 2 unique frames over 0.98s
+[01:26]   [debug] iframes: 1
+[01:26]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1200, rafFrozen=True
+[01:26]   [timing] trigger_3d_previews: 0.0s
+[01:29]   Saved high-quality screenshot: fix_normals_executed.png
+[01:29]   [timing] final_screenshot: 0.7s
+[01:29] Capturing execution frames: fix_self_intersection.json
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:30]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:30]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:30]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:30]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:30]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:34]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:34]   Validating workflow...
+[01:34]   Queuing workflow for execution...
+[01:35]   Node executed (1 total), capturing...
+[01:35]   [Console-error] No input!
+[01:35]   [Console-error] No input!
+[01:35]   Frame 2 saved (frame_001.jpg, t=0.6s)
+[01:35]   [capture-node] freeze=34ms shot=341ms unfreeze=32ms saved=True
+[01:36]   Node executed (4 total), capturing...
+[01:36]   Frame 3 saved (frame_002.jpg, t=1.9s)
+[01:36]   [capture-node] freeze=226ms shot=143ms unfreeze=0ms saved=True
+[01:36]   Execution complete (t=1.9s)
+[01:36]   Captured 3 unique frames over 2.27s
+[01:36]   [debug] iframes: 1
+[01:36]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1218, rafFrozen=True
+[01:36]   [timing] trigger_3d_previews: 0.0s
+[01:39]   Saved high-quality screenshot: fix_self_intersection_executed.png
+[01:39]   [timing] final_screenshot: 0.7s
+[01:40] Capturing execution frames: mesh_info.json
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:40]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:40]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:40]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:41]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:41]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:44]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:44]   Validating workflow...
+[01:44]   Queuing workflow for execution...
+[01:44]   Node executed (1 total), capturing...
+[01:45]   Frame 2 saved (frame_001.jpg, t=0.3s)
+[01:45]   [capture-node] freeze=3ms shot=74ms unfreeze=3ms saved=True
+[01:45]   Node executed (2 total), capturing...
+[01:45]   [capture-node] freeze=5ms shot=121ms unfreeze=0ms saved=False
+[01:45]   Execution complete (t=0.7s)
+[01:45]   Captured 2 unique frames over 0.81s
+[01:45]   [debug] iframes: 0
+[01:45]   [timing] trigger_3d_previews: 0.0s
+[01:48]   Saved high-quality screenshot: mesh_info_executed.png
+[01:48]   [timing] final_screenshot: 0.6s
+[01:48] Capturing execution frames: mesh_mesh_distance.json
+[01:48]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:48]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:49]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:49]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:49]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:49]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[01:49]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[01:49]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[01:49]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[01:49]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[01:49]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[01:53]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[01:53]   Validating workflow...
+[01:53]   Queuing workflow for execution...
+[01:55]   Node executed (1 total), capturing...
+[01:55]   Frame 2 saved (frame_001.jpg, t=1.8s)
+[01:55]   [capture-node] freeze=4ms shot=134ms unfreeze=4ms saved=True
+[01:55]   Node executed (2 total), capturing...
+[01:55]   Frame 3 saved (frame_002.jpg, t=2.2s)
+[01:55]   [capture-node] freeze=4ms shot=107ms unfreeze=4ms saved=True
+[01:59]   Node executed (3 total), capturing...
+[01:59]   Frame 4 saved (frame_003.jpg, t=5.8s)
+[01:59]   [capture-node] freeze=6ms shot=124ms unfreeze=9ms saved=True
+[01:59]   Node executed (4 total), capturing...
+[01:59]   Frame 5 saved (frame_004.jpg, t=6.3s)
+[01:59]   [capture-node] freeze=5ms shot=95ms unfreeze=0ms saved=True
+[01:59]   Execution complete (t=6.3s)
+[01:59]   Captured 5 unique frames over 6.39s
+[01:59]   [debug] iframes: 0
+[01:59]   [timing] trigger_3d_previews: 0.0s
+[02:02]   Saved high-quality screenshot: mesh_mesh_distance_executed.png
+[02:02]   [timing] final_screenshot: 0.6s
+[02:02] Capturing execution frames: normals.json
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:03]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:03]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:03]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:03]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:03]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:04]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[02:04]   [Console-error] No input!
+[02:07]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:07]   Validating workflow...
+[02:07]   Queuing workflow for execution...
+[02:07]   Node executed (1 total), capturing...
+[02:08]   Frame 2 saved (frame_001.jpg, t=0.7s)
+[02:08]   [capture-node] freeze=5ms shot=99ms unfreeze=7ms saved=True
+[02:08]   [Console-error] No input!
+[02:08]   Node executed (2 total), capturing...
+[02:08]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[02:08]   [Console-error] No input!
+[02:09]   Frame 3 saved (frame_002.jpg, t=1.1s)
+[02:09]   [capture-node] freeze=553ms shot=104ms unfreeze=0ms saved=True
+[02:09]   Execution complete (t=1.1s)
+[02:09]   Captured 3 unique frames over 1.81s
+[02:09]   [debug] iframes: 1
+[02:09]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_vtk.html?v=17719237, canvas=588x483, rafFrozen=True
+[02:09]   [timing] trigger_3d_previews: 0.0s
+[02:11]   Saved high-quality screenshot: normals_executed.png
+[02:11]   [timing] final_screenshot: 0.5s
+[02:12] Capturing execution frames: point_mesh_distance.json
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:12]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:12]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:12]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:13]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:13]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:13]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[02:13]   [Console-error] No input!
+[02:16]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:16]   Validating workflow...
+[02:16]   Queuing workflow for execution...
+[02:19]   Frame 2 saved (frame_001.jpg, t=2.3s)
+[02:19]   [capture-periodic] freeze=32ms shot=110ms unfreeze=3ms saved=True
+[02:19]   Node executed (2 total), capturing...
+[02:19]   [Console-error] No input!
+[02:19]   [Console-error] No input!
+[02:20]   Frame 3 saved (frame_002.jpg, t=2.8s)
+[02:20]   [capture-node] freeze=169ms shot=527ms unfreeze=3ms saved=True
+[02:20]   Node executed (3 total), capturing...
+[02:20]   Frame 4 saved (frame_003.jpg, t=3.9s)
+[02:20]   [capture-node] freeze=3ms shot=114ms unfreeze=0ms saved=True
+[02:20]   Execution complete (t=3.9s)
+[02:20]   Captured 4 unique frames over 4.05s
+[02:20]   [debug] iframes: 1
+[02:20]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[02:20]   [timing] trigger_3d_previews: 0.0s
+[02:23]   Saved high-quality screenshot: point_mesh_distance_executed.png
+[02:23]   [timing] final_screenshot: 0.6s
+[02:23] Capturing execution frames: preview_mesh_threejs.json
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:24]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:24]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:24]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:24]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:24]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:28]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:28]   Validating workflow...
+[02:28]   Queuing workflow for execution...
+[02:29]   Node executed (1 total), capturing...
+[02:29]   Frame 2 saved (frame_001.jpg, t=0.9s)
+[02:29]   [capture-node] freeze=21ms shot=168ms unfreeze=0ms saved=True
+[02:29]   Execution complete (t=0.9s)
+[02:29]   Captured 2 unique frames over 1.13s
+[02:29]   [debug] iframes: 1
+[02:29]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer.html?v=177192379026, canvas=1176x1196, rafFrozen=True
+[02:29]   [timing] trigger_3d_previews: 0.0s
+[02:32]   Saved high-quality screenshot: preview_mesh_threejs_executed.png
+[02:32]   [timing] final_screenshot: 0.5s
+[02:32] Capturing execution frames: refine_mesh.json
+[02:32]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:32]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:32]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:32]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:32]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:33]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:33]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:33]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:33]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:33]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:33]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:37]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:37]   Validating workflow...
+[02:37]   Queuing workflow for execution...
+[02:37]   Node executed (1 total), capturing...
+[02:38]   [Console-error] No input!
+[02:38]   [Console-error] No input!
+[02:38]   Frame 2 saved (frame_001.jpg, t=0.7s)
+[02:38]   [capture-node] freeze=10ms shot=254ms unfreeze=205ms saved=True
+[02:39]   Node executed (2 total), capturing...
+[02:40]   Frame 3 saved (frame_002.jpg, t=2.2s)
+[02:40]   [capture-node] freeze=794ms shot=117ms unfreeze=0ms saved=True
+[02:40]   Execution complete (t=2.2s)
+[02:40]   Captured 3 unique frames over 3.12s
+[02:40]   [debug] iframes: 1
+[02:40]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=934x1282, rafFrozen=True
+[02:40]   [timing] trigger_3d_previews: 0.0s
+[02:43]   Saved high-quality screenshot: refine_mesh_executed.png
+[02:43]   [timing] final_screenshot: 0.6s
+[02:43] Capturing execution frames: remesh_intersections.json
+[02:43]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:43]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:43]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:43]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:43]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:44]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:44]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:44]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:44]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:44]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:48]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:48]   Validating workflow...
+[02:48]   Queuing workflow for execution...
+[02:48]   Node executed (2 total), capturing...
+[02:49]   [Console-error] No input!
+[02:49]   [Console-error] No input!
+[02:49]   Frame 2 saved (frame_001.jpg, t=0.7s)
+[02:49]   [capture-node] freeze=13ms shot=343ms unfreeze=629ms saved=True
+[02:50]   Node executed (4 total), capturing...
+[02:50]   Frame 3 saved (frame_002.jpg, t=2.2s)
+[02:50]   [capture-node] freeze=3ms shot=104ms unfreeze=0ms saved=True
+[02:50]   Execution complete (t=2.2s)
+[02:50]   Captured 3 unique frames over 2.38s
+[02:50]   [debug] iframes: 1
+[02:50]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1218, rafFrozen=True
+[02:50]   [timing] trigger_3d_previews: 0.0s
+[02:53]   Saved high-quality screenshot: remesh_intersections_executed.png
+[02:53]   [timing] final_screenshot: 0.8s
+[02:53] Capturing execution frames: remeshing.json
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[02:54]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[02:55]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[02:55]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[02:55]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[02:55]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[02:59]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[02:59]   Validating workflow...
+[02:59]   Queuing workflow for execution...
+[03:01]   Frame 2 saved (frame_001.jpg, t=2.3s)
+[03:01]   [capture-periodic] freeze=3ms shot=65ms unfreeze=2ms saved=True
+[03:03]   Node executed (1 total), capturing...
+[03:04]   Frame 3 saved (frame_002.jpg, t=4.8s)
+[03:04]   [capture-node] freeze=2ms shot=92ms unfreeze=3ms saved=True
+[03:04]   [Console-error] No input!
+[03:04]   [Console-error] No input!
+[03:04]   Node executed (2 total), capturing...
+[03:05]   Frame 4 saved (frame_003.jpg, t=5.4s)
+[03:05]   [capture-node] freeze=191ms shot=1046ms unfreeze=0ms saved=True
+[03:05]   Execution complete (t=5.4s)
+[03:05]   Captured 4 unique frames over 6.67s
+[03:05]   [debug] iframes: 1
+[03:05]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[03:05]   [timing] trigger_3d_previews: 0.0s
+[03:08]   Saved high-quality screenshot: remeshing_executed.png
+[03:08]   [timing] final_screenshot: 0.6s
+[03:08] Capturing execution frames: remeshing_CGAL.json
+[03:08]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:08]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:09]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:09]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[03:09]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[03:09]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[03:09]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[03:09]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[03:13]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[03:13]   Validating workflow...
+[03:13]   Queuing workflow for execution...
+[03:15]   Frame 2 saved (frame_001.jpg, t=2.2s)
+[03:15]   [capture-periodic] freeze=3ms shot=99ms unfreeze=3ms saved=True
+[03:17]   Node executed (1 total), capturing...
+[03:17]   Frame 3 saved (frame_002.jpg, t=4.1s)
+[03:17]   [capture-node] freeze=3ms shot=100ms unfreeze=7ms saved=True
+[03:17]   [Console-error] No input!
+[03:17]   [Console-error] No input!
+[03:17]   Node executed (2 total), capturing...
+[03:19]   Frame 4 saved (frame_003.jpg, t=4.6s)
+[03:19]   [capture-node] freeze=40ms shot=1511ms unfreeze=0ms saved=True
+[03:19]   Execution complete (t=4.6s)
+[03:19]   Captured 4 unique frames over 6.22s
+[03:19]   [debug] iframes: 1
+[03:19]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[03:19]   [timing] trigger_3d_previews: 0.0s
+[03:22]   Saved high-quality screenshot: remeshing_CGAL_executed.png
+[03:22]   [timing] final_screenshot: 0.8s
+[03:22] Capturing execution frames: remeshing_blender.json
+[03:22]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:22]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:23]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[03:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[03:23]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[03:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[03:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[03:27]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[03:27]   Validating workflow...
+[03:27]   Queuing workflow for execution...
+[03:29]   Frame 2 saved (frame_001.jpg, t=2.1s)
+[03:29]   [capture-periodic] freeze=3ms shot=86ms unfreeze=2ms saved=True
+[03:31]   Frame 3 saved (frame_002.jpg, t=4.3s)
+[03:31]   [capture-periodic] freeze=2ms shot=138ms unfreeze=2ms saved=True
+[03:31]   Node executed (1 total), capturing...
+[03:31]   [Console-error] No input!
+[03:31]   [Console-error] No input!
+[03:33]   Frame 4 saved (frame_003.jpg, t=4.7s)
+[03:33]   [capture-node] freeze=37ms shot=2053ms unfreeze=11ms saved=True
+[03:35]   Node executed (2 total), capturing...
+[03:35]   Frame 5 saved (frame_004.jpg, t=8.5s)
+[03:35]   [capture-node] freeze=2ms shot=157ms unfreeze=0ms saved=True
+[03:35]   Execution complete (t=8.5s)
+[03:35]   Captured 5 unique frames over 8.65s
+[03:35]   [debug] iframes: 1
+[03:35]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[03:35]   [timing] trigger_3d_previews: 0.0s
+[03:38]   Saved high-quality screenshot: remeshing_blender_executed.png
+[03:38]   [timing] final_screenshot: 0.9s
+[03:38]   [18/25] SKIPPED (not in cpu list) remeshing_gpu.json
+[03:39] Capturing execution frames: side_by_side_viewer.json
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:39]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[03:39]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[03:39]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[03:39]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[03:39]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[03:43]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[03:43]   Validating workflow...
+[03:43]   Queuing workflow for execution...
+[03:43]   [Console-error] No input!
+[03:43]   [Console-error] No input!
+[03:43]   Node executed (1 total), capturing...
+[03:44]   Frame 2 saved (frame_001.jpg, t=0.5s)
+[03:44]   [capture-node] freeze=122ms shot=174ms unfreeze=0ms saved=True
+[03:44]   Execution complete (t=0.5s)
+[03:44]   Captured 2 unique frames over 0.84s
+[03:44]   [debug] iframes: 1
+[03:44]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[03:44]   [timing] trigger_3d_previews: 0.0s
+[03:46]   Saved high-quality screenshot: side_by_side_viewer_executed.png
+[03:46]   [timing] final_screenshot: 0.5s
+[03:47] Capturing execution frames: skeleton_extraction.json
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[03:47]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[03:47]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[03:47]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[03:48]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[03:48]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[03:51]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[03:51]   Validating workflow...
+[03:51]   Queuing workflow for execution...
+[03:54]   Frame 2 saved (frame_001.jpg, t=2.3s)
+[03:54]   [capture-periodic] freeze=4ms shot=90ms unfreeze=6ms saved=True
+[03:57]   [capture-loop] iter=50 t=6.0s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=2
+[04:03]   [capture-loop] iter=100 t=11.7s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=5
+[04:06]   Node executed (1 total), capturing...
+[04:06]   Frame 3 saved (frame_002.jpg, t=15.1s)
+[04:06]   [capture-node] freeze=21ms shot=98ms unfreeze=0ms saved=True
+[04:06]   Execution complete (t=15.1s)
+[04:06]   Captured 3 unique frames over 15.21s
+[04:07]   [debug] iframes: 1
+[04:07]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=0x0, rafFrozen=True
+[04:07]   [timing] trigger_3d_previews: 0.0s
+[04:07]   [Console-error] No input!
+[04:09]   Saved high-quality screenshot: skeleton_extraction_executed.png
+[04:09]   [timing] final_screenshot: 0.9s
+[04:10] Capturing execution frames: surface_reconstruction.json
+[04:10]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:10]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:11]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:11]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[04:11]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[04:11]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[04:11]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[04:12]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[04:15]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[04:15]   Validating workflow...
+[04:15]   Queuing workflow for execution...
+[04:16]   Node executed (1 total), capturing...
+[04:17]   [Console-error] No input!
+[04:17]   [Console-error] No input!
+[04:18]   Frame 2 saved (frame_001.jpg, t=1.2s)
+[04:18]   [capture-node] freeze=7ms shot=471ms unfreeze=822ms saved=True
+[04:19]   Node executed (2 total), capturing...
+[04:19]   Frame 3 saved (frame_002.jpg, t=3.6s)
+[04:19]   [capture-node] freeze=3ms shot=88ms unfreeze=0ms saved=True
+[04:19]   Execution complete (t=3.6s)
+[04:19]   Captured 3 unique frames over 3.73s
+[04:19]   [debug] iframes: 1
+[04:19]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1230, rafFrozen=True
+[04:19]   [timing] trigger_3d_previews: 0.0s
+[04:22]   Saved high-quality screenshot: surface_reconstruction_executed.png
+[04:22]   [timing] final_screenshot: 0.6s
+[04:22] Capturing execution frames: test_loading.json
+[04:22]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:22]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:22]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:23]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:23]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[04:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[04:23]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[04:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[04:23]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[04:27]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[04:27]   Validating workflow...
+[04:27]   Queuing workflow for execution...
+[04:28]   Node executed (1 total), capturing...
+[04:28]   Frame 2 saved (frame_001.jpg, t=1.1s)
+[04:28]   [capture-node] freeze=5ms shot=110ms unfreeze=3ms saved=True
+[04:28]   Node executed (2 total), capturing...
+[04:28]   Frame 3 saved (frame_002.jpg, t=1.5s)
+[04:28]   [capture-node] freeze=6ms shot=127ms unfreeze=6ms saved=True
+[04:31]   Node executed (3 total), capturing...
+[04:31]   [Console-error] No input!
+[04:31]   [Console-error] No input!
+[04:32]   Frame 4 saved (frame_003.jpg, t=4.5s)
+[04:32]   [capture-node] freeze=182ms shot=686ms unfreeze=0ms saved=True
+[04:32]   Execution complete (t=4.5s)
+[04:32]   Captured 4 unique frames over 5.4s
+[04:32]   [debug] iframes: 1
+[04:32]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=894x1248, rafFrozen=True
+[04:32]   [timing] trigger_3d_previews: 0.0s
+[04:35]   Saved high-quality screenshot: test_loading_executed.png
+[04:35]   [timing] final_screenshot: 0.6s
+[04:35] Capturing execution frames: transform.json
+[04:35]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:35]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:36]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:36]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:36]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:36]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:36]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[04:36]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[04:36]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[04:36]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[04:36]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[04:40]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[04:40]   Validating workflow...
+[04:40]   Queuing workflow for execution...
+[04:40]   Node executed (2 total), capturing...
+[04:40]   [Console-error] No input!
+[04:41]   Frame 2 saved (frame_001.jpg, t=0.6s)
+[04:41]   [capture-node] freeze=21ms shot=371ms unfreeze=0ms saved=True
+[04:41]   Execution complete (t=0.6s)
+[04:41]   Captured 2 unique frames over 0.99s
+[04:41]   [debug] iframes: 1
+[04:41]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=1771923, canvas=1792x1248, rafFrozen=True
+[04:41]   [timing] trigger_3d_previews: 0.0s
+[04:43]   Saved high-quality screenshot: transform_executed.png
+[04:43]   [timing] final_screenshot: 0.7s
+[04:44] Capturing execution frames: uv_wrapping.json
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:44]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[04:45]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[04:45]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[04:45]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[04:45]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[04:45]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[04:49]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[04:49]   Validating workflow...
+[04:49]   Queuing workflow for execution...
+[04:52]   Frame 2 saved (frame_001.jpg, t=2.8s)
+[04:52]   [capture-periodic] freeze=71ms shot=141ms unfreeze=13ms saved=True
+[04:55]   Frame 3 saved (frame_002.jpg, t=5.2s)
+[04:55]   [capture-periodic] freeze=92ms shot=212ms unfreeze=5ms saved=True
+[04:55]   Node executed (1 total), capturing...
+[04:56]   Frame 4 saved (frame_003.jpg, t=6.3s)
+[04:56]   [capture-node] freeze=50ms shot=282ms unfreeze=18ms saved=True
+[04:56]   Node executed (2 total), capturing...
+[04:56]   Frame 5 saved (frame_004.jpg, t=7.0s)
+[04:56]   [capture-node] freeze=41ms shot=240ms unfreeze=4ms saved=True
+[04:57]   Execution complete (t=7.7s)
+[04:57]   Captured 5 unique frames over 7.94s
+[04:57]   [debug] iframes: 1
+[04:57]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=177192393, canvas=694x704, rafFrozen=False
+[04:57]   [timing] trigger_3d_previews: 0.1s
+[05:00]   Saved high-quality screenshot: uv_wrapping_executed.png
+[05:00]   [timing] final_screenshot: 0.9s
+[05:01] Capturing execution frames: view_texture.json
+[05:01]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:01]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:01]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:01]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:01]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:02]   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[05:02]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[05:02]   [Console-warning] WARNING: Multiple instances of Three.js being imported.
+[05:02]   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[05:02]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[05:02]   [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[05:04]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[05:04]   [Console-error] No input!
+[05:07]   Frame 1 saved (frame_000.jpg, t=0.0s)
+[05:07]   Validating workflow...
+[05:07]   Queuing workflow for execution...
+[05:07]   [Console-error] No input!
+[05:07]   Node executed (1 total), capturing...
+[05:07]   [Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[05:08]   Frame 2 saved (frame_001.jpg, t=0.9s)
+[05:08]   [capture-node] freeze=304ms shot=216ms unfreeze=0ms saved=True
+[05:08]   Execution complete (t=0.9s)
+[05:08]   Captured 2 unique frames over 1.74s
+[05:08]   [debug] iframes: 1
+[05:08]   [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer_vtk_textured.html?v, canvas=270x478, rafFrozen=True
+[05:08]   [timing] trigger_3d_previews: 0.0s
+[05:11]   Saved high-quality screenshot: view_texture_executed.png
+[05:11]   [timing] final_screenshot: 0.7s
+[05:12] Results saved to /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-0900/macos-cpu/results.json
+[05:12] Saved: /Users/runner/work/ComfyUI-GeometryPack/ComfyUI-GeometryPack/comfy-test-logs/GeometryPack-0900/macos-cpu/index.html
+[05:12] [EXECUTION] PASSED
+[05:12] 
 macos: PASSED

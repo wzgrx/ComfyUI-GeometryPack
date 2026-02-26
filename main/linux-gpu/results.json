@@ -1,11 +1,13 @@
 {
-  "timestamp": "2026-02-12T21:54:57.366196+00:00",
+  "timestamp": "2026-02-23T21:29:25.306597+00:00",
   "platform": "linux",
   "hardware": {
-    "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
-    "cpu": "Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS)",
-    "gpu": "NVIDIA RTX A4000"
+    "os": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+    "gpu": "NVIDIA RTX A6000"
   },
+  "commit_hash": "d1268dcbdfed8f99816e98cb915f08733a1e9541",
+  "success": true,
   "summary": {
     "total": 25,
     "passed": 1,
@@ -134,23 +136,23 @@
     {
       "name": "remeshing_gpu",
       "status": "pass",
-      "duration_seconds": 298.44,
+      "duration_seconds": 27.64,
       "error": null,
       "hardware": {
-        "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
-        "cpu": "Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS)",
-        "gpu": "NVIDIA RTX A4000"
+        "os": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+        "gpu": "NVIDIA RTX A6000"
       },
       "resources": {
         "ram": {
-          "peak": 3.58,
-          "avg": 2.99
+          "peak": 2.66,
+          "avg": 1.61
         },
-        "total_ram_gb": 14.6,
-        "samples": 177,
+        "total_ram_gb": 23.5,
+        "samples": 27,
         "vram": {
-          "peak": 1.98,
-          "avg": 0.49
+          "peak": 1.27,
+          "avg": 0.76
         }
       }
     },

@@ -4,9 +4,10 @@
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-[Console-log] [GeomPack] Loading mesh preview extension...
-[Console-log] [GeomPack] Mesh preview extension registered
-[Console-log] [GeomPack Gaussian] Loading extension...
+[Console-warning] WARNING: Multiple instances of Three.js being imported.
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [GeomPack] Loading VTK.js textured mesh preview extension...
+[Console-log] [GeomPack] VTK.js textured mesh preview extension registered
 [Console-log] [FBX Preview] Auto-registering for all known FBX preview node types...
 [Console-log] [UniRig] Loading FBX mesh preview extension...
 [Console-log] [UniRig] Detected extension folder: ComfyUI-GeometryPack
@@ -23,32 +24,34 @@
 [Console-log] [UniRig Compare] Loading compare skeleton widget...
 [Console-log] [UniRig Compare] Detected extension folder: ComfyUI-GeometryPack
 [Console-log] [UniRig Compare] Compare skeleton widget registered
-[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension
-[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension...
-[Console-log] [FBXAnimationViewer] Extension registered: comfy3d.fbxanimationviewer
-[Console-log] [GeomPack] Loading VTK.js textured mesh preview extension...
-[Console-log] [GeomPack] VTK.js textured mesh preview extension registered
-[Console-log] [DynamicWidgets] Loading extension...
-[Console-log] [DynamicWidgets] Extension registered
-[Console-log] [UniRig Debug] Loading FBX mesh preview extension...
-[Console-log] [UniRig Debug] Detected extension folder: ComfyUI-GeometryPack
-[Console-log] [UniRig Debug] FBX mesh preview extension registered
-[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension
-[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension...
-[Console-log] [CompareSMPLBVH] Extension registered: comfy3d.comparesmplbvh
-[Console-log] [GeomPack Multi JS] Loading mesh_preview_multi.js extension
-[Console-log] [GeomPack] Loading UV mesh preview extension...
-[Console-log] [GeomPack] UV mesh preview extension registered
 [Console-log] [BVHViewer] Loading BVH Viewer extension
 [Console-log] [BVHViewer] Loading BVH viewer extension...
 [Console-log] [BVHViewer] Extension registered: comfy3d.bvhviewer
-[Console-warning] WARNING: Multiple instances of Three.js being imported.
-[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [GeomPack] Loading mesh preview extension...
+[Console-log] [GeomPack] Mesh preview extension registered
+[Console-log] [UniRig Debug] Loading FBX mesh preview extension...
+[Console-log] [UniRig Debug] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [UniRig Debug] FBX mesh preview extension registered
+[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension
+[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension...
+[Console-log] [FBXAnimationViewer] Extension registered: comfy3d.fbxanimationviewer
+[Console-log] [GeomPack Multi JS] Loading mesh_preview_multi.js extension
+[Console-log] [GeomPack] Loading UV mesh preview extension...
+[Console-log] [GeomPack] UV mesh preview extension registered
+[Console-log] [DynamicWidgets] Loading extension...
+[Console-log] [DynamicWidgets] Extension registered
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension...
+[Console-log] [CompareSMPLBVH] Extension registered: comfy3d.comparesmplbvh
+[Console-log] [GeomPack Gaussian] Loading extension...
 [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
 [Console-log] [DynamicWidgets] Loaded mappings for 6 nodes
 [Console-log] [GeomPack] Registering Preview Mesh node
 [Console-log] [GeomPack] Registering Preview Mesh UV node
 [Console-log] [GeomPack Gaussian] Registering Preview Gaussian node
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
 [Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
 [Console-log] [DynamicWidgets] Setting up node: GeomPackRemesh
 [Console-log] [DynamicWidgets] GeomPackRemesh: backend="pymeshlab_isotropic", visible=[target_edge_length, iterations, feature_angle, adaptive]
@@ -71,43 +74,34 @@
 [Console-log] [GeomPack Multi] Iframe loaded
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox element: JSHandle@node
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div: JSHandle@node
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 599.5, left: 89, width: 13, height: 13, bottom: 612.5}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 726.5, left: 89, width: 13, height: 13, bottom: 739.5}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox style: {display: block, visibility: visible, opacity: 1, position: static}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div style: {display: flex, visibility: visible, position: static, bottom: auto, height: 48px}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 638, bodyScrollHeight: 638, windowHeight: 638, viewportHeight: 638}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 765, bodyScrollHeight: 765, windowHeight: 765, viewportHeight: 765}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Is edges checkbox visible in viewport? true
 [Console-log] [comfy-test] graphToPrompt: 5 nodes, missing class_type: [], sample: {"inputs":{"file_path":"3d/ArmoredWarrior_00005_.glb"},"class_type":"GeomPackLoadMesh","_meta":{"title":"Load Mesh"}}
 [Console-log] [VTK Bundle] GLTFImporter included in bundle
 [Console-log] [GeomPack VTK Dual Viewer] Initializing...
 [Console-log] [GeomPack VTK Dual Viewer] Ready
-[Console-log] [GeomPack VTK Dual Viewer] Received LOAD_DUAL_MESH message: {type: LOAD_DUAL_MESH, layout: side_by_side, mesh1Filepath: /view?filename=preview_dual_1_f74e90a6.stl&type=output&subfolder=, mesh2Filepath: /view?filename=preview_dual_2_f74e90a6.stl&type=output&subfolder=, meshFilepath: undefined}
+[Console-log] [GeomPack VTK Dual Viewer] Received LOAD_DUAL_MESH message: {type: LOAD_DUAL_MESH, layout: side_by_side, mesh1Filepath: /view?filename=preview_dual_1_13fe4c8a.stl&type=output&subfolder=, mesh2Filepath: /view?filename=preview_dual_2_13fe4c8a.stl&type=output&subfolder=, meshFilepath: undefined}
 [Console-error] No input!
 [Console-error] No input!
-[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 1: /view?filename=preview_dual_1_f74e90a6.stl&type=output&subfolder=
-[Console-warning] [.WebGL-0x11400445200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-warning] [.WebGL-0x11400445200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-warning] [.WebGL-0x11400445200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-warning] [.WebGL-0x11400445200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox element: JSHandle@node
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div: JSHandle@node
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 523.5, left: 89, width: 13, height: 13, bottom: 536.5}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox style: {display: block, visibility: visible, opacity: 1, position: static}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div style: {display: flex, visibility: visible, position: static, bottom: auto, height: 48px}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 562, bodyScrollHeight: 562, windowHeight: 562, viewportHeight: 562}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Is edges checkbox visible in viewport? true
-[Console-log] [GeomPack VTK Dual Viewer] Mesh 1 loaded successfully
-[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 2: /view?filename=preview_dual_2_f74e90a6.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Dual Viewer] Mesh 2 loaded successfully
-[Console-log] [GeomPack VTK Dual Viewer] Meshes loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 1: /view?filename=preview_dual_1_13fe4c8a.stl&type=output&subfolder=
+[Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[Console-warning] [.WebGL-0x11c0019f600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
 [Console-log] [GeomPack Multi] onExecuted: 3 meshes, grid 3x1
-[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1770931341580, showEdges: true}
-[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1770931341580, showEdges: true}
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1771923664703, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1771923664703, showEdges: true}
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_592a7ba5.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_592a7ba5.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_592a7ba5.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_abf67bce.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_abf67bce.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_abf67bce.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Dual Viewer] Mesh 1 loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 2: /view?filename=preview_dual_2_13fe4c8a.stl&type=output&subfolder=
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
@@ -117,8 +111,17 @@
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-0.499833881855011, 0.499895304441452, -0.4982451796531677, 0.4918738305568695, -0.18856438994407654, 0.19519361853599548]
 [Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-0.49985289573669434, 0.49984443187713623, -0.49795323610305786, 0.49410393834114075, -0.19512704014778137, 0.19656376540660858]
 [Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-0.5001333951950073, 0.5001360774040222, -0.4982451796531677, 0.49439626932144165, -0.19541896879673004, 0.19685593247413635]
-[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-0.499833881855011, 0.499895304441452, -0.4982451796531677, 0.4918738305568695, -0.18856438994407654, 0.19519361853599548]
 [Console-log] [GeomPack VTK Multi Viewer] Common fields: []
 [Console-log] [GeomPack VTK Multi Viewer] All meshes loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Mesh 2 loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Meshes loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox element: JSHandle@node
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div: JSHandle@node
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 650.5, left: 89, width: 13, height: 13, bottom: 663.5}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox style: {display: block, visibility: visible, opacity: 1, position: static}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div style: {display: flex, visibility: visible, position: static, bottom: auto, height: 48px}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 689, bodyScrollHeight: 689, windowHeight: 689, viewportHeight: 689}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Is edges checkbox visible in viewport? true

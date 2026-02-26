@@ -5,12 +5,34 @@ Capturing execution frames: mesh_mesh_distance.json
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
   [Console-warning] WARNING: Multiple instances of Three.js being imported.
   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+  Frame 1 saved (frame_000.jpg, t=0.0s)
   Validating workflow...
   Queuing workflow for execution...
-  Captured 6 frames over 19.06s
-  6 unique frames saved
-  Waiting 5000ms for previews to render...
+  Frame 2 saved (frame_001.jpg, t=2.3s)
+  [capture-periodic] freeze=4ms shot=158ms unfreeze=6ms saved=True
+  [capture-loop] iter=50 t=6.0s state={'complete': False, 'error': None, 'executedCount': 0, 'wsState': 1} eval_ms=4
+  Node executed (1 total), capturing...
+  Frame 3 saved (frame_002.jpg, t=8.4s)
+  [capture-node] freeze=4ms shot=146ms unfreeze=4ms saved=True
+  Node executed (2 total), capturing...
+  Frame 4 saved (frame_003.jpg, t=8.9s)
+  [capture-node] freeze=4ms shot=176ms unfreeze=5ms saved=True
+  [capture-loop] iter=100 t=12.6s state={'complete': False, 'error': None, 'executedCount': 2, 'wsState': 1} eval_ms=4
+  Node executed (3 total), capturing...
+  Frame 5 saved (frame_004.jpg, t=15.6s)
+  [capture-node] freeze=4ms shot=158ms unfreeze=30ms saved=True
+  Node executed (4 total), capturing...
+  Frame 6 saved (frame_005.jpg, t=16.0s)
+  [capture-node] freeze=4ms shot=151ms unfreeze=3ms saved=True
+  Execution complete (t=16.3s)
+  Captured 6 unique frames over 16.34s
+  [debug] iframes: 0
+  [timing] trigger_3d_previews: 0.0s
   Saved high-quality screenshot: mesh_mesh_distance_executed.png
+  [timing] final_screenshot: 0.8s
     Captured 7 video frames

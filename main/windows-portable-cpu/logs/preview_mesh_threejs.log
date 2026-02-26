@@ -4,12 +4,22 @@ Capturing execution frames: preview_mesh_threejs.json
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
   [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
   [Console-warning] WARNING: Multiple instances of Three.js being imported.
   [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+  [Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+  Frame 1 saved (frame_000.jpg, t=0.0s)
   Validating workflow...
   Queuing workflow for execution...
-  Captured 3 frames over 7.99s
-  3 unique frames saved
-  Waiting 5000ms for previews to render...
+  Node executed (1 total), capturing...
+  Frame 2 saved (frame_001.jpg, t=1.2s)
+  [capture-node] freeze=137ms shot=224ms unfreeze=0ms saved=True
+  Execution complete (t=1.2s)
+  Captured 2 unique frames over 1.63s
+  [debug] iframes: 1
+  [debug]   iframe[0]: src=http://127.0.0.1:8188/extensions/ComfyUI-GeometryPack/viewer.html?v=177192398569, canvas=1176x1196, rafFrozen=True
+  [timing] trigger_3d_previews: 0.0s
   Saved high-quality screenshot: preview_mesh_threejs_executed.png
-    Captured 4 video frames
+  [timing] final_screenshot: 0.7s
+    Captured 3 video frames

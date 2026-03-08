@@ -1,453 +1,644 @@
 {
-  "timestamp": "2026-02-12T21:31:17.906075+00:00",
+  "timestamp": "2026-03-08T18:41:15.604888+00:00",
   "platform": "linux",
   "hardware": {
-    "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-    "cpu": "AMD EPYC 7763 64-Core Processor"
+    "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+    "gpu": "NVIDIA GeForce RTX 3090"
   },
+  "commit_hash": "df7acaa44fbe24ea0bf344e22792c1c72d099fc0",
+  "success": true,
   "summary": {
-    "total": 25,
-    "passed": 24,
+    "total": 33,
+    "passed": 33,
     "failed": 0
   },
   "workflows": [
     {
       "name": "alpha_wrap",
       "status": "pass",
-      "duration_seconds": 28.24,
+      "duration_seconds": 21.08,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.42,
-          "avg": 2.2
+          "peak": 2.28,
+          "avg": 1.58
         },
-        "total_ram_gb": 15.6,
-        "samples": 29
+        "total_ram_gb": 31.2,
+        "samples": 21
       }
     },
     {
       "name": "batch_remesh",
       "status": "pass",
-      "duration_seconds": 31.04,
+      "duration_seconds": 19.94,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.54,
-          "avg": 2.32
+          "peak": 2.53,
+          "avg": 2.39
         },
-        "total_ram_gb": 15.6,
-        "samples": 32
+        "total_ram_gb": 31.2,
+        "samples": 20
       }
     },
     {
       "name": "boolean_ops",
       "status": "pass",
-      "duration_seconds": 20.12,
+      "duration_seconds": 10.22,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 2.5,
+          "avg": 2.49
+        },
+        "total_ram_gb": 31.2,
+        "samples": 11
+      }
+    },
+    {
+      "name": "decimate",
+      "status": "pass",
+      "duration_seconds": 9.71,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
           "peak": 2.36,
-          "avg": 2.26
+          "avg": 2.33
         },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 10
       }
     },
     {
       "name": "depth_map_to_mesh",
       "status": "pass",
-      "duration_seconds": 23.63,
+      "duration_seconds": 28.69,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.79,
-          "avg": 2.52
+          "peak": 2.73,
+          "avg": 2.23
         },
-        "total_ram_gb": 15.6,
-        "samples": 24
-      }
-    },
-    {
-      "name": "fill_holes",
-      "status": "pass",
-      "duration_seconds": 19.83,
-      "error": null,
-      "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
-      },
-      "resources": {
-        "ram": {
-          "peak": 2.75,
-          "avg": 2.38
-        },
-        "total_ram_gb": 15.6,
-        "samples": 20
-      }
-    },
-    {
-      "name": "fix_normals",
-      "status": "pass",
-      "duration_seconds": 20.32,
-      "error": null,
-      "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
-      },
-      "resources": {
-        "ram": {
-          "peak": 2.33,
-          "avg": 2.24
-        },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 29
       }
     },
     {
       "name": "fix_self_intersection",
       "status": "pass",
-      "duration_seconds": 20.82,
+      "duration_seconds": 11.4,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.3,
-          "avg": 2.25
+          "peak": 2.55,
+          "avg": 2.47
         },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 12
       }
     },
     {
       "name": "mesh_info",
       "status": "pass",
-      "duration_seconds": 18.12,
+      "duration_seconds": 9.27,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.24,
-          "avg": 2.2
+          "peak": 2.42,
+          "avg": 2.4
         },
-        "total_ram_gb": 15.6,
-        "samples": 19
+        "total_ram_gb": 31.2,
+        "samples": 10
       }
     },
     {
       "name": "mesh_mesh_distance",
       "status": "pass",
-      "duration_seconds": 30.04,
+      "duration_seconds": 20.43,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.45,
-          "avg": 2.26
+          "peak": 2.39,
+          "avg": 2.23
         },
-        "total_ram_gb": 15.6,
-        "samples": 31
+        "total_ram_gb": 31.2,
+        "samples": 21
       }
     },
     {
       "name": "normals",
       "status": "pass",
-      "duration_seconds": 20.32,
+      "duration_seconds": 11.27,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.39,
-          "avg": 2.29
+          "peak": 2.17,
+          "avg": 2.16
         },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 12
       }
     },
     {
       "name": "point_mesh_distance",
       "status": "pass",
-      "duration_seconds": 21.02,
+      "duration_seconds": 10.44,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.35,
-          "avg": 2.27
+          "peak": 2.17,
+          "avg": 2.17
         },
-        "total_ram_gb": 15.6,
-        "samples": 22
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
     },
     {
       "name": "preview_mesh_threejs",
       "status": "pass",
-      "duration_seconds": 19.63,
+      "duration_seconds": 9.42,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.35,
-          "avg": 2.26
+          "peak": 2.16,
+          "avg": 2.16
         },
-        "total_ram_gb": 15.6,
-        "samples": 20
+        "total_ram_gb": 31.2,
+        "samples": 10
       }
     },
     {
       "name": "refine_mesh",
       "status": "pass",
-      "duration_seconds": 21.02,
+      "duration_seconds": 11.03,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.41,
-          "avg": 2.32
+          "peak": 2.16,
+          "avg": 2.16
         },
-        "total_ram_gb": 15.6,
-        "samples": 22
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
     },
     {
       "name": "remesh_intersections",
       "status": "pass",
-      "duration_seconds": 20.73,
+      "duration_seconds": 10.64,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.41,
-          "avg": 2.24
+          "peak": 2.17,
+          "avg": 2.16
         },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
     },
     {
       "name": "remeshing",
       "status": "pass",
-      "duration_seconds": 26.23,
+      "duration_seconds": 43.34,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.73,
-          "avg": 2.36
+          "peak": 2.17,
+          "avg": 2.0
         },
-        "total_ram_gb": 15.6,
-        "samples": 27
+        "total_ram_gb": 31.2,
+        "samples": 43
       }
     },
     {
-      "name": "remeshing_CGAL",
+      "name": "sMOOth",
       "status": "pass",
-      "duration_seconds": 25.73,
+      "duration_seconds": 10.45,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.46,
-          "avg": 2.35
+          "peak": 2.04,
+          "avg": 2.03
         },
-        "total_ram_gb": 15.6,
-        "samples": 26
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
     },
     {
-      "name": "remeshing_blender",
+      "name": "sharpen",
       "status": "pass",
-      "duration_seconds": 23.33,
+      "duration_seconds": 10.52,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.46,
-          "avg": 2.36
+          "peak": 2.04,
+          "avg": 2.04
         },
-        "total_ram_gb": 15.6,
-        "samples": 24
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
-    },
-    {
-      "name": "remeshing_gpu",
-      "status": "skipped",
-      "duration_seconds": 0,
-      "error": "Not configured for CPU runner",
-      "hardware": null
     },
     {
       "name": "side_by_side_viewer",
       "status": "pass",
-      "duration_seconds": 19.02,
+      "duration_seconds": 13.08,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.36,
-          "avg": 2.28
+          "peak": 2.04,
+          "avg": 1.79
         },
-        "total_ram_gb": 15.6,
-        "samples": 20
+        "total_ram_gb": 31.2,
+        "samples": 13
       }
     },
     {
       "name": "skeleton_extraction",
       "status": "pass",
-      "duration_seconds": 22.13,
+      "duration_seconds": 10.83,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.42,
-          "avg": 2.28
+          "peak": 1.98,
+          "avg": 1.87
         },
-        "total_ram_gb": 15.6,
-        "samples": 23
+        "total_ram_gb": 31.2,
+        "samples": 11
       }
     },
     {
       "name": "surface_reconstruction",
       "status": "pass",
-      "duration_seconds": 21.63,
+      "duration_seconds": 15.49,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.48,
-          "avg": 2.34
+          "peak": 2.17,
+          "avg": 2.08
         },
-        "total_ram_gb": 15.6,
-        "samples": 22
+        "total_ram_gb": 31.2,
+        "samples": 16
       }
     },
     {
       "name": "test_loading",
       "status": "pass",
-      "duration_seconds": 20.42,
+      "duration_seconds": 13.87,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.4,
-          "avg": 2.29
+          "peak": 3.1,
+          "avg": 2.58
         },
-        "total_ram_gb": 15.6,
-        "samples": 21
+        "total_ram_gb": 31.2,
+        "samples": 14
+      }
+    },
+    {
+      "name": "boolean_ops_all",
+      "status": "pass",
+      "duration_seconds": 11.09,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.1,
+          "avg": 3.1
+        },
+        "total_ram_gb": 31.2,
+        "samples": 11
+      }
+    },
+    {
+      "name": "decimate_all",
+      "status": "pass",
+      "duration_seconds": 20.37,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.17,
+          "avg": 2.94
+        },
+        "total_ram_gb": 31.2,
+        "samples": 20
+      }
+    },
+    {
+      "name": "fill_holes_all",
+      "status": "pass",
+      "duration_seconds": 16.02,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.92,
+          "avg": 3.5
+        },
+        "total_ram_gb": 31.2,
+        "samples": 16
+      }
+    },
+    {
+      "name": "fix_normals_all",
+      "status": "pass",
+      "duration_seconds": 12.8,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.92,
+          "avg": 3.91
+        },
+        "total_ram_gb": 31.2,
+        "samples": 13
+      }
+    },
+    {
+      "name": "reconstruct_all",
+      "status": "pass",
+      "duration_seconds": 18.88,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 3.95,
+          "avg": 3.92
+        },
+        "total_ram_gb": 31.2,
+        "samples": 19
+      }
+    },
+    {
+      "name": "remeshing_all",
+      "status": "pass",
+      "duration_seconds": 197.66,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.59,
+          "avg": 4.25
+        },
+        "total_ram_gb": 31.2,
+        "samples": 194
+      }
+    },
+    {
+      "name": "sharpen_all",
+      "status": "pass",
+      "duration_seconds": 70.69,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.57,
+          "avg": 4.57
+        },
+        "total_ram_gb": 31.2,
+        "samples": 70
+      }
+    },
+    {
+      "name": "skeleton_all",
+      "status": "pass",
+      "duration_seconds": 16.0,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.62,
+          "avg": 4.58
+        },
+        "total_ram_gb": 31.2,
+        "samples": 16
+      }
+    },
+    {
+      "name": "smooth_all",
+      "status": "pass",
+      "duration_seconds": 11.52,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.56,
+          "avg": 4.56
+        },
+        "total_ram_gb": 31.2,
+        "samples": 12
+      }
+    },
+    {
+      "name": "uv_unwrap_all",
+      "status": "pass",
+      "duration_seconds": 33.58,
+      "error": null,
+      "hardware": {
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
+      },
+      "resources": {
+        "ram": {
+          "peak": 4.57,
+          "avg": 4.38
+        },
+        "total_ram_gb": 31.2,
+        "samples": 33
       }
     },
     {
       "name": "transform",
       "status": "pass",
-      "duration_seconds": 18.02,
+      "duration_seconds": 11.85,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.34,
-          "avg": 2.27
+          "peak": 4.36,
+          "avg": 4.36
         },
-        "total_ram_gb": 15.6,
-        "samples": 19
+        "total_ram_gb": 31.2,
+        "samples": 12
       }
     },
     {
-      "name": "uv_wrapping",
+      "name": "uv_unwrap",
       "status": "pass",
-      "duration_seconds": 26.74,
+      "duration_seconds": 16.14,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.38,
-          "avg": 2.31
+          "peak": 4.37,
+          "avg": 4.35
         },
-        "total_ram_gb": 15.6,
-        "samples": 27
+        "total_ram_gb": 31.2,
+        "samples": 16
       }
     },
     {
       "name": "view_texture",
       "status": "pass",
-      "duration_seconds": 18.32,
+      "duration_seconds": 10.21,
       "error": null,
       "hardware": {
-        "os": "Linux-6.14.0-1017-azure-x86_64-with-glibc2.39",
-        "cpu": "AMD EPYC 7763 64-Core Processor"
+        "os": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+        "gpu": "NVIDIA GeForce RTX 3090"
       },
       "resources": {
         "ram": {
-          "peak": 2.42,
-          "avg": 2.31
+          "peak": 4.41,
+          "avg": 4.38
         },
-        "total_ram_gb": 15.6,
-        "samples": 19
+        "total_ram_gb": 31.2,
+        "samples": 10
       }
     }
   ]

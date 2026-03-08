@@ -1,0 +1,808 @@
+Capturing execution frames: uv_unwrap_all.json
+  Frame 1 saved (frame_000.jpg, t=0.0s)
+  Validating workflow...
+  [ComfyUI] === /validate endpoint called ===
+  [ComfyUI] Received JSON with keys: ['prompt']
+  [ComfyUI] Prompt has 19 nodes
+  Queuing workflow for execution...
+  [ComfyUI]   Node 1: GeomPackLoadMesh
+  [ComfyUI]     Inputs: {"file_path": "3d/camelhead.off"}
+  [ComfyUI]   Node 2: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "xatlas", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 3: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "cumesh", "backend.chart_cone_angle": 90, "backend.chart_refine_iterations": 0, "backend.chart_global_iterations": 1, "backend.chart_smooth_strength": 1, "report_panel": "false", "trimesh"
+  [ComfyUI]   Node 4: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "libigl_lscm", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 5: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "libigl_harmonic", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 6: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "libigl_arap", "backend.iterations": 10, "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 7: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "blender_smart", "backend.angle_limit": 66, "backend.island_margin": 0.02, "backend.scale_to_bounds": "true", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 8: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "blender_cube", "backend.cube_size": 1, "backend.scale_to_bounds": "true", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 9: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "blender_cylinder", "backend.cylinder_radius": 0.9, "backend.scale_to_bounds": "true", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 10: GeomPackUVUnwrap
+  [ComfyUI]     Inputs: {"backend": "blender_sphere", "backend.scale_to_bounds": "true", "report_panel": "false", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 15: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["7", 0]}
+  [ComfyUI]   Node 16: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["8", 0]}
+  [ComfyUI]   Node 17: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["10", 0]}
+  [ComfyUI]   Node 18: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["2", 0]}
+  [ComfyUI]   Node 19: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["6", 0]}
+  [ComfyUI]   Node 20: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["3", 0]}
+  [ComfyUI]   Node 21: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["9", 0]}
+  [ComfyUI]   Node 22: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["5", 0]}
+  [ComfyUI]   Node 23: GeomPackPreviewMeshUV
+  [ComfyUI]     Inputs: {"show_checker": false, "show_wireframe": true, "uv_preview": "", "trimesh": ["4", 0]}
+  [ComfyUI] Generated prompt_id: 3b0c9a9e-2403-4bd7-a978-105409090b28
+  [ComfyUI] Calling execution.validate_prompt()...
+  [ComfyUI] Validation result: valid=True
+  [ComfyUI] === Validation PASSED ===
+  [ComfyUI] got prompt
+  [ComfyUI] [comfy-env] Running GeomPackLoadMesh: file_path: '3d/camelhead.off'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.io.load_mesh.LoadMesh.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 0 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=220 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found mesh in input folder: 3d/camelhead.off
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Loading: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/input/3d/camelhead.off
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Initial mesh: 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Successfully loaded: 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Loaded: 11381 vertices, 22704 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackLoadMesh done (0.14s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=221 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: blender_cube -> GeomPackUV_BlenderCube
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=222 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: blender_cylinder -> GeomPackUV_BlenderCylinder
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.06s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=223 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: libigl_harmonic -> GeomPackUV_LibiglHarmonic
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=224 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: libigl_arap -> GeomPackUV_LibiglARAP
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=225 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: cumesh -> GeomPackUV_CuMesh
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.06s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=226 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: blender_sphere -> GeomPackUV_BlenderSphere
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=227 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: blender_smart -> GeomPackUV_BlenderSmart
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.06s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=228 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: xatlas -> GeomPackUV_Xatlas
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUVUnwrap: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.uv_unwrap.UVUnwrapNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=229 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV Unwrap dispatch: libigl_lscm -> GeomPackUV_LibiglLSCM
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUVUnwrap done (0.06s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_BlenderCube: trimesh: Trimesh, cube_size: 1.0, scale_to_bounds: 'true'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.blender.uv.backends.blender_cube.UVBlenderCubeNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: failed
+  [ComfyUI] [ComfyUI-GeometryPack] Socket unhealthy, restarting worker...
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 2 leaked shared_memory objects to clean up at shutdown
+  [ComfyUI]   warnings.warn('resource_tracker: There appear to be %d '
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/lib/python3.11/multiprocessing/resource_tracker.py:267: UserWarning: resource_tracker: '/psm_716d8129': [Errno 2] No such file or directory: '/psm_716d8129'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/lib/python3.11/multiprocessing/resource_tracker.py:267: UserWarning: resource_tracker: '/psm_1842d0e0': [Errno 2] No such file or directory: '/psm_1842d0e0'
+  [ComfyUI] [ComfyUI-GeometryPack] python: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/bin/python
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/andrea/workspaces/GeometryPack-1927/ComfyUI', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/lib/python3.1/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+  [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/bin/python
+  [ComfyUI] [SubprocessWorker] launching cmd=['/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/blender/_env_43a96a/bin/python', '/tmp/comfyui_pvenv_4of935zy/persistent_worker.py', 'unix:///dev/shm/comfy_worker_a441ab13a9ca.sock']...
+  [ComfyUI] [SubprocessWorker] PATH has 11 entries:
+  [ComfyUI] [SubprocessWorker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [SubprocessWorker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [SubprocessWorker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [4] /usr/local/sbin
+  [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+  [ComfyUI] [SubprocessWorker]   [6] /usr/sbin
+  [ComfyUI] [SubprocessWorker]   [7] /usr/bin
+  [ComfyUI] [SubprocessWorker]   [8] /sbin
+  [ComfyUI] [SubprocessWorker]   [9] /bin
+  [ComfyUI] [SubprocessWorker]   ... and 1 more
+  [ComfyUI] [worker] PATH has 11 entries:
+  [ComfyUI] [worker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [worker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [worker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [4] /usr/local/sbin
+  [ComfyUI] [worker]   [5] /usr/local/bin
+  [ComfyUI] [worker]   [6] /usr/sbin
+  [ComfyUI] [worker]   [7] /usr/bin
+  [ComfyUI] [worker]   [8] /sbin
+  [ComfyUI] [worker]   [9] /bin
+  [ComfyUI] [worker]   [10] /snap/bin
+  Frame 2 saved (frame_001.jpg, t=2.4s)
+  [capture-periodic] freeze=5ms shot=155ms unfreeze=5ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] ERROR: Failed to import comfy_kitchen, Error: No module named 'comfy_kitchen', fp8 and fp4 support will not be available.
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=7 sending call_method
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_BlenderCube done (3.99s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=230 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 13121 vertices, 22704 faces
+  Node executed (1 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 13121 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1.         0.99999994], in_unit_square=True, coverage=2.1432
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_ed3fbeba.glb
+  Frame 3 saved (frame_002.jpg, t=5.2s)
+  [capture-node] freeze=5ms shot=166ms unfreeze=4ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_a81d81ed_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.56s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_BlenderCylinder: trimesh: Trimesh, cylinder_radius: 0.9, scale_to_bounds: 'true'
+  Node executed (2 total), capturing...
+  [ComfyUI] [SubprocessWorker] call_method: nodes.blender.uv.backends.blender_cylinder.UVBlenderCylinderNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=8 sending call_method
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_BlenderCylinder done (0.49s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=231 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 11428 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 11428 UV coordinates
+  Frame 4 saved (frame_003.jpg, t=5.7s)
+  [capture-node] freeze=131ms shot=212ms unfreeze=5ms saved=True
+  Node executed (3 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1. 1.], in_unit_square=True, coverage=0.6828
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_cca6a300.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_7a4e96f8_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.38s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_LibiglHarmonic: trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.backends.libigl_harmonic.UVLibiglHarmonicNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=232 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: libigl_harmonic
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Output: 11381 vertices, 22704 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_LibiglHarmonic done (0.13s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=233 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 11381 UV coordinates
+  Frame 5 saved (frame_004.jpg, t=6.4s)
+  [capture-node] freeze=5ms shot=205ms unfreeze=7ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1. 1.], in_unit_square=True, coverage=0.7838
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_779f449e.glb
+  Node executed (5 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_b383fb0e_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.36s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_LibiglARAP: trimesh: Trimesh, iterations: 10
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.backends.libigl_arap.UVLibiglARAPNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=234 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: libigl_arap
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Parameters: iterations=10
+  Frame 6 saved (frame_005.jpg, t=7.0s)
+  [capture-node] freeze=4ms shot=189ms unfreeze=6ms saved=True
+  Node executed (6 total), capturing...
+  Frame 7 saved (frame_006.jpg, t=7.5s)
+  [capture-node] freeze=3ms shot=191ms unfreeze=4ms saved=True
+  [capture-loop] iter=50 t=8.3s state={'complete': False, 'error': None, 'executedCount': 6, 'wsState': 1} eval_ms=8
+  [ComfyUI] [worker:ComfyUI-GeometryPack]
+  [ComfyUI] === WATCHDOG TICK 4 ===
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Output: 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] Thread 0x00007ed892ff5640 (most recent call first):
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 324 in wait
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 607 in wait
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.1/site-packages/tqdm/_monitor.py", line 60 in run
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 1016 in _bootstrap_inner
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 973 in _bootstrap
+  [ComfyUI] 
+  [ComfyUI] Thread 0x00007ed97f499640 (most recent call first):
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/socket.py", line 293 in accept
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/connection.py", line 609 in accept
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/connection.py", line 463 in accept
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_sharer.py", line 138 in _serve
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 953 in run
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 1016 in _bootstrap_inner
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 973 in _bootstrap
+  [ComfyUI] 
+  [ComfyUI] Thread 0x00007edb02ccd640 (most recent call first):
+  [ComfyUI]   File "/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py", line 106 in _vram_poller
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 953 in run
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 1016 in _bootstrap_inner
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 973 in _bootstrap
+  [ComfyUI] 
+  [ComfyUI] Current thread 0x00007edb034ce640 (most recent call first):
+  [ComfyUI]   File "/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py", line 52 in _watchdog
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 953 in run
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 1016 in _bootstrap_inner
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/threading.py", line 973 in _bootstrap
+  [ComfyUI] 
+  [ComfyUI] Thread 0x00007edb04200740 (most recent call first):
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/site-packages/numpy/_core/_methods.py", line 48 in _amin
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/uv/backends/libigl_arap.py", line 85 in execute
+  [ComfyUI]   File "/home/andrea/workspaces/GeometryPack-1927/ComfyUI/comfy_api/latest/_io.py", line 1764 in EXECUTE_NORMALIZED
+  [ComfyUI]   File "/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py", line 1520 in main
+  [ComfyUI]   File "/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py", line 1552 in <module>
+  [ComfyUI] 
+  [ComfyUI] [worker:ComfyUI-GeometryPack] === END ===
+  [ComfyUI] 
+  [ComfyUI] [SubprocessWorker] got response: ok
+  Node executed (7 total), capturing...
+  [ComfyUI] [comfy-env] GeomPackUV_LibiglARAP done (2.33s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=235 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 11381 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1. 1.], in_unit_square=True, coverage=0.7572
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_59e2e18e.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_a0c900cb_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.38s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_CuMesh: trimesh: Trimesh, chart_cone_angle: 90.0, chart_refine_iterations: 0, chart_global_iterations: 1, chart_smooth_strength: 1
+  [ComfyUI] [SubprocessWorker] call_method: nodes.gpu.uv_gpu.cumesh_uv.UVCuMeshNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: failed
+  [ComfyUI] [ComfyUI-GeometryPack] Socket unhealthy, restarting worker...
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 2 leaked shared_memory objects to clean up at shutdown
+  [ComfyUI]   warnings.warn('resource_tracker: There appear to be %d '
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_0a25a81b': [Errno 2] No such file or directory: '/psm_0a25a81b'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_c93be906': [Errno 2] No such file or directory: '/psm_c93be906'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  Frame 8 saved (frame_007.jpg, t=9.5s)
+  [capture-node] freeze=5ms shot=180ms unfreeze=2ms saved=True
+  Node executed (8 total), capturing...
+  [ComfyUI] [ComfyUI-GeometryPack] python: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/bin/python
+  [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/andrea/workspaces/GeometryPack-1927/ComfyUI', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/lib/python3.1/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+  [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/bin/python
+  [ComfyUI] [SubprocessWorker] launching cmd=['/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/gpu/_env_2fa93a/bin/python', '/tmp/comfyui_pvenv_du_3zstg/persistent_worker.py', 'unix:///dev/shm/comfy_worker_cb50b05789ab.sock']...
+  [ComfyUI] [SubprocessWorker] PATH has 11 entries:
+  [ComfyUI] [SubprocessWorker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [SubprocessWorker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [SubprocessWorker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [4] /usr/local/sbin
+  [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+  [ComfyUI] [SubprocessWorker]   [6] /usr/sbin
+  [ComfyUI] [SubprocessWorker]   [7] /usr/bin
+  [ComfyUI] [SubprocessWorker]   [8] /sbin
+  [ComfyUI] [SubprocessWorker]   [9] /bin
+  [ComfyUI] [SubprocessWorker]   ... and 1 more
+  [ComfyUI] [worker] PATH has 11 entries:
+  [ComfyUI] [worker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [worker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [worker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [4] /usr/local/sbin
+  [ComfyUI] [worker]   [5] /usr/local/bin
+  [ComfyUI] [worker]   [6] /usr/sbin
+  [ComfyUI] [worker]   [7] /usr/bin
+  [ComfyUI] [worker]   [8] /sbin
+  [ComfyUI] [worker]   [9] /bin
+  [ComfyUI] [worker]   [10] /snap/bin
+  Frame 9 saved (frame_008.jpg, t=10.0s)
+  [capture-node] freeze=3ms shot=229ms unfreeze=3ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] ERROR: Failed to import comfy_kitchen, Error: No module named 'comfy_kitchen', fp8 and fp4 support will not be available.
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=3 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] Get 22 clusters after fast clustering
+  [ComfyUI] 
+  [ComfyUI] Adding clusters to xatlas:   0%|                                                                                                                                                    | 0/22 [00:00<?, ?it/s]
+  [ComfyUI] Adding clusters to xatlas: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 3339.90it/s]
+  [ComfyUI] 
+  [ComfyUI] xatlas: Computing charts:   0%|                                                                                                                                                    | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Computing charts:   0%|                                                                                                                                                    | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Computing charts:   1%|█▍                                                                                                                                         | 1/100 [00:00<00:00, 995.56it/s]
+  [ComfyUI] xatlas: Computing charts:   2%|██▊                                                                                                                                        | 2/100 [00:00<00:00, 100.76it/s]
+  [ComfyUI] xatlas: Computing charts:   3%|████▏                                                                                                                                      | 3/100 [00:00<00:00, 148.83it/s]
+  [ComfyUI] xatlas: Computing charts:   4%|█████▌                                                                                                                                     | 4/100 [00:00<00:00, 126.09it/s]
+  [ComfyUI] xatlas: Computing charts:   6%|████████▎                                                                                                                                  | 6/100 [00:00<00:00, 174.92it/s]
+  [ComfyUI] xatlas: Computing charts:   7%|█████████▋                                                                                                                                 | 7/100 [00:00<00:00, 124.59it/s]
+  [ComfyUI] xatlas: Computing charts:   8%|███████████                                                                                                                                | 8/100 [00:00<00:00, 127.05it/s]
+  [ComfyUI] xatlas: Computing charts:  10%|█████████████▊                                                                                                                            | 10/100 [00:00<00:00, 135.46it/s]
+  [ComfyUI] xatlas: Computing charts:  12%|████████████████▌                                                                                                                         | 12/100 [00:00<00:00, 161.70it/s]
+  [ComfyUI] xatlas: Computing charts:  14%|███████████████████▎                                                                                                                      | 14/100 [00:00<00:00, 142.21it/s]
+  [ComfyUI] xatlas: Computing charts:  17%|███████████████████████▋                                                                                                                   | 17/100 [00:00<00:00, 97.66it/s]
+  [ComfyUI] xatlas: Computing charts:  20%|███████████████████████████▌                                                                                                              | 20/100 [00:00<00:00, 105.66it/s]
+  [ComfyUI] xatlas: Computing charts:  23%|███████████████████████████████▉                                                                                                           | 23/100 [00:00<00:00, 81.73it/s]
+  [ComfyUI] xatlas: Computing charts:  27%|█████████████████████████████████████▌                                                                                                     | 27/100 [00:00<00:00, 77.20it/s]
+  [ComfyUI] xatlas: Computing charts:  32%|████████████████████████████████████████████▍                                                                                              | 32/100 [00:00<00:00, 68.89it/s]
+  [ComfyUI] xatlas: Computing charts:  38%|████████████████████████████████████████████████████▊                                                                                      | 38/100 [00:00<00:01, 61.11it/s]
+  [ComfyUI] xatlas: Computing charts:  42%|██████████████████████████████████████████████████████████▍                                                                                | 42/100 [00:00<00:00, 59.47it/s]
+  [ComfyUI] xatlas: Computing charts:  50%|█████████████████████████████████████████████████████████████████████▌                                                                     | 50/100 [00:00<00:00, 60.05it/s]
+  [ComfyUI] xatlas: Computing charts:  57%|███████████████████████████████████████████████████████████████████████████████▏                                                           | 57/100 [00:00<00:00, 64.26it/s]
+  [ComfyUI] xatlas: Computing charts: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 104.22it/s]
+  [ComfyUI] xatlas: Computing charts: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 104.19it/s]
+  [ComfyUI] 
+  [ComfyUI] xatlas: Packing charts:   0%|                                                                                                                                                      | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Packing charts:   0%|                                                                                                                                                      | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Packing charts:   1%|█▍                                                                                                                                            | 1/100 [00:00<00:04, 22.39it/s]
+  [ComfyUI] xatlas: Packing charts:   2%|██▊                                                                                                                                           | 2/100 [00:00<00:03, 27.66it/s]
+  [ComfyUI] xatlas: Packing charts:   3%|████▎                                                                                                                                         | 3/100 [00:00<00:03, 31.86it/s]
+  [ComfyUI] xatlas: Packing charts:   4%|█████▋                                                                                                                                        | 4/100 [00:00<00:02, 37.48it/s]
+  [ComfyUI] xatlas: Packing charts:   5%|███████                                                                                                                                       | 5/100 [00:00<00:02, 40.98it/s]
+  [ComfyUI] xatlas: Packing charts:   6%|████████▌                                                                                                                                     | 6/100 [00:00<00:02, 45.35it/s]
+  [ComfyUI] xatlas: Packing charts:   7%|█████████▉                                                                                                                                    | 7/100 [00:00<00:01, 52.15it/s]
+  [ComfyUI] xatlas: Packing charts:   8%|███████████▎                                                                                                                                  | 8/100 [00:00<00:01, 56.73it/s]
+  [ComfyUI] xatlas: Packing charts:   9%|████████████▊                                                                                                                                 | 9/100 [00:00<00:01, 61.46it/s]
+  [ComfyUI] xatlas: Packing charts:  10%|██████████████                                                                                                                               | 10/100 [00:00<00:01, 67.61it/s]
+  [ComfyUI] xatlas: Packing charts:  11%|███████████████▌                                                                                                                             | 11/100 [00:00<00:01, 72.71it/s]
+  [ComfyUI] xatlas: Packing charts:  12%|████████████████▉                                                                                                                            | 12/100 [00:00<00:01, 77.46it/s]
+  [ComfyUI] xatlas: Packing charts:  13%|██████████████████▎                                                                                                                          | 13/100 [00:00<00:01, 83.19it/s]
+  [ComfyUI] xatlas: Packing charts:  14%|███████████████████▋                                                                                                                         | 14/100 [00:00<00:00, 88.55it/s]
+  [ComfyUI] xatlas: Packing charts:  15%|█████████████████████▏                                                                                                                       | 15/100 [00:00<00:00, 94.03it/s]
+  [ComfyUI] xatlas: Packing charts:  16%|██████████████████████▍                                                                                                                     | 16/100 [00:00<00:00, 100.05it/s]
+  [ComfyUI] xatlas: Packing charts:  17%|███████████████████████▊                                                                                                                    | 17/100 [00:00<00:00, 105.57it/s]
+  [ComfyUI] xatlas: Packing charts:  18%|█████████████████████████▏                                                                                                                  | 18/100 [00:00<00:00, 111.42it/s]
+  [ComfyUI] xatlas: Packing charts:  19%|██████████████████████████▌                                                                                                                 | 19/100 [00:00<00:00, 117.37it/s]
+  [ComfyUI] xatlas: Packing charts:  20%|████████████████████████████                                                                                                                | 20/100 [00:00<00:00, 122.99it/s]
+  [ComfyUI] xatlas: Packing charts:  21%|█████████████████████████████▍                                                                                                              | 21/100 [00:00<00:00, 128.68it/s]
+  [ComfyUI] xatlas: Packing charts:  22%|██████████████████████████████▊                                                                                                             | 22/100 [00:00<00:00, 134.55it/s]
+  [ComfyUI] xatlas: Packing charts:  23%|████████████████████████████████▏                                                                                                           | 23/100 [00:00<00:00, 140.19it/s]
+  [ComfyUI] xatlas: Packing charts:  24%|█████████████████████████████████▌                                                                                                          | 24/100 [00:00<00:00, 146.05it/s]
+  [ComfyUI] xatlas: Packing charts:  25%|███████████████████████████████████                                                                                                         | 25/100 [00:00<00:00, 151.87it/s]
+  [ComfyUI] xatlas: Packing charts:  26%|████████████████████████████████████▍                                                                                                       | 26/100 [00:00<00:00, 157.72it/s]
+  [ComfyUI] xatlas: Packing charts:  27%|█████████████████████████████████████▊                                                                                                      | 27/100 [00:00<00:00, 163.47it/s]
+  [ComfyUI] xatlas: Packing charts:  28%|███████████████████████████████████████▏                                                                                                    | 28/100 [00:00<00:00, 169.31it/s]
+  [ComfyUI] xatlas: Packing charts:  29%|████████████████████████████████████████▌                                                                                                   | 29/100 [00:00<00:00, 175.09it/s]
+  [ComfyUI] xatlas: Packing charts:  30%|██████████████████████████████████████████                                                                                                  | 30/100 [00:00<00:00, 180.89it/s]
+  [ComfyUI] xatlas: Packing charts:  31%|███████████████████████████████████████████▍                                                                                                | 31/100 [00:00<00:00, 186.56it/s]
+  [ComfyUI] xatlas: Packing charts:  32%|████████████████████████████████████████████▊                                                                                               | 32/100 [00:00<00:00, 192.32it/s]
+  [ComfyUI] xatlas: Packing charts:  33%|██████████████████████████████████████████████▏                                                                                             | 33/100 [00:00<00:00, 198.08it/s]
+  [ComfyUI] xatlas: Packing charts:  34%|███████████████████████████████████████████████▌                                                                                            | 34/100 [00:00<00:00, 203.86it/s]
+  [ComfyUI] xatlas: Packing charts:  35%|█████████████████████████████████████████████████                                                                                           | 35/100 [00:00<00:00, 209.67it/s]
+  [ComfyUI] xatlas: Packing charts:  36%|██████████████████████████████████████████████████▍                                                                                         | 36/100 [00:00<00:00, 215.17it/s]
+  [ComfyUI] xatlas: Packing charts:  37%|███████████████████████████████████████████████████▊                                                                                        | 37/100 [00:00<00:00, 220.62it/s]
+  [ComfyUI] xatlas: Packing charts:  38%|█████████████████████████████████████████████████████▏                                                                                      | 38/100 [00:00<00:00, 226.17it/s]
+  [ComfyUI] xatlas: Packing charts:  39%|██████████████████████████████████████████████████████▌                                                                                     | 39/100 [00:00<00:00, 231.63it/s]
+  [ComfyUI] xatlas: Packing charts:  40%|████████████████████████████████████████████████████████                                                                                    | 40/100 [00:00<00:00, 237.07it/s]
+  [ComfyUI] xatlas: Packing charts:  41%|█████████████████████████████████████████████████████████▍                                                                                  | 41/100 [00:00<00:00, 242.49it/s]
+  [ComfyUI] xatlas: Packing charts:  42%|██████████████████████████████████████████████████████████▊                                                                                 | 42/100 [00:00<00:00, 248.06it/s]
+  [ComfyUI] xatlas: Packing charts:  43%|████████████████████████████████████████████████████████████▏                                                                               | 43/100 [00:00<00:00, 253.73it/s]
+  [ComfyUI] xatlas: Packing charts:  44%|█████████████████████████████████████████████████████████████▌                                                                              | 44/100 [00:00<00:00, 259.30it/s]
+  [ComfyUI] xatlas: Packing charts:  45%|███████████████████████████████████████████████████████████████                                                                             | 45/100 [00:00<00:00, 264.94it/s]
+  [ComfyUI] xatlas: Packing charts:  46%|████████████████████████████████████████████████████████████████▍                                                                           | 46/100 [00:00<00:00, 270.50it/s]
+  [ComfyUI] xatlas: Packing charts:  47%|█████████████████████████████████████████████████████████████████▊                                                                          | 47/100 [00:00<00:00, 276.17it/s]
+  [ComfyUI] xatlas: Packing charts:  48%|███████████████████████████████████████████████████████████████████▏                                                                        | 48/100 [00:00<00:00, 281.75it/s]
+  [ComfyUI] xatlas: Packing charts:  49%|████████████████████████████████████████████████████████████████████▌                                                                       | 49/100 [00:00<00:00, 287.30it/s]
+  [ComfyUI] xatlas: Packing charts:  50%|██████████████████████████████████████████████████████████████████████                                                                      | 50/100 [00:00<00:00, 292.90it/s]
+  [ComfyUI] xatlas: Packing charts:  51%|███████████████████████████████████████████████████████████████████████▍                                                                    | 51/100 [00:00<00:00, 298.46it/s]
+  [ComfyUI] xatlas: Packing charts:  52%|████████████████████████████████████████████████████████████████████████▊                                                                   | 52/100 [00:00<00:00, 303.97it/s]
+  [ComfyUI] xatlas: Packing charts:  53%|██████████████████████████████████████████████████████████████████████████▏                                                                 | 53/100 [00:00<00:00, 309.57it/s]
+  [ComfyUI] xatlas: Packing charts:  54%|███████████████████████████████████████████████████████████████████████████▌                                                                | 54/100 [00:00<00:00, 315.15it/s]
+  [ComfyUI] xatlas: Packing charts:  55%|█████████████████████████████████████████████████████████████████████████████                                                               | 55/100 [00:00<00:00, 320.75it/s]
+  [ComfyUI] xatlas: Packing charts:  56%|██████████████████████████████████████████████████████████████████████████████▍                                                             | 56/100 [00:00<00:00, 326.26it/s]
+  [ComfyUI] xatlas: Packing charts:  57%|███████████████████████████████████████████████████████████████████████████████▊                                                            | 57/100 [00:00<00:00, 331.81it/s]
+  [ComfyUI] xatlas: Packing charts:  58%|█████████████████████████████████████████████████████████████████████████████████▏                                                          | 58/100 [00:00<00:00, 337.22it/s]
+  [ComfyUI] xatlas: Packing charts:  59%|██████████████████████████████████████████████████████████████████████████████████▌                                                         | 59/100 [00:00<00:00, 342.70it/s]
+  [ComfyUI] xatlas: Packing charts:  60%|████████████████████████████████████████████████████████████████████████████████████                                                        | 60/100 [00:00<00:00, 348.23it/s]
+  [ComfyUI] xatlas: Packing charts:  61%|█████████████████████████████████████████████████████████████████████████████████████▍                                                      | 61/100 [00:00<00:00, 353.73it/s]
+  [ComfyUI] xatlas: Packing charts:  62%|██████████████████████████████████████████████████████████████████████████████████████▊                                                     | 62/100 [00:00<00:00, 359.22it/s]
+  [ComfyUI] xatlas: Packing charts:  63%|████████████████████████████████████████████████████████████████████████████████████████▏                                                   | 63/100 [00:00<00:00, 364.73it/s]
+  [ComfyUI] xatlas: Packing charts:  64%|█████████████████████████████████████████████████████████████████████████████████████████▌                                                  | 64/100 [00:00<00:00, 370.20it/s]
+  [ComfyUI] xatlas: Packing charts:  65%|███████████████████████████████████████████████████████████████████████████████████████████                                                 | 65/100 [00:00<00:00, 375.55it/s]
+  [ComfyUI] xatlas: Packing charts:  66%|████████████████████████████████████████████████████████████████████████████████████████████▍                                               | 66/100 [00:00<00:00, 381.07it/s]
+  [ComfyUI] xatlas: Packing charts:  67%|█████████████████████████████████████████████████████████████████████████████████████████████▊                                              | 67/100 [00:00<00:00, 386.52it/s]
+  [ComfyUI] xatlas: Packing charts:  68%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                            | 68/100 [00:00<00:00, 391.89it/s]
+  [ComfyUI] xatlas: Packing charts:  69%|████████████████████████████████████████████████████████████████████████████████████████████████▌                                           | 69/100 [00:00<00:00, 397.31it/s]
+  [ComfyUI] xatlas: Packing charts:  70%|██████████████████████████████████████████████████████████████████████████████████████████████████                                          | 70/100 [00:00<00:00, 402.72it/s]
+  [ComfyUI] xatlas: Packing charts:  71%|███████████████████████████████████████████████████████████████████████████████████████████████████▍                                        | 71/100 [00:00<00:00, 407.92it/s]
+  [ComfyUI] xatlas: Packing charts:  72%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                       | 72/100 [00:00<00:00, 413.25it/s]
+  [ComfyUI] xatlas: Packing charts:  73%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏                                     | 73/100 [00:00<00:00, 418.64it/s]
+  Node executed (9 total), capturing...
+  [ComfyUI] xatlas: Packing charts:  74%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌                                    | 74/100 [00:00<00:00, 424.03it/s]
+  [ComfyUI] xatlas: Packing charts:  75%|█████████████████████████████████████████████████████████████████████████████████████████████████████████                                   | 75/100 [00:00<00:00, 429.41it/s]
+  [ComfyUI] xatlas: Packing charts:  76%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                 | 76/100 [00:00<00:00, 434.74it/s]
+  [ComfyUI] xatlas: Packing charts:  77%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                | 77/100 [00:00<00:00, 440.10it/s]
+  [ComfyUI] xatlas: Packing charts:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                              | 78/100 [00:00<00:00, 445.29it/s]
+  [ComfyUI] xatlas: Packing charts:  79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                             | 79/100 [00:00<00:00, 450.71it/s]
+  [ComfyUI] xatlas: Packing charts:  80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                            | 80/100 [00:00<00:00, 456.09it/s]
+  [ComfyUI] xatlas: Packing charts:  81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                          | 81/100 [00:00<00:00, 461.22it/s]
+  [ComfyUI] xatlas: Packing charts:  82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                         | 82/100 [00:00<00:00, 466.38it/s]
+  [ComfyUI] xatlas: Packing charts:  83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                       | 83/100 [00:00<00:00, 471.62it/s]
+  [ComfyUI] xatlas: Packing charts:  84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                      | 84/100 [00:00<00:00, 476.87it/s]
+  [ComfyUI] xatlas: Packing charts:  85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                     | 85/100 [00:00<00:00, 482.04it/s]
+  [ComfyUI] xatlas: Packing charts:  86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 86/100 [00:00<00:00, 487.34it/s]
+  [ComfyUI] xatlas: Packing charts:  87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                  | 87/100 [00:00<00:00, 492.61it/s]
+  [ComfyUI] xatlas: Packing charts:  88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                | 88/100 [00:00<00:00, 497.90it/s]
+  [ComfyUI] xatlas: Packing charts:  89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌               | 89/100 [00:00<00:00, 503.09it/s]
+  [ComfyUI] xatlas: Packing charts:  90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████              | 90/100 [00:00<00:00, 508.12it/s]
+  [ComfyUI] xatlas: Packing charts:  91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍            | 91/100 [00:00<00:00, 513.42it/s]
+  [ComfyUI] xatlas: Packing charts:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 92/100 [00:00<00:00, 518.57it/s]
+  [ComfyUI] xatlas: Packing charts:  93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏         | 93/100 [00:00<00:00, 523.81it/s]
+  [ComfyUI] xatlas: Packing charts:  94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 94/100 [00:00<00:00, 528.99it/s]
+  [ComfyUI] xatlas: Packing charts:  95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 95/100 [00:00<00:00, 534.24it/s]
+  [ComfyUI] xatlas: Packing charts:  96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍     | 96/100 [00:00<00:00, 539.44it/s]
+  [ComfyUI] xatlas: Packing charts:  97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊    | 97/100 [00:00<00:00, 544.60it/s]
+  [ComfyUI] xatlas: Packing charts:  98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 98/100 [00:00<00:00, 549.90it/s]
+  [ComfyUI] xatlas: Packing charts:  99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌ | 99/100 [00:00<00:00, 555.14it/s]
+  [ComfyUI] xatlas: Packing charts: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 560.23it/s]
+  [ComfyUI] xatlas: Packing charts: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 553.97it/s]
+  [ComfyUI] 
+  [ComfyUI] xatlas: Building output meshes:   0%|                                                                                                                                              | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Building output meshes:   0%|                                                                                                                                              | 0/100 [00:00<?, ?it/s]
+  [ComfyUI] xatlas: Building output meshes:   4%|█████▏                                                                                                                             | 4/100 [00:00<00:00, 24456.58it/s]
+  [ComfyUI] xatlas: Building output meshes:   9%|███████████▊                                                                                                                       | 9/100 [00:00<00:00, 23519.46it/s]
+  [ComfyUI] xatlas: Building output meshes:  13%|████████████████▉                                                                                                                 | 13/100 [00:00<00:00, 11949.58it/s]
+  [ComfyUI] xatlas: Building output meshes:  18%|███████████████████████▍                                                                                                          | 18/100 [00:00<00:00, 14521.54it/s]
+  [ComfyUI] xatlas: Building output meshes:  22%|████████████████████████████▌                                                                                                     | 22/100 [00:00<00:00, 15917.66it/s]
+  [ComfyUI] xatlas: Building output meshes:  27%|███████████████████████████████████                                                                                               | 27/100 [00:00<00:00, 18142.62it/s]
+  [ComfyUI] xatlas: Building output meshes:  31%|████████████████████████████████████████▎                                                                                         | 31/100 [00:00<00:00, 18649.37it/s]
+  [ComfyUI] xatlas: Building output meshes:  36%|██████████████████████████████████████████████▊                                                                                   | 36/100 [00:00<00:00, 19957.04it/s]
+  [ComfyUI] xatlas: Building output meshes:  40%|████████████████████████████████████████████████████                                                                              | 40/100 [00:00<00:00, 20370.59it/s]
+  [ComfyUI] xatlas: Building output meshes:  45%|██████████████████████████████████████████████████████████▌                                                                       | 45/100 [00:00<00:00, 21247.74it/s]
+  [ComfyUI] xatlas: Building output meshes:  50%|█████████████████████████████████████████████████████████████████                                                                 | 50/100 [00:00<00:00, 22412.65it/s]
+  [ComfyUI] xatlas: Building output meshes:  54%|██████████████████████████████████████████████████████████████████████▏                                                           | 54/100 [00:00<00:00, 22307.93it/s]
+  [ComfyUI] xatlas: Building output meshes:  59%|████████████████████████████████████████████████████████████████████████████▋                                                     | 59/100 [00:00<00:00, 22688.54it/s]
+  [ComfyUI] xatlas: Building output meshes:  63%|█████████████████████████████████████████████████████████████████████████████████▉                                                | 63/100 [00:00<00:00, 22999.49it/s]
+  [ComfyUI] xatlas: Building output meshes:  68%|████████████████████████████████████████████████████████████████████████████████████████▍                                         | 68/100 [00:00<00:00, 23073.59it/s]
+  [ComfyUI] xatlas: Building output meshes:  72%|█████████████████████████████████████████████████████████████████████████████████████████████▌                                    | 72/100 [00:00<00:00, 23482.88it/s]
+  [ComfyUI] xatlas: Building output meshes:  77%|████████████████████████████████████████████████████████████████████████████████████████████████████                              | 77/100 [00:00<00:00, 24210.00it/s]
+  [ComfyUI] xatlas: Building output meshes:  81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▎                        | 81/100 [00:00<00:00, 24670.58it/s]
+  [ComfyUI] xatlas: Building output meshes:  86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                  | 86/100 [00:00<00:00, 25289.92it/s]
+  [ComfyUI] xatlas: Building output meshes:  90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 90/100 [00:00<00:00, 25716.15it/s]
+  [ComfyUI] xatlas: Building output meshes:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌      | 95/100 [00:00<00:00, 25946.40it/s]
+  [ComfyUI] xatlas: Building output meshes: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 26415.82it/s]
+  [ComfyUI] xatlas: Building output meshes: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 25117.10it/s]
+  [ComfyUI] 
+  [ComfyUI] Gathering results from xatlas:   0%|                                                                                                                                                | 0/22 [00:00<?, ?it/s]
+  [ComfyUI] Gathering results from xatlas: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 16401.47it/s]
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_CuMesh done (4.53s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=236 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 13556 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 13556 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[0.99958849 0.99957448], in_unit_square=True, coverage=0.5536
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_ef0132b0.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_7f28c8b3_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.40s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_BlenderSphere: trimesh: Trimesh, scale_to_bounds: 'true'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.blender.uv.backends.blender_sphere.UVBlenderSphereNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=9 sending call_method
+  Frame 10 saved (frame_009.jpg, t=14.4s)
+  [capture-node] freeze=5ms shot=191ms unfreeze=4ms saved=True
+  Node executed (10 total), capturing...
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_BlenderSphere done (0.52s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=237 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 11428 vertices, 22704 faces
+  Frame 11 saved (frame_010.jpg, t=15.0s)
+  [capture-node] freeze=5ms shot=169ms unfreeze=4ms saved=True
+  Node executed (11 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 11428 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1. 1.], in_unit_square=True, coverage=0.6251
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_e3ec132c.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_ec5acf65_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.54s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_BlenderSmart: trimesh: Trimesh, angle_limit: 66.0, island_margin: 0.02, scale_to_bounds: 'true'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.blender.uv.backends.blender_smart.UVBlenderSmartNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=10 sending call_method
+  Frame 12 saved (frame_011.jpg, t=15.5s)
+  [capture-node] freeze=4ms shot=176ms unfreeze=4ms saved=True
+  Node executed (12 total), capturing...
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_BlenderSmart done (0.54s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=238 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 13353 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 13353 UV coordinates
+  Frame 13 saved (frame_012.jpg, t=16.0s)
+  [capture-node] freeze=5ms shot=242ms unfreeze=4ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[0.17918772 0.99214804], in_unit_square=True, coverage=0.0359
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_2dc0779a.glb
+  [capture-loop] iter=100 t=16.4s state={'complete': False, 'error': None, 'executedCount': 13, 'wsState': 1} eval_ms=3
+  Node executed (13 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_1afd1f3d_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.38s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_Xatlas: trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.backends.xatlas.UVXatlasNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=239 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: xatlas
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 11381 vertices, 22704 faces
+  Frame 14 saved (frame_013.jpg, t=16.6s)
+  [capture-node] freeze=4ms shot=231ms unfreeze=45ms saved=True
+  Node executed (14 total), capturing...
+  Frame 15 saved (frame_014.jpg, t=17.2s)
+  [capture-node] freeze=5ms shot=170ms unfreeze=4ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Output: 14113 vertices, 22704 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_Xatlas done (5.88s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  Node executed (15 total), capturing...
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=240 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 14113 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 14113 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[0.99957985 0.99956971], in_unit_square=True, coverage=0.5727
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_c8818e29.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_76db14c4_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  Frame 16 saved (frame_015.jpg, t=22.6s)
+  [capture-node] freeze=5ms shot=165ms unfreeze=5ms saved=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.39s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackUV_LibiglLSCM: trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.uv.backends.libigl_lscm.UVLibiglLSCMNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=241 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: libigl_lscm
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 11381 vertices, 22704 faces
+  Node executed (16 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Output: 11381 vertices, 22704 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackUV_LibiglLSCM done (0.18s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshUV: show_checker: False, show_wireframe: True, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_uv.PreviewMeshUVNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=242 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preparing preview: Mesh - 11381 vertices, 22704 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found UV data: 11381 UV coordinates
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: UV stats: range=[1. 1.], in_unit_square=True, coverage=0.6778
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported mesh to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_916bdd95.glb
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported UV data to: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_uv_3f7e4b93_uvdata.json
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready: has_uvs=True, checker=False, wireframe=True
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshUV done (0.36s): result: NodeOutput
+  [ComfyUI] Prompt executed in 23.03 seconds
+  Frame 17 saved (frame_016.jpg, t=23.1s)
+  [capture-node] freeze=31ms shot=246ms unfreeze=5ms saved=True
+  Node executed (18 total), capturing...
+  Frame 18 saved (frame_017.jpg, t=23.7s)
+  [capture-node] freeze=114ms shot=215ms unfreeze=4ms saved=True
+  Execution complete (t=24.2s)
+  Captured 18 unique frames over 24.18s
+  [debug] iframes: 9
+  [debug]   iframe[0]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[1]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[2]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[3]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[4]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[5]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[6]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[7]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [debug]   iframe[8]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_uv.html?v=17729952, canvas=694x704, rafFrozen=False
+  [timing] trigger_3d_previews: 0.0s
+  Saved high-quality screenshot: uv_unwrap_all_executed.png
+  [timing] final_screenshot: 1.0s
+    Captured 19 video frames

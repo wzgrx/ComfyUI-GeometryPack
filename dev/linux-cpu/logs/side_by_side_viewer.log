@@ -1,18 +1,133 @@
 Capturing execution frames: side_by_side_viewer.json
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-  [Console-warning] WARNING: Multiple instances of Three.js being imported.
-  [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+  Frame 1 saved (frame_000.jpg, t=0.0s)
   Validating workflow...
+  [ComfyUI] === /validate endpoint called ===
   Queuing workflow for execution...
-  [Console-error] No input!
-  [Console-error] No input!
-  Captured 3 frames over 4.33s
-  2 unique frames saved
-  Waiting 5000ms for previews to render...
+  [ComfyUI] Received JSON with keys: ['prompt']
+  [ComfyUI] Prompt has 3 nodes
+  [ComfyUI]   Node 1: GeomPackCreatePrimitive
+  [ComfyUI]     Inputs: {"shape": "cube", "size": 2, "subdivisions": 1}
+  [ComfyUI]   Node 2: GeomPackCreatePrimitive
+  [ComfyUI]     Inputs: {"shape": "sphere", "size": 2.5, "subdivisions": 2}
+  [ComfyUI]   Node 7: GeomPackPreviewMeshDual
+  [ComfyUI]     Inputs: {"layout": "side_by_side", "mode": "fields", "opacity_1": 1, "opacity_2": 1, "preview_dual": "{\"show_edges\":true,\"camera_state\":\"\",\"selected_field\":\"\",\"selected_channel\":\"magnitude\",\"se
+  [ComfyUI] Generated prompt_id: 535ea60e-13fd-47dc-bc40-80b0017b29e4
+  [ComfyUI] Calling execution.validate_prompt()...
+  [ComfyUI] Validation result: valid=True
+  [ComfyUI] === Validation PASSED ===
+  [ComfyUI] got prompt
+  [ComfyUI] [comfy-env] Running GeomPackCreatePrimitive: shape: 'sphere', size: 2.5, subdivisions: 2
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.primitives.create_primitive.CreatePrimitive.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: failed
+  [ComfyUI] [ComfyUI-GeometryPack] Socket unhealthy, restarting worker...
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 10 leaked shared_memory objects to clean up at shutdown
+  [ComfyUI]   warnings.warn('resource_tracker: There appear to be %d '
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_ce318f98': [Errno 2] No such file or directory: '/psm_ce318f98'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_2c2507aa': [Errno 2] No such file or directory: '/psm_2c2507aa'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_9d7a196e': [Errno 2] No such file or directory: '/psm_9d7a196e'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_ee2d7eac': [Errno 2] No such file or directory: '/psm_ee2d7eac'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_afdb3b33': [Errno 2] No such file or directory: '/psm_afdb3b33'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_10f98368': [Errno 2] No such file or directory: '/psm_10f98368'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_c9976944': [Errno 2] No such file or directory: '/psm_c9976944'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_6c81f9cf': [Errno 2] No such file or directory: '/psm_6c81f9cf'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_caf3e2cc': [Errno 2] No such file or directory: '/psm_caf3e2cc'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_04573205': [Errno 2] No such file or directory: '/psm_04573205'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] [ComfyUI-GeometryPack] python: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python
+  [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/andrea/workspaces/GeometryPack-1927/ComfyUI', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/andrea/workspaces/GeometryPack-1927/.venv/lib/python3.10/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.1/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+  [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python
+  [ComfyUI] [SubprocessWorker] launching cmd=['/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python', '/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py', 'unix:///dev/shm/comfy_worker_15b5e695bbfb.sock']...
+  [ComfyUI] [SubprocessWorker] PATH has 11 entries:
+  [ComfyUI] [SubprocessWorker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [SubprocessWorker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [SubprocessWorker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [4] /usr/local/sbin
+  [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+  [ComfyUI] [SubprocessWorker]   [6] /usr/sbin
+  [ComfyUI] [SubprocessWorker]   [7] /usr/bin
+  [ComfyUI] [SubprocessWorker]   [8] /sbin
+  [ComfyUI] [SubprocessWorker]   [9] /bin
+  [ComfyUI] [SubprocessWorker]   ... and 1 more
+  [ComfyUI] [worker] PATH has 11 entries:
+  [ComfyUI] [worker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [worker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [worker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [4] /usr/local/sbin
+  [ComfyUI] [worker]   [5] /usr/local/bin
+  [ComfyUI] [worker]   [6] /usr/sbin
+  [ComfyUI] [worker]   [7] /usr/bin
+  [ComfyUI] [worker]   [8] /sbin
+  [ComfyUI] [worker]   [9] /bin
+  [ComfyUI] [worker]   [10] /snap/bin
+  Frame 2 saved (frame_001.jpg, t=2.2s)
+  [capture-periodic] freeze=5ms shot=122ms unfreeze=5ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] WARNING: WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 0 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=78 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Created sphere: 162 vertices, 320 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackCreatePrimitive done (3.74s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackCreatePrimitive: shape: 'cube', size: 2.0, subdivisions: 1
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.primitives.create_primitive.CreatePrimitive.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 0 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=79 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Created cube: 8 vertices, 12 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackCreatePrimitive done (0.05s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshDual: layout: 'side_by_side', mode: 'fields', opacity_1: 1.0, opacity_2: 1.0, mesh_1: Trimesh, mesh_2: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_dual.PreviewMeshDualNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 2 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=80 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Layout: side_by_side, Mode: fields
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 1: Mesh - 8 vertices, 12 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 2: Mesh - 162 vertices, 320 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 1 fields: []
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 2 fields: []
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Common fields: []
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 1 visual: kind=None, texture=False, vertex_colors=False
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 2 visual: kind=None, texture=False, vertex_colors=False
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported STL: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_dual_1_d23dc171.stl
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported STL: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_dual_2_d23dc171.stl
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Preview ready
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshDual done (0.10s): result: NodeOutput
+  [ComfyUI] Prompt executed in 3.90 seconds
+  Node executed (1 total), capturing...
+  Frame 3 saved (frame_002.jpg, t=4.3s)
+  [capture-node] freeze=4ms shot=124ms unfreeze=0ms saved=True
+  Execution complete (t=4.3s)
+  Captured 3 unique frames over 4.47s
+  [debug] iframes: 1
+  [debug]   iframe[0]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_dual.html?v=177299, canvas=894x1248, rafFrozen=True
+  [timing] trigger_3d_previews: 0.0s
   Saved high-quality screenshot: side_by_side_viewer_executed.png
-    Captured 3 video frames
+  [timing] final_screenshot: 0.9s
+    Captured 4 video frames

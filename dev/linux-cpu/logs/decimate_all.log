@@ -1,0 +1,305 @@
+Capturing execution frames: decimate_all.json
+  Frame 1 saved (frame_000.jpg, t=0.0s)
+  Validating workflow...
+  [ComfyUI] === /validate endpoint called ===
+  [ComfyUI] Received JSON with keys: ['prompt']
+  Queuing workflow for execution...
+  [ComfyUI] Prompt has 7 nodes
+  [ComfyUI]   Node 1: GeomPackLoadMesh
+  [ComfyUI]     Inputs: {"file_path": "3d/Stanford_Bunny.stl"}
+  [ComfyUI]   Node 2: GeomPackDecimateMesh
+  [ComfyUI]     Inputs: {"backend": "quadric_edge_collapse", "backend.target_face_count": 5000, "backend.quality_threshold": 0.3, "backend.preserve_boundary": "true", "backend.preserve_normal": "true", "backend.preserve_topo
+  [ComfyUI]   Node 3: GeomPackDecimateMesh
+  [ComfyUI]     Inputs: {"backend": "fast_simplification", "backend.target_reduction": 0.8, "backend.aggressiveness": 7, "trimesh": ["1", 0]}
+  [ComfyUI]   Node 4: GeomPackDecimateMesh
+  [ComfyUI]     Inputs: {"backend": "vertex_clustering", "backend.cluster_threshold": 3, "trimesh": ["1", 0]}
+  [ComfyUI]   Node 6: GeomPackDecimateMesh
+  [ComfyUI]     Inputs: {"backend": "decimate_pro", "backend.target_reduction": 0.8, "backend.feature_angle": 15, "backend.preserve_topology": "true", "trimesh": ["1", 0]}
+  [ComfyUI]   Node 7: GeomPackPreviewMeshMulti
+  [ComfyUI]     Inputs: {"mode": "fields", "preview_multi": "{\"show_edges\":true,\"camera_state\":\"{\\\"position\\\":[156.15573456772853,45.50443036606394,116.04835655422535],\\\"focalPoint\\\":[30.319300651550293,1.894807
+  [ComfyUI]   Node 8: GeomPackPreviewMeshMulti
+  [ComfyUI]     Inputs: {"mode": "fields", "preview_multi": "{\"show_edges\":true,\"camera_state\":\"{\\\"position\\\":[156.15573456772853,45.50443036606394,116.04835655422535],\\\"focalPoint\\\":[30.319300651550293,1.894807
+  [ComfyUI] Generated prompt_id: 9ca8787a-0db9-4bcb-9391-21f28c7aa747
+  [ComfyUI] Calling execution.validate_prompt()...
+  [ComfyUI] Validation result: valid=True
+  [ComfyUI] === Validation PASSED ===
+  [ComfyUI] got prompt
+  [ComfyUI] [comfy-env] Running GeomPackLoadMesh: file_path: '3d/Stanford_Bunny.stl'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.io.load_mesh.LoadMesh.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: failed
+  [ComfyUI] [ComfyUI-GeometryPack] Socket unhealthy, restarting worker...
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 16 leaked shared_memory objects to clean up at shutdown
+  [ComfyUI]   warnings.warn('resource_tracker: There appear to be %d '
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_38210893': [Errno 2] No such file or directory: '/psm_38210893'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_3a5a161d': [Errno 2] No such file or directory: '/psm_3a5a161d'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_07d44384': [Errno 2] No such file or directory: '/psm_07d44384'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_39e542cc': [Errno 2] No such file or directory: '/psm_39e542cc'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_e19f0366': [Errno 2] No such file or directory: '/psm_e19f0366'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_edb96fae': [Errno 2] No such file or directory: '/psm_edb96fae'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_52565b86': [Errno 2] No such file or directory: '/psm_52565b86'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_49aacade': [Errno 2] No such file or directory: '/psm_49aacade'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_0d00a481': [Errno 2] No such file or directory: '/psm_0d00a481'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_6fde4bf8': [Errno 2] No such file or directory: '/psm_6fde4bf8'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_c7f15b75': [Errno 2] No such file or directory: '/psm_c7f15b75'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_e9b44eae': [Errno 2] No such file or directory: '/psm_e9b44eae'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_fb6cd3f6': [Errno 2] No such file or directory: '/psm_fb6cd3f6'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_c8a32981': [Errno 2] No such file or directory: '/psm_c8a32981'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_32faff08': [Errno 2] No such file or directory: '/psm_32faff08'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.10/multiprocessing/resource_tracker.py:237: UserWarning: resource_tracker: '/psm_3cf1c784': [Errno 2] No such file or directory: '/psm_3cf1c784'
+  [ComfyUI]   warnings.warn('resource_tracker: %r: %s' % (name, e))
+  [ComfyUI] [ComfyUI-GeometryPack] python: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python
+  [ComfyUI] [ComfyUI-GeometryPack] sys_path sent to worker: ['/home/andrea/workspaces/GeometryPack-1927/ComfyUI', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack', '/home/andrea/workspaces/GeometryPack-1927/.venv/lib/python3.10/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/lib/python3.1/site-packages', '/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack']
+  [ComfyUI] [SubprocessWorker] is_pixi=False, python=/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python
+  [ComfyUI] [SubprocessWorker] launching cmd=['/home/andrea/workspaces/GeometryPack-1927/ComfyUI/custom_nodes/ComfyUI-GeometryPack/nodes/main/_env_6a782c/bin/python', '/tmp/comfyui_pvenv_1yw6tmus/persistent_worker.py', 'unix:///dev/shm/comfy_worker_3ea61395db4e.sock']...
+  [ComfyUI] [SubprocessWorker] PATH has 11 entries:
+  [ComfyUI] [SubprocessWorker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [SubprocessWorker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [SubprocessWorker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [SubprocessWorker]   [4] /usr/local/sbin
+  [ComfyUI] [SubprocessWorker]   [5] /usr/local/bin
+  [ComfyUI] [SubprocessWorker]   [6] /usr/sbin
+  [ComfyUI] [SubprocessWorker]   [7] /usr/bin
+  [ComfyUI] [SubprocessWorker]   [8] /sbin
+  [ComfyUI] [SubprocessWorker]   [9] /bin
+  [ComfyUI] [SubprocessWorker]   ... and 1 more
+  [ComfyUI] [worker] PATH has 11 entries:
+  [ComfyUI] [worker]   [0] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [1] /home/andrea/miniconda3/bin
+  [ComfyUI] [worker]   [2] /home/andrea/miniconda3/condabin
+  [ComfyUI] [worker]   [3] /home/andrea/.local/bin
+  [ComfyUI] [worker]   [4] /usr/local/sbin
+  [ComfyUI] [worker]   [5] /usr/local/bin
+  [ComfyUI] [worker]   [6] /usr/sbin
+  [ComfyUI] [worker]   [7] /usr/bin
+  [ComfyUI] [worker]   [8] /sbin
+  [ComfyUI] [worker]   [9] /bin
+  [ComfyUI] [worker]   [10] /snap/bin
+  Frame 2 saved (frame_001.jpg, t=2.2s)
+  [capture-periodic] freeze=5ms shot=113ms unfreeze=4ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] WARNING: WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 0 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=98 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Found mesh in input folder: 3d/Stanford_Bunny.stl
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Loading: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/input/3d/Stanford_Bunny.stl
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Initial mesh: 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Successfully loaded: 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Loaded: 56203 vertices, 112402 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackLoadMesh done (4.35s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimateMesh: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.decimate.DecimateMeshNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=99 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Decimate dispatch: decimate_pro -> GeomPackDecimate_DecimatePro
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimateMesh done (0.07s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimateMesh: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.decimate.DecimateMeshNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=100 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Decimate dispatch: vertex_clustering -> GeomPackDecimate_VertexClustering
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimateMesh done (0.07s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimateMesh: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.decimate.DecimateMeshNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=101 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Decimate dispatch: fast_simplification -> GeomPackDecimate_FastSimplification
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimateMesh done (0.07s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimateMesh: backend: dict, trimesh: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.decimate.DecimateMeshNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=102 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Decimate dispatch: quadric_edge_collapse -> GeomPackDecimate_QuadricEdgeCollapse
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimateMesh done (0.07s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimate_DecimatePro: trimesh: Trimesh, target_reduction: 0.8, feature_angle: 15.0, preserve_topology: 'true'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.backends.decimate_pro.DecimateProNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=103 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: decimate_pro
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 56,203 vertices, 112,402 faces
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimate_DecimatePro done (0.87s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimate_VertexClustering: trimesh: Trimesh, cluster_threshold: 3.0
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.backends.vertex_clustering.DecimateVertexClusteringNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=104 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: vertex_clustering
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 56,203 vertices, 112,402 faces
+  Node executed (1 total), capturing...
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimate_VertexClustering done (0.34s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshMulti: mode: 'fields', mesh_1: Trimesh, mesh_2: Trimesh, mesh_3: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_multi.PreviewMeshMultiNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 3 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=105 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mode: fields, Meshes: 3
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 1: Mesh - 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_1_cf94aca6.vtp
+  Frame 3 saved (frame_002.jpg, t=5.9s)
+  [capture-node] freeze=5ms shot=134ms unfreeze=5ms saved=True
+  [capture-loop] iter=50 t=6.2s state={'complete': False, 'error': None, 'executedCount': 2, 'wsState': 1} eval_ms=3
+  Node executed (2 total), capturing...
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (56203 vertices)
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding face field: stl
+  Frame 4 saved (frame_003.jpg, t=6.4s)
+  [capture-node] freeze=5ms shot=117ms unfreeze=5ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_1_cf94aca6.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 2: Mesh - 11242 vertices, 22480 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_2_cf94aca6.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (11242 vertices)
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 11242 vertices, 22480 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_2_cf94aca6.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 3: Mesh - 1272 vertices, 2582 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_3_cf94aca6.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (1272 vertices)
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 1272 vertices, 2582 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_3_cf94aca6.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Grid: 3x1, Preview ready
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshMulti done (0.81s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimate_FastSimplification: trimesh: Trimesh, target_reduction: 0.8, aggressiveness: 7
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.backends.fast_simplification.DecimateFastSimplificationNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=106 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: fast_simplification
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 56,203 vertices, 112,402 faces
+  Node executed (3 total), capturing...
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimate_FastSimplification done (0.22s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackDecimate_QuadricEdgeCollapse: trimesh: Trimesh, target_face_count: 5000, quality_threshold: 0.3, preserve_boundary: 'true', preserve_normal: 'true', preserve_topology: 'true', planar_quadric: 'false'
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.decimation.backends.quadric_edge_collapse.DecimateQuadricEdgeCollapseNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  [ComfyUI] [SubprocessWorker] created 1 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=107 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Backend: quadric_edge_collapse
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Input: 56,203 vertices, 112,402 faces
+  Frame 5 saved (frame_004.jpg, t=7.1s)
+  [capture-node] freeze=494ms shot=194ms unfreeze=6ms saved=True
+  Node executed (4 total), capturing...
+  [capture-node] freeze=5ms shot=165ms unfreeze=4ms saved=False
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackDecimate_QuadricEdgeCollapse done (1.93s): result: NodeOutput
+  [ComfyUI] [comfy-env] Running GeomPackPreviewMeshMulti: mode: 'fields', mesh_1: Trimesh, mesh_2: Trimesh, mesh_3: Trimesh
+  [ComfyUI] [SubprocessWorker] call_method: nodes.main.visualization.preview_mesh_multi.PreviewMeshMultiNode.EXECUTE_NORMALIZED
+  [ComfyUI] [SubprocessWorker] acquired lock, ensuring started...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ping (timeout=5.0s)...
+  [ComfyUI] [ComfyUI-GeometryPack] Health check: ok
+  [ComfyUI] [SubprocessWorker] worker started/confirmed
+  [ComfyUI] [SubprocessWorker] serializing kwargs to shm...
+  Node executed (5 total), capturing...
+  [ComfyUI] [SubprocessWorker] created 3 shm blocks
+  [ComfyUI] [SubprocessWorker] sending request via socket...
+  [ComfyUI] [SubprocessWorker] call_id=108 sending call_method
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mode: fields, Meshes: 3
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 1: Mesh - 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_1_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (56203 vertices)
+  Frame 6 saved (frame_005.jpg, t=9.2s)
+  [capture-node] freeze=5ms shot=161ms unfreeze=4ms saved=True
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding face field: stl
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 56203 vertices, 112402 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_1_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 2: Mesh - 2502 vertices, 5000 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_2_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (2502 vertices)
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 2502 vertices, 5000 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_2_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Mesh 3: Mesh - 11242 vertices, 22480 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exporting mesh to VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_3_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Adding normals field (11242 vertices)
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Export complete: 11242 vertices, 22480 faces
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Exported VTP: /home/andrea/workspaces/GeometryPack-1927/ComfyUI/output/preview_multi_3_58d34e69.vtp
+  [ComfyUI] [worker:ComfyUI-GeometryPack] INFO: Grid: 3x1, Preview ready
+  [ComfyUI] [SubprocessWorker] got response: ok
+  [ComfyUI] [comfy-env] GeomPackPreviewMeshMulti done (0.83s): result: NodeOutput
+  [ComfyUI] Prompt executed in 9.63 seconds
+  Node executed (6 total), capturing...
+  Frame 7 saved (frame_006.jpg, t=10.1s)
+  [capture-node] freeze=16ms shot=797ms unfreeze=4ms saved=True
+  Execution complete (t=11.1s)
+  Captured 7 unique frames over 11.06s
+  [debug] iframes: 2
+  [debug]   iframe[0]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_multi.html?v=17729, canvas=592x1116, rafFrozen=False
+  [debug]   iframe[1]: src=http://127.0.0.1:41898/extensions/ComfyUI-GeometryPack/viewer_multi.html?v=17729, canvas=592x1116, rafFrozen=False
+  [timing] trigger_3d_previews: 0.0s
+  Saved high-quality screenshot: decimate_all_executed.png
+  [timing] final_screenshot: 1.4s
+    Captured 8 video frames

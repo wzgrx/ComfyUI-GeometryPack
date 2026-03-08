@@ -1,0 +1,4292 @@
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension
+[Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension...
+[Console-log] [FBXAnimationViewer] Extension registered: comfy3d.fbxanimationviewer
+[Console-log] [FBX Preview] Auto-registering for all known FBX preview node types...
+[Console-log] [UniRig] Loading FBX mesh preview extension...
+[Console-log] [UniRig] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [UniRig] FBX mesh preview extension registered
+[Console-log] [SAM3DBody] Loading FBX mesh preview extension...
+[Console-log] [SAM3DBody] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [SAM3DBody] FBX mesh preview extension registered
+[Console-log] [MotionCapture] Loading FBX mesh preview extension...
+[Console-log] [MotionCapture] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [MotionCapture] FBX mesh preview extension registered
+[Console-log] [MotionCapture] Loading FBX mesh preview extension...
+[Console-log] [MotionCapture] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [MotionCapture] FBX mesh preview extension registered
+[Console-log] [UniRig Compare] Loading compare skeleton widget...
+[Console-log] [UniRig Compare] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [UniRig Compare] Compare skeleton widget registered
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension...
+[Console-log] [CompareSMPLBVH] Extension registered: comfy3d.comparesmplbvh
+[Console-log] [BVHViewer] Loading BVH Viewer extension
+[Console-log] [BVHViewer] Loading BVH viewer extension...
+[Console-log] [BVHViewer] Extension registered: comfy3d.bvhviewer
+[Console-log] [GeomPack] Loading UV mesh preview extension...
+[Console-log] [GeomPack] UV mesh preview extension registered
+[Console-log] [GeomPack] Loading VTK.js textured mesh preview extension...
+[Console-log] [GeomPack] VTK.js textured mesh preview extension registered
+[Console-log] [UniRig Debug] Loading FBX mesh preview extension...
+[Console-log] [UniRig Debug] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [UniRig Debug] FBX mesh preview extension registered
+[Console-log] [GeomPack] Loading mesh preview extension...
+[Console-log] [GeomPack] Mesh preview extension registered
+[Console-log] [DynamicWidgets] Loading extension...
+[Console-log] [DynamicWidgets] Extension registered
+[Console-log] [GeomPack Gaussian] Loading extension...
+[Console-log] [GeomPack Multi JS] Loading mesh_preview_multi.js extension
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-warning] WARNING: Multiple instances of Three.js being imported.
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
+[Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
+[Console-log] [GeomPack] Registering Preview Mesh node
+[Console-log] [GeomPack] Registering Preview Mesh UV node
+[Console-log] [GeomPack Gaussian] Registering Preview Gaussian node
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onStatus (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:141990)
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
+[Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [GeomPack VTK Viewer] Initializing unified viewer...
+[Console-warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[Console-log] [GeomPack VTK Viewer] Ready (unified)
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Initializing...
+[Console-log] [GeomPack VTK Multi Viewer] Ready
+[Console-log] [GeomPack Multi] Iframe loaded
+[Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
+[Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
+[Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
+[Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [GeomPack VTK Multi Viewer] Initializing...
+[Console-log] [GeomPack VTK Multi Viewer] Ready
+[Console-log] [GeomPack Multi] Iframe loaded
+[Console-log] [GeomPack VTK Multi Viewer] Initializing...
+[Console-log] [GeomPack VTK Multi Viewer] Ready
+[Console-log] [GeomPack Multi] Iframe loaded
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-log] [GeomPack VTK Multi Viewer] Initializing...
+[Console-log] [GeomPack VTK Multi Viewer] Ready
+[Console-log] [GeomPack Multi] Iframe loaded
+[Console-log] [GeomPack VTK Multi Viewer] Initializing...
+[Console-log] [GeomPack VTK Multi Viewer] Ready
+[Console-log] [GeomPack Multi] Iframe loaded
+[Console-log] [comfy-test] graphToPrompt: 19 nodes, missing class_type: [], sample: {"inputs":{"file_path":"3d/Stanford_Bunny.stl"},"class_type":"GeomPackLoadMesh","_meta":{"title":"Load Mesh"}}
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onStatus (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:141990)
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      9,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      15,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onStatus (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:141990)
+[Console-log] [GeomPack Multi] onExecuted: 4 meshes, grid 2x2
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995044384, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995044384, showEdges: true}
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_7793e69e.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_7793e69e.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_7793e69e.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 4: /view?filename=preview_multi_4_7793e69e.vtp&type=output&subfolder=
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-23.535200119018555, 84.16802215576172, -42.04668045043945, 45.818992614746094, 5.192578315734863, 113.20272064208984]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-23.57120132446289, 84.21269226074219, -41.99004364013672, 45.808841705322266, 5.15749979019165, 113.1445541381836]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-23.54877281188965, 84.18692779541016, -41.98855972290039, 45.77961730957031, 5.27508544921875, 113.18668365478516]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 loaded, bounds: [-23.531841278076172, 84.18218231201172, -41.99033737182617, 45.786746978759766, 5.27508544921875, 113.14852905273438]
+[Console-log] [GeomPack VTK Multi Viewer] Common fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] All meshes Loaded successfully
+[Console-log] [GeomPack Multi] onExecuted: 3 meshes, grid 3x1
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1772995053069, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1772995053069, showEdges: true}
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_87a35918.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_87a35918.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_87a35918.vtp&type=output&subfolder=
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-23.593257904052734, 84.2257308959961, -42.00377655029297, 45.82659912109375, 5.271967887878418, 113.23949432373047]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-23.061294555664062, 83.70658874511719, -42.127384185791016, 45.90929412841797, 5.837018966674805, 112.60490417480469]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-23.752147674560547, 84.39787292480469, -42.205894470214844, 45.989532470703125, 5.0631256103515625, 113.33555603027344]
+[Console-log] [GeomPack VTK Multi Viewer] Common fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] All meshes Loaded successfully
+[Console-log] [GeomPack Multi] onExecuted: 4 meshes, grid 2x2
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995088952, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995088952, showEdges: true}
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_2b0581a6.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_2b0581a6.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_2b0581a6.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 4: /view?filename=preview_multi_4_2b0581a6.vtp&type=output&subfolder=
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-23.54366683959961, 84.23503875732422, -41.97761154174805, 46.03447723388672, 3.9770407676696777, 113.23039245605469]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-23.370986938476562, 84.0107421875, -41.815956115722656, 45.593849182128906, 5.275084495544434, 112.83781433105469]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-23.536846160888672, 84.17424011230469, -41.993202209472656, 45.78314971923828, 5.27508544921875, 113.12014770507812]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 loaded, bounds: [-23.547931671142578, 84.17992401123047, -41.97701644897461, 45.78688049316406, 5.27508544921875, 113.12789154052734]
+[Console-log] [GeomPack VTK Multi Viewer] Common fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] All meshes Loaded successfully
+[Console-log] [GeomPack Multi] onExecuted: 4 meshes, grid 2x2
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995098215, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 4, meshFiles: Array(4), timestamp: 1772995098215, showEdges: true}
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_9adadb92.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_9adadb92.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_9adadb92.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 4: /view?filename=preview_multi_4_9adadb92.vtp&type=output&subfolder=
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 4 loaded, bounds: [-23.526962280273438, 84.13499450683594, -41.89911651611328, 45.706790924072266, 4.230691432952881, 113.01847076416016]
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onExecutionSuccess (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:142105)
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      1,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      2,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      3,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      4,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      5,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      6,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      7,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      10,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      11,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      12,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      13,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      14,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      16,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      17,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      18,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      19,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      20,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      21,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      22,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      23,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      24,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      25,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onStatus (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:141990)
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-23.524065017700195, 84.15995025634766, -41.9510383605957, 45.798213958740234, 5.019529342651367, 112.98046112060547]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-23.532804489135742, 84.19258117675781, -41.98006057739258, 45.75578689575195, 5.27508544921875, 113.14922332763672]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 fields: [normals, face.stl]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-23.550819396972656, 84.19611358642578, -42.00993728637695, 45.791847229003906, 5.27508544921875, 113.16683959960938]
+[Console-log] [GeomPack VTK Multi Viewer] Common fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] All meshes Loaded successfully

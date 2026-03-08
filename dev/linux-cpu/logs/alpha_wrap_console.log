@@ -4,22 +4,12 @@
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
 [Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
-[Console-warning] WARNING: Multiple instances of Three.js being imported.
 [Console-log] [VTK Bundle] GLTFImporter included in bundle
+[Console-warning] WARNING: Multiple instances of Three.js being imported.
 [Console-log] [GeomPack] Loading UV mesh preview extension...
 [Console-log] [GeomPack] UV mesh preview extension registered
 [Console-log] [GeomPack] Loading VTK.js textured mesh preview extension...
 [Console-log] [GeomPack] VTK.js textured mesh preview extension registered
-[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension
-[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension...
-[Console-log] [CompareSMPLBVH] Extension registered: comfy3d.comparesmplbvh
-[Console-log] [DynamicWidgets] Loading extension...
-[Console-log] [DynamicWidgets] Extension registered
-[Console-log] [BVHViewer] Loading BVH Viewer extension
-[Console-log] [BVHViewer] Loading BVH viewer extension...
-[Console-log] [BVHViewer] Extension registered: comfy3d.bvhviewer
-[Console-log] [GeomPack Gaussian] Loading extension...
-[Console-log] [GeomPack Multi JS] Loading mesh_preview_multi.js extension
 [Console-log] [FBX Preview] Auto-registering for all known FBX preview node types...
 [Console-log] [UniRig] Loading FBX mesh preview extension...
 [Console-log] [UniRig] Detected extension folder: ComfyUI-GeometryPack
@@ -33,35 +23,36 @@
 [Console-log] [MotionCapture] Loading FBX mesh preview extension...
 [Console-log] [MotionCapture] Detected extension folder: ComfyUI-GeometryPack
 [Console-log] [MotionCapture] FBX mesh preview extension registered
-[Console-log] [GeomPack] Loading mesh preview extension...
-[Console-log] [GeomPack] Mesh preview extension registered
+[Console-log] [GeomPack Gaussian] Loading extension...
+[Console-log] [DynamicWidgets] Loading extension...
+[Console-log] [DynamicWidgets] Extension registered
+[Console-log] [BVHViewer] Loading BVH Viewer extension
+[Console-log] [BVHViewer] Loading BVH viewer extension...
+[Console-log] [BVHViewer] Extension registered: comfy3d.bvhviewer
 [Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension
 [Console-log] [FBXAnimationViewer] Loading FBX Animation Viewer extension...
 [Console-log] [FBXAnimationViewer] Extension registered: comfy3d.fbxanimationviewer
-[Console-log] [UniRig Compare] Loading compare skeleton widget...
-[Console-log] [UniRig Compare] Detected extension folder: ComfyUI-GeometryPack
-[Console-log] [UniRig Compare] Compare skeleton widget registered
+[Console-log] [GeomPack Multi JS] Loading mesh_preview_multi.js extension
+[Console-log] [GeomPack] Loading mesh preview extension...
+[Console-log] [GeomPack] Mesh preview extension registered
 [Console-log] [UniRig Debug] Loading FBX mesh preview extension...
 [Console-log] [UniRig Debug] Detected extension folder: ComfyUI-GeometryPack
 [Console-log] [UniRig Debug] FBX mesh preview extension registered
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension
+[Console-log] [CompareSMPLBVH] Loading Compare SMPL BVH extension...
+[Console-log] [CompareSMPLBVH] Extension registered: comfy3d.comparesmplbvh
+[Console-log] [UniRig Compare] Loading compare skeleton widget...
+[Console-log] [UniRig Compare] Detected extension folder: ComfyUI-GeometryPack
+[Console-log] [UniRig Compare] Compare skeleton widget registered
+[Console-error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34.
 [Console-warning] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration.
-[Console-log] [DynamicWidgets] Loaded mappings for 6 nodes
 [Console-log] [GeomPack] Registering Preview Mesh node
 [Console-log] [GeomPack] Registering Preview Mesh UV node
 [Console-log] [GeomPack Gaussian] Registering Preview Gaussian node
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/buttonGroup.js" is deprecated and will be removed in v1.34.
+[Console-warning] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34.
 [Console-log] [GeomPack Multi JS] Creating PreviewMeshMulti node widget
-[Console-log] [DynamicWidgets] Setting up node: GeomPackRemesh
-[Console-log] [DynamicWidgets] GeomPackRemesh: backend="pymeshlab_isotropic", visible=[target_edge_length, iterations, feature_angle, adaptive]
-[Console-log] [DynamicWidgets] Widget "target_edge_length": hidden=false
-[Console-log] [DynamicWidgets] Widget "iterations": hidden=false
-[Console-log] [DynamicWidgets] Widget "feature_angle": hidden=false
-[Console-log] [DynamicWidgets] Widget "adaptive": hidden=false
-[Console-log] [DynamicWidgets] Widget "target_vertex_count": hidden=true
-[Console-log] [DynamicWidgets] Widget "deterministic": hidden=true
-[Console-log] [DynamicWidgets] Widget "crease_angle": hidden=true
-[Console-log] [DynamicWidgets] Widget "target_face_count": hidden=true
-[Console-log] [DynamicWidgets] Widget "preserve_sharp": hidden=true
-[Console-log] [DynamicWidgets] Widget "preserve_boundary": hidden=true
 [Console-log] [VTK Bundle] GLTFImporter included in bundle
 [Console-log] [VTK Bundle] GLTFImporter included in bundle
 [Console-log] [GeomPack VTK Dual Viewer] Initializing...
@@ -71,54 +62,145 @@
 [Console-log] [GeomPack Multi] Iframe loaded
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox element: JSHandle@node
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div: JSHandle@node
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 599.5, left: 89, width: 13, height: 13, bottom: 612.5}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 726.5, left: 89, width: 13, height: 13, bottom: 739.5}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox style: {display: block, visibility: visible, opacity: 1, position: static}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div style: {display: flex, visibility: visible, position: static, bottom: auto, height: 48px}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 638, bodyScrollHeight: 638, windowHeight: 638, viewportHeight: 638}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 765, bodyScrollHeight: 765, windowHeight: 765, viewportHeight: 765}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Is edges checkbox visible in viewport? true
 [Console-log] [comfy-test] graphToPrompt: 5 nodes, missing class_type: [], sample: {"inputs":{"file_path":"3d/ArmoredWarrior_00005_.glb"},"class_type":"GeomPackLoadMesh","_meta":{"title":"Load Mesh"}}
 [Console-log] [VTK Bundle] GLTFImporter included in bundle
 [Console-log] [GeomPack VTK Dual Viewer] Initializing...
 [Console-log] [GeomPack VTK Dual Viewer] Ready
-[Console-log] [GeomPack VTK Dual Viewer] Received LOAD_DUAL_MESH message: {type: LOAD_DUAL_MESH, layout: side_by_side, mesh1Filepath: /view?filename=preview_dual_1_d9229f28.stl&type=output&subfolder=, mesh2Filepath: /view?filename=preview_dual_2_d9229f28.stl&type=output&subfolder=, meshFilepath: undefined}
+[Console-log] [GeomPack VTK Dual Viewer] Received LOAD_DUAL_MESH message: {type: LOAD_DUAL_MESH, layout: side_by_side, mesh1Filepath: /view?filename=preview_dual_1_a97db8c2.stl&type=output&subfolder=, mesh2Filepath: /view?filename=preview_dual_2_a97db8c2.stl&type=output&subfolder=, meshFilepath: undefined}
 [Console-error] No input!
 [Console-error] No input!
-[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 1: /view?filename=preview_dual_1_d9229f28.stl&type=output&subfolder=
-[Console-warning] [.WebGL-0xe84066a3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-warning] [.WebGL-0xe84066a4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-log] [GeomPack VTK Dual Viewer] Mesh 1 loaded successfully
-[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 2: /view?filename=preview_dual_2_d9229f28.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Dual Viewer] Mesh 2 loaded successfully
-[Console-log] [GeomPack VTK Dual Viewer] Meshes loaded successfully
-[Console-warning] [.WebGL-0xe84066a3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
-[Console-warning] [.WebGL-0xe84066a4e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 1: /view?filename=preview_dual_1_a97db8c2.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Dual Viewer] Mesh 1 Loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Loading mesh 2: /view?filename=preview_dual_2_a97db8c2.stl&type=output&subfolder=
+[Console-log] [GeomPack VTK Dual Viewer] Mesh 2 Loaded successfully
+[Console-log] [GeomPack VTK Dual Viewer] Meshes Loaded successfully
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox element: JSHandle@node
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div: JSHandle@node
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 523.5, left: 89, width: 13, height: 13, bottom: 536.5}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox position: {top: 650.5, left: 89, width: 13, height: 13, bottom: 663.5}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Edges checkbox style: {display: block, visibility: visible, opacity: 1, position: static}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Controls div style: {display: flex, visibility: visible, position: static, bottom: auto, height: 48px}
-[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 562, bodyScrollHeight: 562, windowHeight: 562, viewportHeight: 562}
+[Console-log] [GeomPack VTK Dual Viewer] DEBUG - Body/viewport dimensions: {bodyHeight: 689, bodyScrollHeight: 689, windowHeight: 689, viewportHeight: 689}
 [Console-log] [GeomPack VTK Dual Viewer] DEBUG - Is edges checkbox visible in viewport? true
 [Console-log] [GeomPack Multi] onExecuted: 3 meshes, grid 3x1
-[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1770931351958, showEdges: true}
-[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1770931351958, showEdges: true}
+[Console-log] [GeomPack Multi] Sending message to iframe: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1772994535058, showEdges: true}
+[Console-log] [GeomPack VTK Multi Viewer] Received LOAD_MULTI_MESH message: {type: LOAD_MULTI_MESH, numMeshes: 3, meshFiles: Array(3), timestamp: 1772994535058, showEdges: true}
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_6315da20.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_6315da20.stl&type=output&subfolder=
-[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_6315da20.stl&type=output&subfolder=
-[Console-error] No input!
-[Console-error] No input!
-[Console-error] No input!
-[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 1: /view?filename=preview_multi_1_c387b621.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 2: /view?filename=preview_multi_2_c387b621.vtp&type=output&subfolder=
+[Console-log] [GeomPack VTK Multi Viewer] Loading mesh 3: /view?filename=preview_multi_3_c387b621.vtp&type=output&subfolder=
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
 [Console-error] No input!
-[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-0.49983763694763184, 0.5001367330551147, -0.4982454180717468, 0.4895162880420685, -0.193546861410141, 0.1950058937072754]
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-error] No input!
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 3 loaded, bounds: [-0.49989476799964905, 0.49977433681488037, -0.4980567693710327, 0.49314388632774353, -0.19448408484458923, 0.19489990174770355]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-0.49995559453964233, 0.4999898076057434, -0.4980567693710327, 0.4942501187324524, -0.19527308642864227, 0.1967097520828247]
+[Console-log] [GeomPack VTK Multi Viewer] Mesh 1 fields: [normals]
 [Console-log] [GeomPack VTK Multi Viewer] Mesh 1 loaded, bounds: [-0.49985289573669434, 0.49984443187713623, -0.49795323610305786, 0.49410393834114075, -0.19512704014778137, 0.19656376540660858]
-[Console-log] [GeomPack VTK Multi Viewer] Mesh 2 loaded, bounds: [-0.500110924243927, 0.5001367330551147, -0.4982454180717468, 0.49439626932144165, -0.19541920721530914, 0.19685609638690948]
-[Console-log] [GeomPack VTK Multi Viewer] Common fields: []
-[Console-log] [GeomPack VTK Multi Viewer] All meshes loaded successfully
+[Console-log] [GeomPack VTK Multi Viewer] Common fields: [normals]
+[Console-log] [GeomPack VTK Multi Viewer] All meshes Loaded successfully
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onExecutionSuccess (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:142105)
+[Console-error] [Jobs API] Error fetching jobs: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "filename"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "subfolder"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'input' | 'output' | 'temp'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "jobs",
+      0,
+      "preview_output",
+      "type"
+    ],
+    "message": "Required"
+  }
+]
+    at get error (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:9339)
+    at ZodObject.parse (http://127.0.0.1:41898/assets/vendor-zod-CXYiBHkN.js:1:10617)
+    at fetchJobsRaw (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390261)
+    at async fetchHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:2:390588)
+    at async ComfyApi.getHistory (http://127.0.0.1:41898/assets/api-gz4kgzki.js:4:7300)
+    at async Promise.all (index 1)
+    at async Proxy.update (http://127.0.0.1:41898/assets/dialogService-Cj1Hfeot.js:3:171820)
+    at async ComfyApi.onStatus (http://127.0.0.1:41898/assets/GraphView-D_Bat16J.js:8:141990)
